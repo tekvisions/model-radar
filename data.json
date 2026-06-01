@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T15:21:16.174681+00:00",
+  "generated_at": "2026-06-01T15:30:29.831980+00:00",
   "generated_date": "2026-06-01",
   "source": "huggingface.co/api/models (official, by trendingScore)",
   "model_count": 150,
@@ -51,7 +51,7 @@
       "category": "Text",
       "downloads": 45698,
       "likes": 676,
-      "trending": 555,
+      "trending": 554,
       "last_modified": "2026-05-26T04:24:04.000Z",
       "updated_days": 6.5,
       "health": "fresh",
@@ -96,7 +96,7 @@
       "category": "Other",
       "downloads": 0,
       "likes": 455,
-      "trending": 254,
+      "trending": 253,
       "last_modified": "2026-06-01T03:05:39.000Z",
       "updated_days": 0.5,
       "health": "fresh",
@@ -141,7 +141,7 @@
       "category": "Text",
       "downloads": 5851826,
       "likes": 4521,
-      "trending": 183,
+      "trending": 182,
       "last_modified": "2026-05-06T04:18:44.000Z",
       "updated_days": 26.5,
       "health": "recent",
@@ -299,21 +299,6 @@
       "rank": 18
     },
     {
-      "id": "Qwen/Qwen3.6-27B",
-      "name": "Qwen3.6-27B",
-      "author": "Qwen",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "downloads": 5154729,
-      "likes": 1561,
-      "trending": 93,
-      "last_modified": "2026-04-24T02:39:16.000Z",
-      "updated_days": 38.5,
-      "health": "recent",
-      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
-      "rank": 19
-    },
-    {
       "id": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
       "name": "Qwopus3.6-27B-v2-MTP-GGUF",
       "author": "Jackrong",
@@ -326,6 +311,21 @@
       "updated_days": 2.5,
       "health": "fresh",
       "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
+      "rank": 19
+    },
+    {
+      "id": "Qwen/Qwen3.6-27B",
+      "name": "Qwen3.6-27B",
+      "author": "Qwen",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "downloads": 5154729,
+      "likes": 1561,
+      "trending": 92,
+      "last_modified": "2026-04-24T02:39:16.000Z",
+      "updated_days": 38.5,
+      "health": "recent",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
       "rank": 20
     },
     {
@@ -368,7 +368,7 @@
       "likes": 213,
       "trending": 86,
       "last_modified": "2026-05-20T09:24:47.000Z",
-      "updated_days": 12.2,
+      "updated_days": 12.3,
       "health": "fresh",
       "url": "https://huggingface.co/numind/NuExtract3",
       "rank": 23
@@ -653,25 +653,10 @@
       "likes": 69,
       "trending": 52,
       "last_modified": "2026-05-25T23:53:02.000Z",
-      "updated_days": 6.6,
+      "updated_days": 6.7,
       "health": "fresh",
       "url": "https://huggingface.co/jedisct1/MiMo-V2.5-coder-Q2",
       "rank": 42
-    },
-    {
-      "id": "black-forest-labs/FLUX.1-dev",
-      "name": "FLUX.1-dev",
-      "author": "black-forest-labs",
-      "task": "text-to-image",
-      "category": "Image",
-      "downloads": 703873,
-      "likes": 12985,
-      "trending": 50,
-      "last_modified": "2025-06-27T16:22:19.000Z",
-      "updated_days": 339.0,
-      "health": "older",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "rank": 43
     },
     {
       "id": "google/gemma-4-E4B-it",
@@ -686,6 +671,21 @@
       "updated_days": 14.0,
       "health": "fresh",
       "url": "https://huggingface.co/google/gemma-4-E4B-it",
+      "rank": 43
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-dev",
+      "name": "FLUX.1-dev",
+      "author": "black-forest-labs",
+      "task": "text-to-image",
+      "category": "Image",
+      "downloads": 703873,
+      "likes": 12985,
+      "trending": 49,
+      "last_modified": "2025-06-27T16:22:19.000Z",
+      "updated_days": 339.0,
+      "health": "older",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "rank": 44
     },
     {
@@ -899,6 +899,21 @@
       "rank": 58
     },
     {
+      "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "author": "DavidAU",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "downloads": 528866,
+      "likes": 198,
+      "trending": 38,
+      "last_modified": "2026-05-15T08:39:20.000Z",
+      "updated_days": 17.3,
+      "health": "recent",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "rank": 59
+    },
+    {
       "id": "Qwen/Qwen-Image-Bench",
       "name": "Qwen-Image-Bench",
       "author": "Qwen",
@@ -911,7 +926,7 @@
       "updated_days": 4.3,
       "health": "fresh",
       "url": "https://huggingface.co/Qwen/Qwen-Image-Bench",
-      "rank": 59
+      "rank": 60
     },
     {
       "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
@@ -926,21 +941,6 @@
       "updated_days": 42.1,
       "health": "recent",
       "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
-      "rank": 60
-    },
-    {
-      "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "name": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "author": "DavidAU",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "downloads": 528866,
-      "likes": 197,
-      "trending": 37,
-      "last_modified": "2026-05-15T08:39:20.000Z",
-      "updated_days": 17.3,
-      "health": "recent",
-      "url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "rank": 61
     },
     {
@@ -1094,6 +1094,21 @@
       "rank": 71
     },
     {
+      "id": "stepfun-ai/Step-3.7-Flash-NVFP4",
+      "name": "Step-3.7-Flash-NVFP4",
+      "author": "stepfun-ai",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "downloads": 28708,
+      "likes": 33,
+      "trending": 33,
+      "last_modified": "2026-06-01T06:18:13.000Z",
+      "updated_days": 0.4,
+      "health": "fresh",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-NVFP4",
+      "rank": 72
+    },
+    {
       "id": "prism-ml/bonsai-image-binary-4B-gemlite-1bit",
       "name": "bonsai-image-binary-4B-gemlite-1bit",
       "author": "prism-ml",
@@ -1106,7 +1121,7 @@
       "updated_days": 6.0,
       "health": "fresh",
       "url": "https://huggingface.co/prism-ml/bonsai-image-binary-4B-gemlite-1bit",
-      "rank": 72
+      "rank": 73
     },
     {
       "id": "Comfy-Org/PixelDiT",
@@ -1121,21 +1136,6 @@
       "updated_days": 4.0,
       "health": "fresh",
       "url": "https://huggingface.co/Comfy-Org/PixelDiT",
-      "rank": 73
-    },
-    {
-      "id": "stepfun-ai/Step-3.7-Flash-NVFP4",
-      "name": "Step-3.7-Flash-NVFP4",
-      "author": "stepfun-ai",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "downloads": 28708,
-      "likes": 32,
-      "trending": 32,
-      "last_modified": "2026-06-01T06:18:13.000Z",
-      "updated_days": 0.4,
-      "health": "fresh",
-      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-NVFP4",
       "rank": 74
     },
     {
@@ -1223,7 +1223,7 @@
       "likes": 1442,
       "trending": 30,
       "last_modified": "2026-04-05T19:01:05.000Z",
-      "updated_days": 56.8,
+      "updated_days": 56.9,
       "health": "recent",
       "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
       "rank": 80
@@ -1373,7 +1373,7 @@
       "likes": 125,
       "trending": 27,
       "last_modified": "2026-05-14T21:23:21.000Z",
-      "updated_days": 17.7,
+      "updated_days": 17.8,
       "health": "recent",
       "url": "https://huggingface.co/facebook/VGGT-Omega",
       "rank": 90
@@ -1448,7 +1448,7 @@
       "likes": 278,
       "trending": 26,
       "last_modified": "2026-05-13T16:39:38.000Z",
-      "updated_days": 18.9,
+      "updated_days": 19.0,
       "health": "recent",
       "url": "https://huggingface.co/ResembleAI/Dramabox",
       "rank": 95
@@ -1529,21 +1529,6 @@
       "rank": 100
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "author": "openai",
-      "task": "text-generation",
-      "category": "Text",
-      "downloads": 4628599,
-      "likes": 4836,
-      "trending": 24,
-      "last_modified": "2025-08-26T17:25:03.000Z",
-      "updated_days": 278.9,
-      "health": "older",
-      "url": "https://huggingface.co/openai/gpt-oss-120b",
-      "rank": 101
-    },
-    {
       "id": "google/gemma-4-E2B-it",
       "name": "gemma-4-E2B-it",
       "author": "google",
@@ -1556,7 +1541,7 @@
       "updated_days": 14.0,
       "health": "fresh",
       "url": "https://huggingface.co/google/gemma-4-E2B-it",
-      "rank": 102
+      "rank": 101
     },
     {
       "id": "RuneXX/LTX-2.3-Workflows",
@@ -1571,7 +1556,7 @@
       "updated_days": 0.6,
       "health": "fresh",
       "url": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
-      "rank": 103
+      "rank": 102
     },
     {
       "id": "zai-org/GLM-5.1",
@@ -1586,7 +1571,7 @@
       "updated_days": 19.3,
       "health": "recent",
       "url": "https://huggingface.co/zai-org/GLM-5.1",
-      "rank": 104
+      "rank": 103
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.7",
@@ -1601,6 +1586,21 @@
       "updated_days": 42.5,
       "health": "recent",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "rank": 104
+    },
+    {
+      "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
+      "name": "Qwopus3.6-35B-A3B-v1-GGUF",
+      "author": "Jackrong",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "downloads": 430693,
+      "likes": 180,
+      "trending": 24,
+      "last_modified": "2026-05-28T04:14:50.000Z",
+      "updated_days": 4.5,
+      "health": "fresh",
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
       "rank": 105
     },
     {
@@ -1619,6 +1619,21 @@
       "rank": 106
     },
     {
+      "id": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "author": "openai",
+      "task": "text-generation",
+      "category": "Text",
+      "downloads": 4628599,
+      "likes": 4836,
+      "trending": 23,
+      "last_modified": "2025-08-26T17:25:03.000Z",
+      "updated_days": 278.9,
+      "health": "older",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "rank": 107
+    },
+    {
       "id": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
       "name": "Qwen-Image-Edit-Rapid-AIO",
       "author": "Phr00t",
@@ -1628,10 +1643,25 @@
       "likes": 2083,
       "trending": 23,
       "last_modified": "2026-02-03T02:10:35.000Z",
-      "updated_days": 118.5,
+      "updated_days": 118.6,
       "health": "older",
       "url": "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO",
-      "rank": 107
+      "rank": 108
+    },
+    {
+      "id": "Qwen/Qwen3-ASR-1.7B",
+      "name": "Qwen3-ASR-1.7B",
+      "author": "Qwen",
+      "task": "automatic-speech-recognition",
+      "category": "Audio",
+      "downloads": 1942543,
+      "likes": 848,
+      "trending": 23,
+      "last_modified": "2026-01-30T03:00:12.000Z",
+      "updated_days": 122.5,
+      "health": "older",
+      "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
+      "rank": 109
     },
     {
       "id": "openbmb/VoxCPM2",
@@ -1646,7 +1676,7 @@
       "updated_days": 46.5,
       "health": "recent",
       "url": "https://huggingface.co/openbmb/VoxCPM2",
-      "rank": 108
+      "rank": 110
     },
     {
       "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
@@ -1661,7 +1691,7 @@
       "updated_days": 50.1,
       "health": "recent",
       "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-      "rank": 109
+      "rank": 111
     },
     {
       "id": "unsloth/Qwen3.6-27B-GGUF",
@@ -1676,7 +1706,7 @@
       "updated_days": 40.0,
       "health": "recent",
       "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "rank": 110
+      "rank": 112
     },
     {
       "id": "antirez/deepseek-v4-gguf",
@@ -1691,7 +1721,7 @@
       "updated_days": 1.2,
       "health": "fresh",
       "url": "https://huggingface.co/antirez/deepseek-v4-gguf",
-      "rank": 111
+      "rank": 113
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.5-Pro",
@@ -1706,22 +1736,7 @@
       "updated_days": 24.3,
       "health": "recent",
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
-      "rank": 112
-    },
-    {
-      "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
-      "name": "Qwopus3.6-35B-A3B-v1-GGUF",
-      "author": "Jackrong",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "downloads": 430693,
-      "likes": 179,
-      "trending": 23,
-      "last_modified": "2026-05-28T04:14:50.000Z",
-      "updated_days": 4.5,
-      "health": "fresh",
-      "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
-      "rank": 113
+      "rank": 114
     },
     {
       "id": "prism-ml/bonsai-image-binary-4B-unpacked",
@@ -1736,7 +1751,7 @@
       "updated_days": 3.7,
       "health": "fresh",
       "url": "https://huggingface.co/prism-ml/bonsai-image-binary-4B-unpacked",
-      "rank": 114
+      "rank": 115
     },
     {
       "id": "tencent/Hy-MT2-1.8B-GGUF",
@@ -1751,21 +1766,6 @@
       "updated_days": 6.3,
       "health": "fresh",
       "url": "https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF",
-      "rank": 115
-    },
-    {
-      "id": "Qwen/Qwen3-ASR-1.7B",
-      "name": "Qwen3-ASR-1.7B",
-      "author": "Qwen",
-      "task": "automatic-speech-recognition",
-      "category": "Audio",
-      "downloads": 1942543,
-      "likes": 847,
-      "trending": 22,
-      "last_modified": "2026-01-30T03:00:12.000Z",
-      "updated_days": 122.5,
-      "health": "older",
-      "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
       "rank": 116
     },
     {
@@ -1973,7 +1973,7 @@
       "likes": 114,
       "trending": 20,
       "last_modified": "2026-05-31T11:47:55.000Z",
-      "updated_days": 1.1,
+      "updated_days": 1.2,
       "health": "fresh",
       "url": "https://huggingface.co/vantagewithai/LTX2.3-10Eros-GGUF",
       "rank": 130
@@ -1988,7 +1988,7 @@
       "likes": 76,
       "trending": 20,
       "last_modified": "2026-05-28T19:01:55.000Z",
-      "updated_days": 3.8,
+      "updated_days": 3.9,
       "health": "fresh",
       "url": "https://huggingface.co/llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
       "rank": 131
@@ -2138,7 +2138,7 @@
       "likes": 371,
       "trending": 18,
       "last_modified": "2026-04-05T19:01:02.000Z",
-      "updated_days": 56.8,
+      "updated_days": 56.9,
       "health": "recent",
       "url": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
       "rank": 141
