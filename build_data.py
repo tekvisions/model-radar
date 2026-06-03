@@ -105,10 +105,13 @@ def fmt_days(d):
     if d < 2:
         return "1 day ago"
     if d < 30:
-        return "%d days ago" % round(d)
+        n = round(d)
+        return "%d day%s ago" % (n, "" if n == 1 else "s")
     if d < 365:
-        return "%d months ago" % round(d / 30)
-    return "%d years ago" % round(d / 365)
+        n = round(d / 30)
+        return "%d month%s ago" % (n, "" if n == 1 else "s")
+    n = round(d / 365)
+    return "%d year%s ago" % (n, "" if n == 1 else "s")
 
 
 # shared nav + theme no-flash + toggle, reused on every detail page
@@ -155,8 +158,286 @@ THEME_TOGGLE_SCRIPT = (
 )
 
 
-def detail_html(m):
+import math
+
+
+def _median(vals):
+    vals = sorted(v for v in vals if v is not None)
+    n = len(vals)
+    if not n:
+        return 0
+    mid = n // 2
+    return vals[mid] if n % 2 else (vals[mid - 1] + vals[mid]) / 2.0
+
+
+def build_context(models):
+    """Pre-compute the cross-model context detail pages need (peer medians per
+    category, the field maxima for log-scaling, and a quick id→model map).
+    Returns a dict consumed by detail_html via m['_ctx']. All real numbers."""
+    by_cat = {}
+    for m in models:
+        by_cat.setdefault(m["category"], []).append(m)
+    cat_stats = {}
+    for cat, group in by_cat.items():
+        cat_stats[cat] = {
+            "n": len(group),
+            "dl_med": _median([g["downloads"] for g in group]),
+            "lk_med": _median([g["likes"] for g in group]),
+            "tr_med": _median([g["trending"] for g in group]),
+            "age_med": _median([g["updated_days"] for g in group if g["updated_days"] is not None]),
+        }
+    return {
+        "max_tr": max((m["trending"] for m in models), default=1) or 1,
+        "max_dl": max((m["downloads"] for m in models), default=1) or 1,
+        "max_lk": max((m["likes"] for m in models), default=1) or 1,
+        "cat_stats": cat_stats,
+        "by_cat": by_cat,
+    }
+
+
+def _log_norm(v, vmax):
+    """0..1 log-scaled position of v against vmax (downloads/likes span orders
+    of magnitude, so a linear bar would flatten everything but the top model)."""
+    v = max(0, v or 0)
+    if vmax <= 1:
+        return 0.0
+    return min(1.0, math.log1p(v) / math.log1p(vmax))
+
+
+def _recency_score(days):
+    """0..1 freshness: 1.0 today, ~0.5 at 30d, tapering to ~0 by a year."""
+    if days is None:
+        return 0.0
+    return 1.0 / (1.0 + max(0.0, days) / 30.0)
+
+
+def surge_breakdown(m, ctx):
+    """An HONEST, transparent decomposition of why this model is on the radar.
+    Hugging Face publishes a single trendingScore; we don't claim to know its
+    internals. Instead we show the four PUBLIC signals that move together with a
+    surge — momentum (HF's own trending score), adoption (downloads), community
+    (likes) and recency (freshness) — each normalized against the tracked field,
+    then weighted into a 0–100 Radar read. The weights are ours and shown."""
+    comps = [
+        ("Momentum", "s0", 0.45, _log_norm(m["trending"], ctx["max_tr"]),
+         "HF trending score %d, log-scaled vs the field's peak of %d." % (m["trending"], ctx["max_tr"])),
+        ("Adoption", "s1", 0.25, _log_norm(m["downloads"], ctx["max_dl"]),
+         "%s downloads, log-scaled vs the field's peak." % fmt_count(m["downloads"])),
+        ("Community", "s2", 0.18, _log_norm(m["likes"], ctx["max_lk"]),
+         "%s likes, log-scaled vs the field's peak." % fmt_count(m["likes"])),
+        ("Recency", "s3", 0.12, _recency_score(m.get("updated_days")),
+         "Last updated %s — newer weights higher." % fmt_days(m.get("updated_days")).lower()),
+    ]
+    weighted = [(name, cls, w, val, w * val, note) for (name, cls, w, val, note) in comps]
+    total = sum(x[4] for x in weighted) or 1e-9
+    score = round(total / sum(x[2] for x in weighted) * 100)
+    out = []
+    for (name, cls, w, val, contrib, note) in weighted:
+        out.append({
+            "name": name, "cls": cls, "weight": w, "value": val,
+            "share": contrib / total,            # fraction of the composite bar
+            "pct": round(val * 100),             # this signal's own 0–100 strength
+            "note": note,
+        })
+    return score, out
+
+
+def _sec_head(title, tag, sub):
+    return ('<section class="d-sec"><div class="h"><h2>%s</h2><span class="tag">%s</span></div>'
+            '<p class="sub">%s</p>' % (title, tag, sub))
+
+
+def _rank_arc(m, ctx, e):
+    """A compact SVG arc placing this model's rank along the radar sweep."""
+    total = max(1, ctx.get("cat_stats") and sum(s["n"] for s in ctx["cat_stats"].values()) or 1)
+    rank = m["rank"]
+    frac = (rank - 1) / max(1, total - 1) if total > 1 else 0.0
+    # sweep from -120° (top, rank 1) clockwise to +120° (last) over a 240° arc
+    import math as _m
+    start = -120.0
+    ang = _m.radians(start + frac * 240.0)
+    r = 46
+    cx0, cy0 = 60, 60
+    bx = cx0 + r * _m.sin(ang)
+    by = cy0 - r * _m.cos(ang)
+    # background arc path (240° starting at top-left)
+    a0 = _m.radians(start)
+    a1 = _m.radians(start + 240.0)
+    p0x, p0y = cx0 + r * _m.sin(a0), cy0 - r * _m.cos(a0)
+    p1x, p1y = cx0 + r * _m.sin(a1), cy0 - r * _m.cos(a1)
+    svg = (
+        '<svg width="120" height="120" viewBox="0 0 120 120" aria-hidden="true">'
+        '<circle cx="60" cy="60" r="46" fill="none" stroke="var(--line)" stroke-width="1"/>'
+        '<circle cx="60" cy="60" r="30" fill="none" stroke="var(--line)" stroke-width="1"/>'
+        '<path d="M%.1f %.1f A46 46 0 1 1 %.1f %.1f" fill="none" stroke="var(--line-2)" stroke-width="3" stroke-linecap="round"/>'
+        '<line x1="60" y1="60" x2="%.1f" y2="%.1f" stroke="var(--radar)" stroke-width="1.4" opacity="0.65"/>'
+        '<circle class="ra-blip" cx="%.1f" cy="%.1f" r="5" fill="var(--radar)"/>'
+        '<circle cx="60" cy="60" r="2.5" fill="var(--ink-soft)"/>'
+        '</svg>'
+    ) % (p0x, p0y, p1x, p1y, bx, by, bx, by)
+    pct = max(1, round(rank / total * 100))  # percentile-rank: rank 1 of 150 → top 1%
+    return ('<div class="rankarc">%s<div class="ra-txt"><b>#%d</b>'
+            '<span>of %d tracked models<br>top %d%% by trending score</span></div></div>'
+            % (svg, rank, total, pct))
+
+
+def _section_surge(m, ctx, e):
+    score, comps = surge_breakdown(m, ctx)
+    segs = []
+    for c in comps:
+        pct = round(c["share"] * 100)
+        if pct <= 0:
+            continue
+        segs.append('<div class="seg %s" style="width:%d%%" title="%s %d%% of composite">%s</div>'
+                    % (c["cls"], pct, e(c["name"]), pct, e(c["name"]) if pct >= 12 else ""))
+    leg = []
+    for c in comps:
+        leg.append(
+            '<div class="it"><span class="sw %s"></span><div>'
+            '<div class="lab">%s <span class="pct">%d / 100 · %d%% weight</span></div>'
+            '<span class="ex">%s</span></div></div>'
+            % (c["cls"], e(c["name"]), c["pct"], round(c["weight"] * 100), e(c["note"])))
+    sub = ('Hugging Face publishes a single trending score; it doesn\'t expose the formula. '
+           'So Model Radar reads the surge from the four <em>public</em> signals that move with it — '
+           'momentum, adoption, community and recency — each normalized against the tracked field, '
+           'then weighted into a 0–100 composite. The weights are ours, and shown below. No hidden inputs.')
+    body = (
+        '<div class="d-card">'
+        '<div class="surge-score"><b>%d</b><span>Radar surge index / 100</span></div>'
+        '<div class="surge-bar" role="img" aria-label="Surge composition by signal">%s</div>'
+        '<div class="surge-leg">%s</div>'
+        '</div>'
+    ) % (score, "".join(segs), "".join(leg))
+    return _sec_head("Surge analysis", "why it's on the radar", sub) + body + '</section>'
+
+
+def _cmp_row(label, me_val, peer_val, vmax, disp_me, disp_peer, log=True):
+    """One comparative bar: this model's value vs the category-peer median,
+    both placed on the same log (or linear) scale up to the field max."""
+    if log:
+        me_f = _log_norm(me_val, vmax)
+        peer_f = _log_norm(peer_val, vmax)
+    else:
+        me_f = min(1.0, (me_val or 0) / vmax) if vmax else 0
+        peer_f = min(1.0, (peer_val or 0) / vmax) if vmax else 0
+    return (
+        '<div class="grp"><div class="top"><span class="lbl">%s</span>'
+        '<span class="val"><b>%s</b> <span class="pk">· peer median %s</span></span></div>'
+        '<div class="track"><i class="me" style="--w:%d%%"></i><i class="peer" style="--p:%d%%"></i></div></div>'
+    ) % (label, disp_me, disp_peer, round(me_f * 100), round(peer_f * 100))
+
+
+def _section_context(m, ctx, e):
+    cs = ctx["cat_stats"].get(m["category"], {})
+    n = cs.get("n", 1)
+    sub = ('How this model stacks up against the other <strong>%d %s</strong> models on the radar. '
+           'The filled bar is this model; the tick is the category-peer median. '
+           'Downloads and likes use a log scale (they span orders of magnitude).'
+           % (n, e(m["category"])))
+    rows = []
+    rows.append(_cmp_row("Trending score", m["trending"], cs.get("tr_med", 0), ctx["max_tr"],
+                         "▲ " + str(m["trending"]), "▲ " + str(int(round(cs.get("tr_med", 0))))))
+    rows.append(_cmp_row("Downloads", m["downloads"], cs.get("dl_med", 0), ctx["max_dl"],
+                         fmt_count(m["downloads"]), fmt_count(int(round(cs.get("dl_med", 0))))))
+    rows.append(_cmp_row("Likes", m["likes"], cs.get("lk_med", 0), ctx["max_lk"],
+                         "♥ " + fmt_count(m["likes"]), "♥ " + fmt_count(int(round(cs.get("lk_med", 0))))))
+    # recency: invert days→freshness so "fuller = fresher"; linear on a 0..1 score
+    me_fresh = _recency_score(m.get("updated_days"))
+    peer_fresh = _recency_score(cs.get("age_med"))
+    rows.append(
+        '<div class="grp"><div class="top"><span class="lbl">Freshness</span>'
+        '<span class="val"><b>%s</b> <span class="pk">· peer median %s</span></span></div>'
+        '<div class="track"><i class="me" style="--w:%d%%"></i><i class="peer" style="--p:%d%%"></i></div></div>'
+        % (fmt_days(m.get("updated_days")),
+           fmt_days(cs.get("age_med")) if cs.get("age_med") is not None else "—",
+           round(me_fresh * 100), round(peer_fresh * 100)))
+    body = ('<div class="d-card"><div class="cmp">%s</div>'
+            '<p class="cmp-note">Bars are normalized against the most extreme model in the whole '
+            'radar, so a near-full bar means category-leading. Peer median = the middle model of '
+            'the %d in this category.</p></div>' % ("".join(rows), n))
+    return _sec_head("In context", "vs. category peers", sub) + body + '</section>'
+
+
+def _section_recency(m, ctx, e):
+    days = m.get("updated_days")
+    sub = ('Where this model\'s last update lands on a freshness scale — '
+           '<span style="color:var(--radar)">fresh</span> (&lt;14d), '
+           '<span style="color:var(--amber)">recent</span> (14–60d), or older.')
+    # map days (0..365+) to a 0..100 x-position; clamp the tail
+    if days is None:
+        x = 100
+        cap = "unknown"
+    else:
+        x = min(100.0, (min(days, 365.0) / 365.0) * 100.0)
+        cap = fmt_days(days)
+    # band widths proportional to the same 0..365 scale: 14d, 60d, rest
+    f_w = 14.0 / 365.0 * 100
+    r_w = (60.0 - 14.0) / 365.0 * 100
+    o_w = 100 - f_w - r_w
+    body = (
+        '<div class="d-card">'
+        '<div class="tl"><div class="bands">'
+        '<i class="b-fresh" style="width:%.1f%%"></i>'
+        '<i class="b-recent" style="width:%.1f%%"></i>'
+        '<i class="b-older" style="width:%.1f%%"></i></div>'
+        '<div class="mk" style="--x:%.1f%%"><span class="cap">updated %s</span></div></div>'
+        '<div class="tl-axis"><span>today</span><span>14d</span><span>60d</span><span>1y+</span></div>'
+        '</div>'
+    ) % (f_w, r_w, o_w, x, e(cap))
+    return _sec_head("Recency", "last update", sub) + body + '</section>'
+
+
+def _section_peers(m, ctx, e):
+    group = sorted(ctx["by_cat"].get(m["category"], []), key=lambda g: g["rank"])
+    if len(group) <= 1:
+        return ""
+    # window of up to 6 peers centered on this model's position in the category
+    idx = next((i for i, g in enumerate(group) if g["id"] == m["id"]), 0)
+    lo = max(0, idx - 3)
+    hi = min(len(group), lo + 7)
+    lo = max(0, hi - 7)
+    window = group[lo:hi]
+    sub = ('Other <strong>%s</strong> models ranked near this one — click through to compare.'
+           % e(m["category"]))
+    cards = []
+    for g in window:
+        self_cls = " self" if g["id"] == m["id"] else ""
+        href = "/m/%s/" % e(g.get("slug") or slugify(g["id"]))
+        cards.append(
+            '<a class="peer-card%s" href="%s"><span class="pr">#%d</span>'
+            '<div class="pn"><div class="t">%s</div><div class="s">%s · %s dl</div></div>'
+            '<span class="pt">▲ %d</span></a>'
+            % (self_cls, href, g["rank"], e(g["name"]), e(g["author"]), fmt_count(g["downloads"]), g["trending"]))
+    body = '<div class="peers">%s</div>' % "".join(cards)
+    return _sec_head("Category peers", "%s · %d models" % (e(m["category"]), len(group)), sub) + body + '</section>'
+
+
+def _section_links(m, e):
+    mid = m["id"]
+    hf = e(m["url"])
+    author = e(m["author"])
+    links = [
+        ('Model page', hf, 'Weights, model card, files & usage on Hugging Face'),
+        ('Discussions', hf + "/discussions", 'Community Q&A and issues for this model'),
+        ('All by %s' % author, "https://huggingface.co/%s" % e(mid.split("/")[0]) if "/" in mid else hf,
+         'Every model this author has published'),
+        ('Files & versions', hf + "/tree/main", 'Browse the repository tree and revisions'),
+    ]
+    rows = []
+    for label, href, desc in links:
+        rows.append(
+            '<a class="peer-card" href="%s" target="_blank" rel="noopener noreferrer">'
+            '<div class="pn"><div class="t">%s ↗</div><div class="s">%s</div></div></a>'
+            % (href, label, desc))
+    sub = 'Go straight to the source — everything here links back to Hugging Face.'
+    body = '<div class="peers">%s</div>' % "".join(rows)
+    return _sec_head("Primary links", "on hugging face", sub) + body + '</section>'
+
+
+def detail_html(m, ctx=None):
     e = html.escape
+    if ctx is None:
+        ctx = build_context([m])
     mid = m["id"]
     slug = m["slug"]
     canonical = "%s/m/%s/" % (SITE, slug)
@@ -243,6 +524,7 @@ def detail_html(m):
     out.append(stat("♥ " + fmt_count(m["likes"]), "Likes"))
     out.append(stat(updated, "Last updated"))
     out.append('</div>')
+    out.append(_rank_arc(m, ctx, e))
     out.append('<div class="d-meta">')
     out.append(metarow("Model ID", mid))
     out.append(metarow("Author", author))
@@ -262,6 +544,14 @@ def detail_html(m):
                'Model Radar and refreshed daily. For weights, model card and usage, open it '
                '<a href="%s" target="_blank" rel="noopener noreferrer">on Hugging Face</a>.</p>'
                % (e(name), e(task), e(cat), e(author), e(m["url"])))
+
+    # ── deep-dive sections (all real numbers, derived from the snapshot) ──
+    out.append(_section_surge(m, ctx, e))
+    out.append(_section_context(m, ctx, e))
+    out.append(_section_recency(m, ctx, e))
+    out.append(_section_peers(m, ctx, e))
+    out.append(_section_links(m, e))
+
     out.append('</div></main>')
     out.append(FOOTER_HTML)
     out.append(THEME_TOGGLE_SCRIPT)
@@ -272,6 +562,7 @@ def detail_html(m):
 def generate_details(data):
     """Write m/<slug>/index.html for every model. Returns list of slugs."""
     models = assign_slugs(data["models"])
+    ctx = build_context(models)  # peer medians, field maxima — computed once
     mdir = os.path.join(HERE, "m")
     os.makedirs(mdir, exist_ok=True)
     slugs = []
@@ -279,7 +570,7 @@ def generate_details(data):
         d = os.path.join(mdir, m["slug"])
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w") as f:
-            f.write(detail_html(m))
+            f.write(detail_html(m, ctx))
         slugs.append(m["slug"])
     return slugs
 
