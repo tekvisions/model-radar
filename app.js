@@ -39,6 +39,16 @@
   /* log-scaled 0..100 intensity of a trending score vs the field's max */
   function intensity(t){ if(!t||t<=0||MAXTREND<=1) return 4; return Math.max(5,Math.round(Math.log1p(t)/Math.log1p(MAXTREND)*100)); }
 
+  /* position movement vs the prior daily run: ▲N climbed, ▼N slipped, → held, '' new.
+     rank_delta>0 means a smaller (better) rank number — i.e. climbed the radar. */
+  function moveBadge(m){
+    var d=m.rank_delta;
+    if(d==null) return '';  /* no prior history yet — show nothing (fills in daily) */
+    if(d>0) return '<span class="mv up" title="Climbed '+d+' since the prior run">▲'+d+'</span>';
+    if(d<0) return '<span class="mv dn" title="Slipped '+Math.abs(d)+' since the prior run">▼'+Math.abs(d)+'</span>';
+    return '<span class="mv flat" title="Held position">→</span>';
+  }
+
   function matches(m){
     if(state.onlyFresh && m.health!=="fresh") return false;
     if(state.cat!=="All" && m.category!==state.cat) return false;
@@ -70,7 +80,7 @@
     var fresh = m.health==="fresh" ? '<span class="new">FRESH</span>' : '';
     var w=intensity(m.trending);
     return '<a class="row reveal" href="/m/'+esc(slugify(m.id))+'/" tabindex="0" aria-label="'+esc(m.name)+' by '+esc(m.author)+', rank '+m.rank+'">'
-      +'<div class="nm"><h3><span class="rk">#'+m.rank+'</span> '+hl(m.name,q)+' '+fresh+'</h3>'
+      +'<div class="nm"><h3><span class="rk">#'+m.rank+moveBadge(m)+'</span> '+hl(m.name,q)+' '+fresh+'</h3>'
         +'<div class="ns">'+hl(m.author,q)+' · '+hl(m.task,q)+'</div></div>'
       +'<div class="cat">'+esc(m.category)+'</div>'
       +'<div class="health"><span class="d '+esc(m.health)+'"></span>'+fmtN(m.downloads)+' dl · '+fmtDays(m.updated_days)+'</div>'
@@ -91,6 +101,28 @@
     more.innerHTML = filtered.length>limit ? '<button id="loadmore">Sweep deeper ('+(filtered.length-limit)+' more)</button>' : '';
     var lm=D.getElementById("loadmore"); if(lm) lm.addEventListener("click",function(){limit+=PAGE;render();});
     revealRows();
+  }
+
+  /* movers strip: horizontally-scrollable chips linking to detail pages. Each shows
+     the position climb (▲N) when tracked, else the model's trending score on day one
+     before position history exists. */
+  function renderMovers(movers){
+    var el=D.getElementById("movers"); if(!el) return;
+    if(!movers || !movers.length){ el.hidden=true; return; }
+    var chips=movers.map(function(m,i){
+      var climbed=(typeof m.rank_delta==="number" && m.rank_delta>0);
+      // real climbers get the ▲N climb arrow; day-one fallback (top-trending, NOT
+      // actual climbers) gets a NEUTRAL hot-dot + the trending score so it never
+      // misreads as a position climb.
+      var tag=climbed
+        ? '<span class="mv up">▲'+m.rank_delta+'</span>'
+        : '<span class="mv flat">• '+(m.trending||0)+'</span>';
+      var sub=climbed?("now #"+m.rank):("hot · #"+m.rank);
+      return '<a class="mover" href="/m/'+esc(slugify(m.id))+'/" style="--d:'+(i*50)+'ms">'
+        +tag+'<span class="mvn">'+esc(m.name)+'</span><span class="mvs">'+esc(sub)+'</span></a>';
+    }).join("");
+    el.innerHTML='<span class="movers-l">Movers</span><div class="movers-track">'+chips+'</div>';
+    el.hidden=false;
   }
 
   /* staggered scroll-reveal for rows; instant if reduced-motion */
@@ -179,6 +211,8 @@
     Array.prototype.forEach.call(mr.querySelectorAll("b[data-n]"),function(b){
       animateCounter(b,+b.getAttribute("data-n"),b.getAttribute("data-fmt")?fmtN:null);
     });
+
+    renderMovers(data.movers||[]);  // biggest climbers since the prior run (board-wide, not filtered)
 
     var ll=D.getElementById("liveline"); if(ll) ll.textContent="Sourced from the Hugging Face API · updated "+relDate(data.generated_at);
     var fg=D.getElementById("footgen"); if(fg) fg.textContent="Updated "+relDate(data.generated_at)+" from the Hugging Face API";

@@ -288,3 +288,34 @@ footer a.inl:hover{border-color:var(--radar-2)}
   .row.reveal{opacity:1;transform:none}
   html{scroll-behavior:auto}
 }
+
+/* ── rank-movement tracking — per-row badge, movers strip, detail badge ── */
+/* inline ▲/▼ next to the rank in the list rows */
+.mv{margin-left:6px;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.02em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.mv.up{color:var(--radar)} .mv.dn{color:var(--rose)} .mv.flat{color:var(--muted)} .mv.new{color:var(--radar-2);opacity:.75}
+@media(max-width:720px){.mv{font-size:9px;margin-left:4px}}
+
+/* movers strip — board-wide biggest climbers, above the list */
+.movers{display:flex;align-items:center;gap:14px;margin-top:24px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.movers-l{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--radar);flex:none;display:flex;align-items:center;gap:8px}
+.movers-l::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--radar);box-shadow:0 0 9px var(--radar);animation:ping 1.4s infinite}
+.movers-track{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;padding-bottom:2px}
+.movers-track::-webkit-scrollbar{display:none}
+.mover{flex:none;display:flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--panel);border-radius:3px;padding:9px 14px;text-decoration:none;color:var(--ink);transition:border-color .25s,transform .25s var(--ease);animation:moverin .5s var(--ease) both;animation-delay:var(--d,0ms)}
+.mover:hover{border-color:var(--radar);transform:translateY(-2px)}
+.mover .mv{margin-left:0;font-size:13px;font-weight:600}
+.mover .mvn{font-family:var(--sans);font-size:13.5px;font-weight:600;white-space:nowrap}
+.mover .mvs{font-family:var(--mono);font-size:9.5px;color:var(--muted);letter-spacing:.04em;white-space:nowrap}
+@keyframes moverin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.mover{animation:none}.movers-l::before{animation:none}}
+
+/* detail-page movement badge (header h1 + the position section's "since prior" tile) */
+.d-move{font-family:var(--mono);font-size:.46em;font-weight:600;letter-spacing:.02em;vertical-align:middle;padding:3px 8px;border-radius:3px;display:inline-block;border:1px solid transparent}
+.d-move.up{color:var(--radar);border-color:color-mix(in srgb,var(--radar) 42%,transparent);background:color-mix(in srgb,var(--radar) 10%,transparent)}
+.d-move.dn{color:var(--rose);border-color:color-mix(in srgb,var(--rose) 38%,transparent);background:color-mix(in srgb,var(--rose) 9%,transparent)}
+.d-move.flat{color:var(--muted);border-color:var(--line-2)}
+.d-move.new{color:var(--radar-2);border-color:color-mix(in srgb,var(--radar-2) 40%,transparent);letter-spacing:.08em}
+.d-stats .s .d-move{font-size:20px;padding:4px 12px}
+.d-spark.mini{margin-top:4px;height:90px;border:1px solid var(--line);border-radius:4px;background:rgba(11,18,28,.5);overflow:hidden}
+:root[data-theme="light"] .d-spark.mini{background:rgba(255,255,255,.6)}
+.d-spark.mini svg{display:block;width:100%;height:100%}

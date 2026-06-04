@@ -247,6 +247,82 @@ def _sec_head(title, tag, sub):
             '<p class="sub">%s</p>' % (title, tag, sub))
 
 
+def _spark_svg(arr, w=720, h=90):
+    """Compact sparkline. `arr` is a numeric series already oriented so that a
+    higher value reads as 'up' on the chart (callers invert rank before passing)."""
+    arr = [float(x or 0) for x in (arr or [])]
+    if len(arr) < 2:
+        return '<svg viewBox="0 0 %d %d" preserveAspectRatio="none" aria-hidden="true"></svg>' % (w, h)
+    mx, mn = max(arr), min(arr)
+    rg = (mx - mn) or 1
+    n = len(arr)
+    pad = 6
+
+    def pt(i, v):
+        x = pad + i * (w - 2 * pad) / (n - 1)
+        y = h - pad - (v - mn) / rg * (h - 2 * pad)
+        return "%.1f,%.1f" % (x, y)
+
+    line = " ".join(pt(i, v) for i, v in enumerate(arr))
+    area = "%.1f,%.1f " % (pad, h - pad) + line + " %.1f,%.1f" % (w - pad, h - pad)
+    lx = w - pad
+    ly = h - pad - (arr[-1] - mn) / rg * (h - 2 * pad)
+    return (
+        '<svg viewBox="0 0 %d %d" preserveAspectRatio="none" role="img" aria-label="Radar position over time">'
+        '<defs><linearGradient id="mrfill" x1="0" y1="0" x2="0" y2="1">'
+        '<stop offset="0" stop-color="#2fe0a8" stop-opacity="0.26"/>'
+        '<stop offset="1" stop-color="#2fe0a8" stop-opacity="0"/></linearGradient></defs>'
+        '<polygon points="%s" fill="url(#mrfill)"/>'
+        '<polyline points="%s" fill="none" stroke="#2fe0a8" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>'
+        '<circle cx="%.1f" cy="%.1f" r="3.6" fill="#3fb8ff"/></svg>'
+    ) % (w, h, area, line, lx, ly)
+
+
+def _section_position(m, ctx, e):
+    """Radar position over time: the climbed/slipped badge + an INVERTED rank
+    sparkline (the series' own worst rank is the floor, so a climb reads upward),
+    plus current / best / since-prior stat tiles. Self-contained — no outer total."""
+    rank = m["rank"]
+    rank_delta = m.get("rank_delta")
+    rhist = m.get("rank_history") or []
+    if isinstance(rank_delta, int) and rank_delta > 0:
+        badge = '<span class="d-move up" title="Climbed %d since the prior run">▲ %d</span>' % (rank_delta, rank_delta)
+        word = "climbed %d position%s" % (rank_delta, "" if rank_delta == 1 else "s")
+    elif isinstance(rank_delta, int) and rank_delta < 0:
+        badge = '<span class="d-move dn" title="Slipped %d since the prior run">▼ %d</span>' % (abs(rank_delta), abs(rank_delta))
+        word = "slipped %d position%s" % (abs(rank_delta), "" if abs(rank_delta) == 1 else "s")
+    elif isinstance(rank_delta, int):
+        badge = '<span class="d-move flat" title="Held position">→</span>'
+        word = "held position"
+    else:
+        badge = '<span class="d-move new" title="New to the tracked board">NEW</span>'
+        word = "new to the radar"
+    peak = m.get("peak_rank", rank)
+    if len(rhist) >= 2:
+        ranks = [int(p.get("rank", rank) or rank) for p in rhist]
+        worst = max(ranks)
+        # invert: worst rank → 0, best rank → largest, so the line rises on a climb
+        series = [max(1, (worst + 1) - rv) for rv in ranks]
+        chart = '<div class="d-spark mini">%s</div>' % _spark_svg(series, 720, 90)
+        note = "position over the last %d day%s tracked · best: #%d" % (
+            len(rhist), "" if len(rhist) == 1 else "s", peak)
+    else:
+        chart = ""
+        note = "position movement fills in as the radar refreshes daily"
+    sub = ('Where %s sits on the radar, tracked daily — %s since the prior run. %s.'
+           % (e(m["name"]), word, note))
+    body = (
+        '<div class="d-card">'
+        '%s'
+        '<div class="d-stats" style="margin-top:%s">'
+        '<div class="s"><b>#%d</b><span>Current rank</span></div>'
+        '<div class="s"><b>#%d</b><span>Best rank</span></div>'
+        '<div class="s"><b>%s</b><span>Since prior run</span></div>'
+        '</div></div>'
+    ) % (chart, ("22px" if chart else "0"), rank, peak, badge)
+    return _sec_head("Radar position over time", "movement", sub) + body + '</section>'
+
+
 def _rank_arc(m, ctx, e):
     """A compact SVG arc placing this model's rank along the radar sweep."""
     total = max(1, ctx.get("cat_stats") and sum(s["n"] for s in ctx["cat_stats"].values()) or 1)
@@ -514,7 +590,16 @@ def detail_html(m, ctx=None):
                '<a href="/#index">Model Radar</a><span class="sep">/</span>%s</nav>' % e(name))
     out.append('<div class="d-head"><div>')
     out.append('<div class="d-rank">#%d on the radar · %s</div>' % (m["rank"], e(cat)))
-    out.append('<h1 class="d-title">%s</h1>' % e(name))
+    _hd = m.get("rank_delta")
+    if isinstance(_hd, int) and _hd > 0:
+        _hbadge = ' <span class="d-move up" title="Climbed %d since the prior run">▲ %d</span>' % (_hd, _hd)
+    elif isinstance(_hd, int) and _hd < 0:
+        _hbadge = ' <span class="d-move dn" title="Slipped %d since the prior run">▼ %d</span>' % (abs(_hd), abs(_hd))
+    elif isinstance(_hd, int):
+        _hbadge = ' <span class="d-move flat" title="Held position">→</span>'
+    else:
+        _hbadge = ''
+    out.append('<h1 class="d-title">%s%s</h1>' % (e(name), _hbadge))
     out.append('<div class="d-author">%s · %s</div>' % (e(author), e(task)))
     out.append('<div class="d-badges">%s%s<span class="d-badge">%s</span></div>' % (fresh_badge, health_badge, e(cat)))
     out.append('</div><div class="d-out"><a href="%s" target="_blank" rel="noopener noreferrer">View on Hugging Face ↗</a></div></div>' % e(m["url"]))
@@ -547,6 +632,7 @@ def detail_html(m, ctx=None):
 
     # ── deep-dive sections (all real numbers, derived from the snapshot) ──
     out.append(_section_surge(m, ctx, e))
+    out.append(_section_position(m, ctx, e))
     out.append(_section_context(m, ctx, e))
     out.append(_section_recency(m, ctx, e))
     out.append(_section_peers(m, ctx, e))
@@ -662,23 +748,79 @@ def main():
         })
 
     # already sorted by trendingScore from the API; keep top N, assign rank
+    # (rank = 1-based position in this trending-sorted list; trending is the primary score)
     items = items[:KEEP]
     for i, it in enumerate(items):
         it["rank"] = i + 1
+    assign_slugs(items)  # attach slugs early so movers[] can carry them
 
     cats = {}
     for it in items:
         cats[it["category"]] = cats.get(it["category"], 0) + 1
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # read the PRIOR data.json (keyed on the stable model id) to extend each model's
+    # rank_history and derive position movement. Absent/short history → deltas are None.
+    prior_rankh = {}
+    prior_path = os.path.join(HERE, "data.json")
+    if os.path.exists(prior_path):
+        try:
+            with open(prior_path) as f:
+                old = json.load(f)
+            for r in old.get("models", []):
+                if r.get("id"):
+                    prior_rankh[r["id"]] = r.get("rank_history", []) or []
+        except Exception:
+            prior_rankh = {}
+
+    # append today's (rank, score) to each model's rank_history (capped 90 days),
+    # then derive movement vs the most recent PRIOR day. rank_delta > 0 == a smaller
+    # (better) rank number, i.e. climbed the board. None == new/untracked.
+    for it in items:
+        rh = list(prior_rankh.get(it["id"], []))
+        # only PRIOR points with a real int rank are comparable (a malformed/None rank
+        # in the persisted history must never crash the daily cron build).
+        prior_pts = [p for p in rh if p.get("date") != today and isinstance(p.get("rank"), int)]
+        rh = [p for p in rh if p.get("date") != today] + [{"date": today, "rank": it["rank"], "score": it["trending"]}]
+        rh = rh[-90:]
+        it["rank_history"] = rh
+        if prior_pts:
+            prev_rank = prior_pts[-1].get("rank")
+            it["rank_prev"] = prev_rank
+            it["rank_delta"] = prev_rank - it["rank"]   # prior_pts are int-rank only
+            it["peak_rank"] = min([p["rank"] for p in prior_pts] + [it["rank"]])
+            it["tracked_days"] = len(prior_pts) + 1
+        else:
+            it["rank_prev"] = None
+            it["rank_delta"] = None       # None == new/untracked (distinct from 0 == held)
+            it["peak_rank"] = it["rank"]
+            it["tracked_days"] = 1
+
+    # movers: biggest climbers by rank_delta; fall back to biggest positive score
+    # movement, else "new this period" models, on day one (before history exists).
+    climbers = [x for x in items if isinstance(x.get("rank_delta"), int) and x["rank_delta"] > 0]
+    movers = sorted(climbers, key=lambda x: (x["rank_delta"], int(x.get("trending") or 0)),
+                    reverse=True)[:5]
+    if not movers:
+        # day-one fallback: top of the board by trending (these ARE the surge leaders)
+        movers = items[:5]
+    movers_out = [{
+        "id": mv["id"], "name": mv["name"], "author": mv["author"], "slug": mv.get("slug"),
+        "rank": mv["rank"], "rank_delta": mv.get("rank_delta"),
+        "trending": mv["trending"], "category": mv["category"],
+    } for mv in movers]
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "generated_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "generated_date": today,
         "source": "huggingface.co/api/models (official, by trendingScore)",
         "model_count": len(items),
         "fresh_count": len([x for x in items if x["health"] == "fresh"]),
         "total_downloads": sum(x["downloads"] for x in items),
         "categories": sorted(cats.keys()),
         "category_counts": cats,
+        "movers": movers_out,
         "models": items,
     }
     # resilience guard: HF trending always returns a full page; a short result = API
