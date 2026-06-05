@@ -762,6 +762,42 @@ def detail_html(m, ctx=None):
     return "".join(out)
 
 
+def _fallback_detail_html(m):
+    """Minimal fallback page when detail_html fails (P0 SEO protection)."""
+    e = html.escape
+    canonical = f"https://modelradar.kymatalabs.com/m/{m['slug']}/"
+    title = f"{m['name']} — {m['category']} on Hugging Face | Model Radar"
+    desc = f"{m['name']} by {m['author']} — a {m['task']} model (rank #{m['rank']}). {m['downloads']:,} downloads, {m['likes']:,} likes."
+
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{e(title)}</title>
+    <meta name="description" content="{e(desc)}">
+    <link rel="canonical" href="{e(canonical)}">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="detail">
+        <div class="wrap">
+            <a class="backlink" href="/">← Back to Model Radar</a>
+            <h1>{e(m['name'])}</h1>
+            <p>Rank #{m['rank']} · {e(m['category'])} · by {e(m['author'])}</p>
+            <div class="d-stats">
+                <div class="s"><b>{m['trending']}</b><span>Trending score</span></div>
+                <div class="s"><b>{m['downloads']:,}</b><span>Downloads</span></div>
+                <div class="s"><b>{m['likes']:,}</b><span>Likes</span></div>
+            </div>
+            <p><a href="{e(m['url'])}" target="_blank" rel="noopener noreferrer">View on Hugging Face ↗</a></p>
+            <p><em>This is a fallback page. The full detail page generation encountered an error.</em></p>
+        </div>
+    </main>
+</body>
+</html>'''
+
+
 def generate_details(data):
     """Write m/<slug>/index.html for every model. Returns list of slugs."""
     models = assign_slugs(data["models"])
@@ -772,8 +808,30 @@ def generate_details(data):
     for m in models:
         d = os.path.join(mdir, m["slug"])
         os.makedirs(d, exist_ok=True)
+
+        # Generate HTML content with validation
+        html_content = detail_html(m, ctx)
+
+        # Ensure we never write empty or invalid pages (P0 SEO protection)
+        if not html_content or len(html_content.strip()) < 1000:
+            print(f"WARNING: Generated empty/tiny page for {m['slug']} ({len(html_content)} bytes), using fallback", file=sys.stderr)
+            # Fallback: minimal but valid page
+            html_content = _fallback_detail_html(m)
+
+        if not html_content.strip().startswith('<!DOCTYPE html>'):
+            print(f"WARNING: Invalid HTML structure for {m['slug']}, regenerating", file=sys.stderr)
+            html_content = _fallback_detail_html(m)
+
         with open(os.path.join(d, "index.html"), "w") as f:
-            f.write(detail_html(m, ctx))
+            f.write(html_content)
+
+        # Verify written file is non-empty
+        written_path = os.path.join(d, "index.html")
+        if os.path.getsize(written_path) == 0:
+            print(f"ERROR: Written file is 0 bytes for {m['slug']}, retrying with fallback", file=sys.stderr)
+            with open(written_path, "w") as f:
+                f.write(_fallback_detail_html(m))
+
         slugs.append(m["slug"])
     return slugs
 
