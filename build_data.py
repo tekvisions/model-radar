@@ -278,6 +278,97 @@ def _spark_svg(arr, w=720, h=90):
     ) % (w, h, area, line, lx, ly)
 
 
+def _badge_svg(m):
+    """shields.io-style embeddable rank badge. Left label "Model Radar", right
+    "#<rank>" in the radar green; appends "▲N" when the model climbed
+    (rank_delta > 0). Self-contained, theme-neutral, accessible (role/title).
+    Character-width estimation keeps the right pill snug without a web font."""
+    e = html.escape
+    rank = m.get("rank")
+    rank_txt = "#%d" % rank if isinstance(rank, int) else "#—"
+    delta = m.get("rank_delta")
+    if isinstance(delta, int) and delta > 0:
+        rank_txt = "%s ▲%d" % (rank_txt, delta)
+    label = "Model Radar"
+    name = m.get("name", "") or m.get("id", "")
+    # ~6px per char @ 11px; +pad. Stable, no font metrics needed.
+    lw = len(label) * 6 + 18
+    rw = len(rank_txt) * 6 + 18
+    total = lw + rw
+    title = "Model Radar — %s ranked %s" % (e(name), e(rank_txt))
+    # unique gradient id per badge — uses the model's deduped slug (guaranteed unique
+    # by assign_slugs), so no collision even if multiple badges are inlined together on
+    # a third-party page (img-embeds are already isolated). Falls back to slugify(id).
+    gid = "mr%s" % (m.get("slug") or slugify(m.get("id", "") or name) or "badge")
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="20" '
+        'viewBox="0 0 %d 20" role="img" aria-label="%s">'
+        '<title>%s</title>'
+        '<linearGradient id="%s" x2="0" y2="100%%">'
+        '<stop offset="0" stop-color="#fff" stop-opacity=".12"/>'
+        '<stop offset="1" stop-opacity=".12"/></linearGradient>'
+        '<rect rx="3" width="%d" height="20" fill="#1b2330"/>'
+        '<rect rx="3" x="%d" width="%d" height="20" fill="#2fe0a8"/>'
+        '<rect rx="3" width="%d" height="20" fill="url(#%s)"/>'
+        '<g fill="#fff" text-anchor="middle" '
+        'font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="11">'
+        '<text x="%d" y="14">%s</text>'
+        '<text x="%d" y="14" font-weight="bold" fill="#04140d">%s</text>'
+        '</g></svg>'
+    ) % (total, total, title, title, gid, total, lw, rw, total, gid,
+         lw // 2, label, lw + rw // 2, e(rank_txt))
+
+
+def generate_badges(data):
+    """Write a static /badge/<slug>.svg per model (mirrors detail-page generation).
+    Static-deployable: no serverless needed; the daily build refreshes each badge."""
+    models = assign_slugs(data.get("models", []))  # idempotent; guarantees a unique slug per model
+    b_dir = os.path.join(HERE, "badge")
+    os.makedirs(b_dir, exist_ok=True)
+    written = 0
+    for m in models:
+        slug = m["slug"]
+        with open(os.path.join(b_dir, "%s.svg" % slug), "w") as f:
+            f.write(_badge_svg(m))
+        written += 1
+    print("  generated %d rank badges in /badge/" % written, file=sys.stderr)
+    return written
+
+
+def generate_feed(data):
+    """Write feed.json — a small, documented, stable-schema public API subset of
+    the radar (read-only data already public on the page; no secrets)."""
+    assign_slugs(data.get("models", []))  # idempotent; guarantees a unique slug per model
+    models = sorted(data.get("models", []), key=lambda x: x.get("rank", 999))
+    feed = {
+        "$schema_version": "1",
+        "generator": "Model Radar (Kymata Labs)",
+        "generated_at": data.get("generated_at"),
+        "site": SITE,
+        "docs": "%s/#how" % SITE,
+        "license": "Data derived from the public Hugging Face API; attribution to Model Radar (kymatalabs.com) appreciated.",
+        "count": len(models),
+        "models": [
+            {
+                "rank": m.get("rank"),
+                "name": m.get("name"),
+                "id": m.get("id"),
+                "category": m.get("category"),
+                "trending": m.get("trending"),
+                "downloads": m.get("downloads"),
+                "rank_delta": m.get("rank_delta"),
+                "url": "%s/m/%s/" % (SITE, m["slug"]),
+                "badge": "%s/badge/%s.svg" % (SITE, m["slug"]),
+            }
+            for m in models
+        ],
+        "movers": data.get("movers", []),
+    }
+    with open(os.path.join(HERE, "feed.json"), "w") as f:
+        json.dump(feed, f, indent=2)
+    print("  wrote feed.json: %d models" % len(models), file=sys.stderr)
+
+
 def _section_position(m, ctx, e):
     """Radar position over time: the climbed/slipped badge + an INVERTED rank
     sparkline (the series' own worst rank is the floor, so a climb reads upward),
@@ -488,6 +579,31 @@ def _section_peers(m, ctx, e):
     return _sec_head("Category peers", "%s · %d models" % (e(m["category"]), len(group)), sub) + body + '</section>'
 
 
+def _section_embed(m, e):
+    """Embeddable rank badge — the viral loop (models display their live rank,
+    link back here). Copyable markdown + HTML snippets."""
+    slug = m["slug"]
+    name = e(m["name"])
+    badge_url = "%s/badge/%s.svg" % (SITE, slug)
+    detail_url = "%s/m/%s/" % (SITE, slug)
+    embed_md = "[![Model Radar rank](%s)](%s)" % (badge_url, detail_url)
+    embed_html = '<a href="%s"><img src="%s" alt="Model Radar rank"></a>' % (detail_url, badge_url)
+    sub = "Show your live Model Radar rank in your README — it updates daily and links back here."
+    pre_style = ("overflow-x:auto;padding:12px;border-radius:8px;background:rgba(127,127,127,.10);"
+                 "font-family:'DM Mono',ui-monospace,monospace;font-size:13px")
+    body = (
+        '<p style="margin-top:14px"><img src="%s" alt="Model Radar rank badge for %s" style="vertical-align:middle"></p>'
+        '<div class="embed-snippets" style="margin-top:14px">'
+        '<label class="sublabel" style="display:block;margin-bottom:6px">Markdown</label>'
+        '<pre class="embed-code" style="%s"><code>%s</code></pre>'
+        '<label class="sublabel" style="display:block;margin:14px 0 6px">HTML</label>'
+        '<pre class="embed-code" style="%s"><code>%s</code></pre>'
+        '</div>'
+        % (badge_url, name, pre_style, e(embed_md), pre_style, e(embed_html))
+    )
+    return _sec_head("📛 Embed this badge", "rank badge", sub) + body + '</section>'
+
+
 def _section_links(m, e):
     mid = m["id"]
     hf = e(m["url"])
@@ -636,6 +752,7 @@ def detail_html(m, ctx=None):
     out.append(_section_context(m, ctx, e))
     out.append(_section_recency(m, ctx, e))
     out.append(_section_peers(m, ctx, e))
+    out.append(_section_embed(m, e))
     out.append(_section_links(m, e))
 
     out.append('</div></main>')
@@ -835,7 +952,9 @@ def main():
     slugs = generate_details(data)
     write_sitemap(slugs, data.get("generated_date"))
     write_llms(data)
-    print(f"wrote {len(slugs)} detail pages + sitemap.xml + llms.txt", file=sys.stderr)
+    generate_badges(data)
+    generate_feed(data)
+    print(f"wrote {len(slugs)} detail pages + sitemap.xml + llms.txt + feed.json + badges", file=sys.stderr)
     return 0
 
 

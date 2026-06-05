@@ -6,7 +6,7 @@
 - Source of truth: the official Hugging Face API (https://huggingface.co/api/models?sort=trendingScore). Every number (downloads, likes, trending score, last-modified) comes straight from Hugging Face; nothing is hand-picked or fabricated.
 - Update cadence: daily.
 - Models tracked: 150 (top by trending score).
-- Generated: 2026-06-04.
+- Generated: 2026-06-05.
 
 ## Routes
 - `/` — the hub: searchable, filterable, sortable list of the trending models.
@@ -14,15 +14,15 @@
 
 ## Sample model detail pages
 - [nvidia/LocateAnything-3B](https://modelradar.kymatalabs.com/m/nvidia-locateanything-3b/) — Vision, image-text-to-text
-- [LiquidAI/LFM2.5-8B-A1B](https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b/) — Text, text-generation
 - [google/gemma-4-12B-it](https://modelradar.kymatalabs.com/m/google-gemma-4-12b-it/) — Multimodal, any-to-any
+- [LiquidAI/LFM2.5-8B-A1B](https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b/) — Text, text-generation
 - [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://modelradar.kymatalabs.com/m/hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive/) — Vision, image-text-to-text
-- [openbmb/MiniCPM5-1B](https://modelradar.kymatalabs.com/m/openbmb-minicpm5-1b/) — Text, text-generation
-- [stepfun-ai/Step-3.7-Flash](https://modelradar.kymatalabs.com/m/stepfun-ai-step-3-7-flash/) — Vision, image-text-to-text
-- [google/gemma-4-12B](https://modelradar.kymatalabs.com/m/google-gemma-4-12b/) — Multimodal, any-to-any
 - [unsloth/gemma-4-12b-it-GGUF](https://modelradar.kymatalabs.com/m/unsloth-gemma-4-12b-it-gguf/) — Vision, image-text-to-text
-- [JetBrains/Mellum2-12B-A2.5B-Thinking](https://modelradar.kymatalabs.com/m/jetbrains-mellum2-12b-a2-5b-thinking/) — Text, text-generation
+- [google/gemma-4-12B](https://modelradar.kymatalabs.com/m/google-gemma-4-12b/) — Multimodal, any-to-any
+- [stepfun-ai/Step-3.7-Flash](https://modelradar.kymatalabs.com/m/stepfun-ai-step-3-7-flash/) — Vision, image-text-to-text
+- [openbmb/MiniCPM5-1B](https://modelradar.kymatalabs.com/m/openbmb-minicpm5-1b/) — Text, text-generation
 - [sapientinc/HRM-Text-1B](https://modelradar.kymatalabs.com/m/sapientinc-hrm-text-1b/) — Text, text-generation
+- [JetBrains/Mellum2-12B-A2.5B-Thinking](https://modelradar.kymatalabs.com/m/jetbrains-mellum2-12b-a2-5b-thinking/) — Text, text-generation
 
 ## About
 Model Radar is one of several self-updating data products by Kymata Labs (https://kymatalabs.com/). It exists to make the pulse of open models fast to scan and pleasant to read.
