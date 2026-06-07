@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Radar — what&#x27;s surging on Hugging Face</title>
+    <link>https://modelradar.kymatalabs.com</link>
+    <atom:link href="https://modelradar.kymatalabs.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>The live radar of trending AI models on Hugging Face — ranked by trending score with real downloads, recomputed daily by autonomous agents.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 01:08:39 +0000</lastBuildDate>
+    <generator>Kymata Labs</generator>
+    <item>
+      <title>#1 LocateAnything-3B — trending 1026</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-locateanything-3b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-locateanything-3b/</guid>
+      <category>Vision</category>
+      <description>#1 · trending 1026 · 91834 downloads · Vision</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#2 gemma-4-12B-it — trending 402</title>
+      <link>https://modelradar.kymatalabs.com/m/google-gemma-4-12b-it/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/google-gemma-4-12b-it/</guid>
+      <category>Multimodal</category>
+      <description>#2 · trending 402 · 14866 downloads · Multimodal ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#3 LFM2.5-8B-A1B — trending 386</title>
+      <link>https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b/</guid>
+      <category>Text</category>
+      <description>#3 · trending 386 · 72114 downloads · Text ▼1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#4 Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive — trending 327</title>
+      <link>https://modelradar.kymatalabs.com/m/hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive/</guid>
+      <category>Vision</category>
+      <description>#4 · trending 327 · 2646756 downloads · Vision</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#5 gemma-4-12b-it-GGUF — trending 278</title>
+      <link>https://modelradar.kymatalabs.com/m/unsloth-gemma-4-12b-it-gguf/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/unsloth-gemma-4-12b-it-gguf/</guid>
+      <category>Vision</category>
+      <description>#5 · trending 278 · 62850 downloads · Vision ▲3</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#6 gemma-4-12B — trending 264</title>
+      <link>https://modelradar.kymatalabs.com/m/google-gemma-4-12b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/google-gemma-4-12b/</guid>
+      <category>Multimodal</category>
+      <description>#6 · trending 264 · 1978 downloads · Multimodal ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#7 Step-3.7-Flash — trending 239</title>
+      <link>https://modelradar.kymatalabs.com/m/stepfun-ai-step-3-7-flash/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/stepfun-ai-step-3-7-flash/</guid>
+      <category>Vision</category>
+      <description>#7 · trending 239 · 22715 downloads · Vision ▼1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#8 MiniCPM5-1B — trending 238</title>
+      <link>https://modelradar.kymatalabs.com/m/openbmb-minicpm5-1b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/openbmb-minicpm5-1b/</guid>
+      <category>Text</category>
+      <description>#8 · trending 238 · 79427 downloads · Text ▼3</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#9 HRM-Text-1B — trending 218</title>
+      <link>https://modelradar.kymatalabs.com/m/sapientinc-hrm-text-1b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/sapientinc-hrm-text-1b/</guid>
+      <category>Text</category>
+      <description>#9 · trending 218 · 157457 downloads · Text ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#10 Mellum2-12B-A2.5B-Thinking — trending 197</title>
+      <link>https://modelradar.kymatalabs.com/m/jetbrains-mellum2-12b-a2-5b-thinking/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/jetbrains-mellum2-12b-a2-5b-thinking/</guid>
+      <category>Text</category>
+      <description>#10 · trending 197 · 12157 downloads · Text ▼1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#11 ideogram-4-fp8 — trending 197</title>
+      <link>https://modelradar.kymatalabs.com/m/ideogram-ai-ideogram-4-fp8/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/ideogram-ai-ideogram-4-fp8/</guid>
+      <category>Image</category>
+      <description>#11 · trending 197 · 310 downloads · Image ▲3</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#12 Qwen3.6-35B-A3B-NVFP4 — trending 170</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-qwen3-6-35b-a3b-nvfp4/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-qwen3-6-35b-a3b-nvfp4/</guid>
+      <category>Text</category>
+      <description>#12 · trending 170 · 629244 downloads · Text ▲3</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#13 PaddleOCR-VL-1.6 — trending 168</title>
+      <link>https://modelradar.kymatalabs.com/m/paddlepaddle-paddleocr-vl-1-6/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/paddlepaddle-paddleocr-vl-1-6/</guid>
+      <category>Vision</category>
+      <description>#13 · trending 168 · 5970 downloads · Vision ▼2</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#14 DeepSeek-V4-Pro — trending 163</title>
+      <link>https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-pro/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-pro/</guid>
+      <category>Text</category>
+      <description>#14 · trending 163 · 5687031 downloads · Text ▼1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#15 Cosmos3-Nano — trending 156</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-cosmos3-nano/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-cosmos3-nano/</guid>
+      <category>Other</category>
+      <description>#15 · trending 156 · 17903 downloads · Other ▲2</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#16 ideogram-4-nf4 — trending 151</title>
+      <link>https://modelradar.kymatalabs.com/m/ideogram-ai-ideogram-4-nf4/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/ideogram-ai-ideogram-4-nf4/</guid>
+      <category>Image</category>
+      <description>#16 · trending 151 · 398 downloads · Image ▲4</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#17 LongCat-Video-Avatar-1.5 — trending 142</title>
+      <link>https://modelradar.kymatalabs.com/m/meituan-longcat-longcat-video-avatar-1-5/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/meituan-longcat-longcat-video-avatar-1-5/</guid>
+      <category>Other</category>
+      <description>#17 · trending 142 · 381 downloads · Other ▼1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#18 PiD — trending 135</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-pid/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-pid/</guid>
+      <category>Image</category>
+      <description>#18 · trending 135 · 852 downloads · Image</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#19 Cosmos3-Super — trending 132</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-cosmos3-super/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-cosmos3-super/</guid>
+      <category>Other</category>
+      <description>#19 · trending 132 · 16767 downloads · Other</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#19 PaddleOCR-VL-1.6 — trending 136</title>
+      <link>https://modelradar.kymatalabs.com/m/paddlepaddle-paddleocr-vl-1-6-2/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/paddlepaddle-paddleocr-vl-1-6-2/</guid>
+      <category>Vision</category>
+      <description>#19 · trending 136 · 8365 downloads · Vision</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#20 Bernini-R — trending 118</title>
+      <link>https://modelradar.kymatalabs.com/m/bytedance-bernini-r/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/bytedance-bernini-r/</guid>
+      <category>Other</category>
+      <description>#20 · trending 118 · 129 downloads · Other ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#20 higgs-audio-v3-tts-4b — trending 134</title>
+      <link>https://modelradar.kymatalabs.com/m/bosonai-higgs-audio-v3-tts-4b/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/bosonai-higgs-audio-v3-tts-4b/</guid>
+      <category>Audio</category>
+      <description>#20 · trending 134 · 2184 downloads · Audio</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#21 LFM2.5-8B-A1B-GGUF — trending 115</title>
+      <link>https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b-gguf/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/liquidai-lfm2-5-8b-a1b-gguf/</guid>
+      <category>Text</category>
+      <description>#21 · trending 115 · 102119 downloads · Text ▼9</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#21 NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16 — trending 129</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-ultra-550b-a55b-bf16/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-ultra-550b-a55b-bf16/</guid>
+      <category>Text</category>
+      <description>#21 · trending 129 · 47285 downloads · Text</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#22 Sulphur-2-base — trending 110</title>
+      <link>https://modelradar.kymatalabs.com/m/sulphurai-sulphur-2-base/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/sulphurai-sulphur-2-base/</guid>
+      <category>Video</category>
+      <description>#22 · trending 110 · 1678259 downloads · Video ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#22 PiD — trending 124</title>
+      <link>https://modelradar.kymatalabs.com/m/nvidia-pid-2/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/nvidia-pid-2/</guid>
+      <category>Image</category>
+      <description>#22 · trending 124 · 972 downloads · Image</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#23 Qwen3.6-27B-MTP-GGUF — trending 106</title>
+      <link>https://modelradar.kymatalabs.com/m/unsloth-qwen3-6-27b-mtp-gguf/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/unsloth-qwen3-6-27b-mtp-gguf/</guid>
+      <category>Vision</category>
+      <description>#23 · trending 106 · 1063964 downloads · Vision ▲1</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#23 LongCat-Video-Avatar-1.5 — trending 118</title>
+      <link>https://modelradar.kymatalabs.com/m/meituan-longcat-longcat-video-avatar-1-5-2/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/meituan-longcat-longcat-video-avatar-1-5-2/</guid>
+      <category>Other</category>
+      <description>#23 · trending 118 · 1806 downloads · Other</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#24 DeepSeek-V4-Flash — trending 105</title>
+      <link>https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-flash/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-flash/</guid>
+      <category>Text</category>
+      <description>#24 · trending 105 · 3503796 downloads · Text ▼2</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>#24 MisoTTS — trending 116</title>
+      <link>https://modelradar.kymatalabs.com/m/misolabs-misotts/</link>
+      <guid isPermaLink="true">https://modelradar.kymatalabs.com/m/misolabs-misotts/</guid>
+      <category>Audio</category>
+      <description>#24 · trending 116 · 0 downloads · Audio</description>
+      <pubDate>Fri, 05 Jun 2026 01:08:39 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

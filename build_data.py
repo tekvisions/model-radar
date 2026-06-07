@@ -369,6 +369,63 @@ def generate_feed(data):
     print("  wrote feed.json: %d models" % len(models), file=sys.stderr)
 
 
+def generate_rss(data):
+    """Write rss.xml — the current trending-models radar (top 30) as a subscribable
+    RSS 2.0 feed. Stable per-entry guids (detail URLs); pubDate = the daily refresh.
+    Additive, read-only public data (PRD O7)."""
+    from email.utils import format_datetime
+    def _x(s):
+        return html.escape("" if s is None else str(s), quote=True)
+    assign_slugs(data.get("models", []))
+    models = sorted(data.get("models", []), key=lambda x: x.get("rank", 999))[:30]
+    gen_iso = data.get("generated_at")
+    try:
+        dt = datetime.fromisoformat(gen_iso) if gen_iso else datetime.now(timezone.utc)
+    except (TypeError, ValueError):
+        dt = datetime.now(timezone.utc)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    rfc = format_datetime(dt)
+    title = "Model Radar — what's surging on Hugging Face"
+    desc = ("The live radar of trending AI models on Hugging Face — ranked by trending "
+            "score with real downloads, recomputed daily by autonomous agents.")
+    items = []
+    for m in models:
+        url = "%s/m/%s/" % (SITE, m["slug"])
+        rank, tr, cat = m.get("rank"), m.get("trending"), m.get("category")
+        rd = m.get("rank_delta")
+        move = (" ▲%d" % rd) if isinstance(rd, int) and rd > 0 else (
+               (" ▼%d" % abs(rd)) if isinstance(rd, int) and rd < 0 else "")
+        ttl = "#%s %s — trending %s" % (rank, m.get("name"), tr)
+        body = "#%s · trending %s · %s downloads · %s%s" % (
+            rank, tr, fmt_dl(m.get("downloads")), cat, move)
+        items.append(
+            "    <item>\n"
+            "      <title>%s</title>\n" % _x(ttl) +
+            "      <link>%s</link>\n" % _x(url) +
+            '      <guid isPermaLink="true">%s</guid>\n' % _x(url) +
+            "      <category>%s</category>\n" % _x(cat) +
+            "      <description>%s</description>\n" % _x(body) +
+            "      <pubDate>%s</pubDate>\n" % rfc +
+            "    </item>")
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        "    <title>%s</title>\n" % _x(title) +
+        "    <link>%s</link>\n" % SITE +
+        '    <atom:link href="%s/rss.xml" rel="self" type="application/rss+xml"/>\n' % SITE +
+        "    <description>%s</description>\n" % _x(desc) +
+        "    <language>en</language>\n"
+        "    <lastBuildDate>%s</lastBuildDate>\n" % rfc +
+        "    <generator>Kymata Labs</generator>\n"
+        + "\n".join(items) + "\n"
+        "  </channel>\n</rss>\n")
+    with open(os.path.join(HERE, "rss.xml"), "w") as f:
+        f.write(xml)
+    print("  wrote rss.xml: %d items" % len(items), file=sys.stderr)
+
+
 def _section_position(m, ctx, e):
     """Radar position over time: the climbed/slipped badge + an INVERTED rank
     sparkline (the series' own worst rank is the floor, so a climb reads upward),
@@ -954,7 +1011,8 @@ def main():
     write_llms(data)
     generate_badges(data)
     generate_feed(data)
-    print(f"wrote {len(slugs)} detail pages + sitemap.xml + llms.txt + feed.json + badges", file=sys.stderr)
+    generate_rss(data)
+    print(f"wrote {len(slugs)} detail pages + sitemap.xml + llms.txt + feed.json + rss.xml + badges", file=sys.stderr)
     return 0
 
 
