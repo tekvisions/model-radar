@@ -6,7 +6,7 @@ trendingScore), categorizes them by task, derives freshness, and writes
 data.json. Authoritative source, zero fabrication — every number (downloads,
 likes, trendingScore, lastModified) comes straight from the HF response.
 """
-import json, os, re, sys, html, urllib.request, urllib.error
+import json, os, re, sys, html, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -41,6 +41,43 @@ def fetch(url):
             import time
             time.sleep(1 + attempt)
     return None
+
+
+def parse_license(tags):
+    """Pull the license out of the HF `tags` list (e.g. 'license:apache-2.0' -> 'apache-2.0').
+    License rides along in tags for both full=false and full=true — no extra request needed."""
+    for t in tags or []:
+        s = str(t)
+        if s.startswith("license:"):
+            return (s.split(":", 1)[1] or None)
+    return None
+
+
+def fmt_params(total):
+    """Human-friendly parameter count: 3830665968 -> '3.8B', 750000000 -> '750M'."""
+    if not total or total <= 0:
+        return None
+    for unit, div in (("B", 1e9), ("M", 1e6), ("K", 1e3)):
+        if total >= div:
+            v = total / div
+            return (f"{v:.1f}{unit}" if v < 100 else f"{v:.0f}{unit}")
+    return str(int(total))
+
+
+def fetch_model_size(mid):
+    """Per-model parameter count via safetensors.total. The list endpoint omits it (proven:
+    full=true returns the same keys as full=false), so size needs one extra request per model.
+    Fail-soft: returns None on any error so the build never breaks on a single bad model."""
+    try:
+        req = urllib.request.Request(
+            "https://huggingface.co/api/models/" + urllib.parse.quote(mid),
+            headers={"Accept": "application/json", "User-Agent": "model-radar"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            m = json.loads(r.read())
+        st = m.get("safetensors")
+        return (st or {}).get("total") if isinstance(st, dict) else None
+    except Exception:
+        return None
 
 
 def days_since(iso):
@@ -788,6 +825,10 @@ def detail_html(m, ctx=None):
     out.append(metarow("Author", author))
     out.append(metarow("Task", task))
     out.append(metarow("Category", cat))
+    if m.get("license"):
+        out.append(metarow("License", m["license"]))
+    if m.get("params_h"):
+        out.append(metarow("Parameters", m["params_h"]))
     out.append(metarow("Trending score", m["trending"]))
     out.append(metarow("Downloads", "{:,}".format(int(m["downloads"]))))
     out.append(metarow("Likes", "{:,}".format(int(m["likes"]))))
@@ -912,6 +953,7 @@ def main():
             "author": mid.split("/")[0] if "/" in mid else mid,
             "task": tag or "—",
             "category": cat,
+            "license": parse_license(m.get("tags")),
             "downloads": int(m.get("downloads") or 0),
             "likes": int(m.get("likes") or 0),
             "trending": int(m.get("trendingScore") or 0),
@@ -926,6 +968,13 @@ def main():
     items = items[:KEEP]
     for i, it in enumerate(items):
         it["rank"] = i + 1
+    # Enrich the kept models with parameter size — one extra HF request each (the list
+    # endpoint omits safetensors). Fail-soft per model (15s timeout, None on error), so a
+    # slow/missing model never breaks the build; models without safetensors simply get None.
+    for it in items:
+        n = fetch_model_size(it["id"])
+        it["params"] = n
+        it["params_h"] = fmt_params(n)
     assign_slugs(items)  # attach slugs early so movers[] can carry them
 
     cats = {}
