@@ -1,0 +1,21 @@
+# ai.txt — AI usage guidance for modelradar.kymatalabs.com
+# Model Radar · part of The Living Indexes by Kymata Labs LLC
+# A live radar of trending Hugging Face models, recomputed daily.
+
+# For structured guidance, read:
+#   https://modelradar.kymatalabs.com/llms.txt
+#   https://modelradar.kymatalabs.com/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Hub: https://indexes.kymatalabs.com  ·  Network: https://www.kymatalabs.com
+Contact: contact@kymatalabs.com
