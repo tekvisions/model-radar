@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:07:37.356956+00:00",
+  "generated_at": "2026-10-30T21:09:46.659091+00:00",
   "generated_date": "2026-10-30",
   "source": "huggingface.co/api/models (official, by trendingScore)",
   "model_count": 150,
@@ -88,8 +88,8 @@
       "category": "Vision",
       "license": "mit",
       "downloads": 145869,
-      "likes": 3994,
-      "trending": 824,
+      "likes": 3995,
+      "trending": 825,
       "last_modified": "2026-10-17T05:46:55.000Z",
       "updated_days": 13.6,
       "health": "fresh",
@@ -167,7 +167,7 @@
         {
           "date": "2026-10-30",
           "rank": 1,
-          "score": 824
+          "score": 825
         }
       ],
       "rank_prev": 1,
@@ -418,8 +418,8 @@
       "category": "Vision",
       "license": "other",
       "downloads": 1239,
-      "likes": 1330,
-      "trending": 387,
+      "likes": 1331,
+      "trending": 388,
       "last_modified": "2026-10-29T14:51:07.000Z",
       "updated_days": 1.3,
       "health": "fresh",
@@ -437,7 +437,7 @@
         {
           "date": "2026-10-30",
           "rank": 7,
-          "score": 387
+          "score": 388
         }
       ],
       "rank_prev": 14,
@@ -2476,7 +2476,7 @@
       "likes": 171,
       "trending": 168,
       "last_modified": "2026-10-28T03:07:54.000Z",
-      "updated_days": 2.7,
+      "updated_days": 2.8,
       "health": "fresh",
       "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
       "rank": 23,
@@ -3546,7 +3546,7 @@
       "likes": 492,
       "trending": 132,
       "last_modified": "2026-10-18T12:45:29.000Z",
-      "updated_days": 12.3,
+      "updated_days": 12.4,
       "health": "fresh",
       "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
       "rank": 35,
@@ -4018,8 +4018,8 @@
       "category": "Vision",
       "license": "apache-2.0",
       "downloads": 1301283,
-      "likes": 2465,
-      "trending": 124,
+      "likes": 2466,
+      "trending": 125,
       "last_modified": "2026-09-02T09:11:34.000Z",
       "updated_days": 58.5,
       "health": "recent",
@@ -4337,7 +4337,7 @@
         {
           "date": "2026-10-30",
           "rank": 38,
-          "score": 124
+          "score": 125
         }
       ],
       "rank_prev": 37,
@@ -4996,7 +4996,7 @@
       "likes": 554,
       "trending": 119,
       "last_modified": "2026-10-26T03:09:23.000Z",
-      "updated_days": 4.7,
+      "updated_days": 4.8,
       "health": "fresh",
       "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
       "rank": 43,
@@ -13708,8 +13708,8 @@
       "category": "Text",
       "license": "llama3.1",
       "downloads": 4704398,
-      "likes": 8694,
-      "trending": 56,
+      "likes": 8695,
+      "trending": 57,
       "last_modified": "2024-09-25T17:00:57.000Z",
       "updated_days": 765.2,
       "health": "older",
@@ -14047,7 +14047,7 @@
         {
           "date": "2026-10-30",
           "rank": 107,
-          "score": 56
+          "score": 57
         }
       ],
       "rank_prev": 102,
@@ -16571,7 +16571,7 @@
       "likes": 103,
       "trending": 45,
       "last_modified": "2026-10-27T03:08:24.000Z",
-      "updated_days": 3.7,
+      "updated_days": 3.8,
       "health": "fresh",
       "url": "https://huggingface.co/ATH-MaaS/OvisOCR3",
       "rank": 135,
