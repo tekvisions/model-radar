@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:25:36.902434+00:00",
+  "generated_at": "2026-10-30T04:33:18.030725+00:00",
   "generated_date": "2026-10-30",
   "source": "huggingface.co/api/models (official, by trendingScore)",
   "model_count": 150,
@@ -35,7 +35,7 @@
       "slug": "pika-labs-pika-h3-flex",
       "rank": 43,
       "rank_delta": 58,
-      "trending": 119,
+      "trending": 120,
       "category": "Video"
     },
     {
@@ -89,7 +89,7 @@
       "license": "mit",
       "downloads": 131062,
       "likes": 3888,
-      "trending": 878,
+      "trending": 876,
       "last_modified": "2026-10-17T05:46:55.000Z",
       "updated_days": 12.9,
       "health": "fresh",
@@ -167,7 +167,7 @@
         {
           "date": "2026-10-30",
           "rank": 1,
-          "score": 878
+          "score": 876
         }
       ],
       "rank_prev": 1,
@@ -238,8 +238,8 @@
       "category": "Text",
       "license": "other",
       "downloads": 15885,
-      "likes": 493,
-      "trending": 483,
+      "likes": 494,
+      "trending": 484,
       "last_modified": "2026-10-28T17:16:37.000Z",
       "updated_days": 1.5,
       "health": "fresh",
@@ -262,7 +262,7 @@
         {
           "date": "2026-10-30",
           "rank": 3,
-          "score": 483
+          "score": 484
         }
       ],
       "rank_prev": 4,
@@ -279,7 +279,7 @@
       "license": "apache-2.0",
       "downloads": 16598,
       "likes": 1246,
-      "trending": 479,
+      "trending": 477,
       "last_modified": "2026-10-21T14:24:03.000Z",
       "updated_days": 8.6,
       "health": "fresh",
@@ -332,7 +332,7 @@
         {
           "date": "2026-10-30",
           "rank": 4,
-          "score": 479
+          "score": 477
         }
       ],
       "rank_prev": 3,
@@ -348,10 +348,10 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 10163,
-      "likes": 911,
-      "trending": 450,
+      "likes": 912,
+      "trending": 451,
       "last_modified": "2026-10-27T12:55:34.000Z",
-      "updated_days": 2.6,
+      "updated_days": 2.7,
       "health": "fresh",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
       "rank": 5,
@@ -407,7 +407,7 @@
         {
           "date": "2026-10-30",
           "rank": 5,
-          "score": 450
+          "score": 451
         }
       ],
       "rank_prev": 5,
@@ -483,8 +483,8 @@
       "category": "Audio",
       "license": "other",
       "downloads": 4276,
-      "likes": 421,
-      "trending": 402,
+      "likes": 423,
+      "trending": 403,
       "last_modified": "2026-10-29T23:04:39.000Z",
       "updated_days": 0.2,
       "health": "fresh",
@@ -502,7 +502,7 @@
         {
           "date": "2026-10-30",
           "rank": 7,
-          "score": 402
+          "score": 403
         }
       ],
       "rank_prev": 9,
@@ -518,7 +518,7 @@
       "category": "Video",
       "license": "other",
       "downloads": 2269999,
-      "likes": 9873,
+      "likes": 9874,
       "trending": 388,
       "last_modified": "2026-10-11T07:00:53.000Z",
       "updated_days": 18.9,
@@ -1309,7 +1309,7 @@
       "license": "apache-2.0",
       "downloads": 7509924,
       "likes": 18693,
-      "trending": 304,
+      "trending": 302,
       "last_modified": "2026-08-14T15:00:01.000Z",
       "updated_days": 76.6,
       "health": "older",
@@ -1702,7 +1702,7 @@
         {
           "date": "2026-10-30",
           "rank": 14,
-          "score": 304
+          "score": 302
         }
       ],
       "rank_prev": 13,
@@ -2069,7 +2069,7 @@
       "license": "apache-2.0",
       "downloads": 1726051,
       "likes": 2228,
-      "trending": 183,
+      "trending": 181,
       "last_modified": "2026-10-17T22:34:07.000Z",
       "updated_days": 12.2,
       "health": "fresh",
@@ -2372,7 +2372,7 @@
         {
           "date": "2026-10-30",
           "rank": 21,
-          "score": 183
+          "score": 181
         }
       ],
       "rank_prev": 23,
@@ -3281,7 +3281,7 @@
       "likes": 244,
       "trending": 140,
       "last_modified": "2026-10-27T12:54:40.000Z",
-      "updated_days": 2.6,
+      "updated_days": 2.7,
       "health": "fresh",
       "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
       "rank": 30,
@@ -3464,7 +3464,7 @@
       "license": "apache-2.0",
       "downloads": 3046274,
       "likes": 516,
-      "trending": 133,
+      "trending": 132,
       "last_modified": "2026-10-24T10:10:42.000Z",
       "updated_days": 5.8,
       "health": "fresh",
@@ -3607,7 +3607,7 @@
         {
           "date": "2026-10-30",
           "rank": 33,
-          "score": 133
+          "score": 132
         }
       ],
       "rank_prev": 34,
@@ -4773,8 +4773,8 @@
       "category": "Video",
       "license": "other",
       "downloads": 0,
-      "likes": 120,
-      "trending": 119,
+      "likes": 121,
+      "trending": 120,
       "last_modified": "2026-10-29T23:29:03.000Z",
       "updated_days": 0.2,
       "health": "fresh",
@@ -4792,7 +4792,7 @@
         {
           "date": "2026-10-30",
           "rank": 43,
-          "score": 119
+          "score": 120
         }
       ],
       "rank_prev": 101,
@@ -5766,81 +5766,6 @@
       "tracked_days": 89
     },
     {
-      "id": "InternScience/Sage-A1.5",
-      "name": "Sage-A1.5",
-      "author": "InternScience",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "apache-2.0",
-      "downloads": 9830,
-      "likes": 373,
-      "trending": 108,
-      "last_modified": "2026-10-22T14:08:48.000Z",
-      "updated_days": 7.6,
-      "health": "fresh",
-      "url": "https://huggingface.co/InternScience/Sage-A1.5",
-      "rank": 48,
-      "params": 35951822704,
-      "params_h": "36.0B",
-      "slug": "internscience-sage-a1-5",
-      "rank_history": [
-        {
-          "date": "2026-10-21",
-          "rank": 60,
-          "score": 90
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 23,
-          "score": 201
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 16,
-          "score": 239
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 15,
-          "score": 257
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 12,
-          "score": 278
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 12,
-          "score": 301
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 11,
-          "score": 316
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 18,
-          "score": 230
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 44,
-          "score": 116
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 48,
-          "score": 108
-        }
-      ],
-      "rank_prev": 44,
-      "rank_delta": -4,
-      "peak_rank": 11,
-      "tracked_days": 10
-    },
-    {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "name": "Qwen3.8-27B-GGUF",
       "author": "unsloth",
@@ -5854,7 +5779,7 @@
       "updated_days": 70.7,
       "health": "older",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "rank": 49,
+      "rank": 48,
       "params": null,
       "params_h": null,
       "slug": "unsloth-qwen3-8-27b-gguf",
@@ -6241,14 +6166,89 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 49,
+          "rank": 48,
           "score": 107
         }
       ],
       "rank_prev": 48,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "peak_rank": 2,
       "tracked_days": 77
+    },
+    {
+      "id": "InternScience/Sage-A1.5",
+      "name": "Sage-A1.5",
+      "author": "InternScience",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "apache-2.0",
+      "downloads": 9830,
+      "likes": 373,
+      "trending": 107,
+      "last_modified": "2026-10-22T14:08:48.000Z",
+      "updated_days": 7.6,
+      "health": "fresh",
+      "url": "https://huggingface.co/InternScience/Sage-A1.5",
+      "rank": 49,
+      "params": 35951822704,
+      "params_h": "36.0B",
+      "slug": "internscience-sage-a1-5",
+      "rank_history": [
+        {
+          "date": "2026-10-21",
+          "rank": 60,
+          "score": 90
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 23,
+          "score": 201
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 16,
+          "score": 239
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 15,
+          "score": 257
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 12,
+          "score": 278
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 12,
+          "score": 301
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 11,
+          "score": 316
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 18,
+          "score": 230
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 44,
+          "score": 116
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 49,
+          "score": 107
+        }
+      ],
+      "rank_prev": 44,
+      "rank_delta": -5,
+      "peak_rank": 11,
+      "tracked_days": 10
     },
     {
       "id": "inclusionAI/Ming-3.0-tts-0.5B",
@@ -6991,7 +6991,7 @@
       "likes": 1091,
       "trending": 98,
       "last_modified": "2026-09-29T10:28:23.000Z",
-      "updated_days": 30.7,
+      "updated_days": 30.8,
       "health": "recent",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "rank": 55,
@@ -7959,7 +7959,7 @@
       "license": "apache-2.0",
       "downloads": 209872,
       "likes": 2205,
-      "trending": 90,
+      "trending": 89,
       "last_modified": "2026-10-15T02:09:56.000Z",
       "updated_days": 15.1,
       "health": "recent",
@@ -8102,7 +8102,7 @@
         {
           "date": "2026-10-30",
           "rank": 60,
-          "score": 90
+          "score": 89
         }
       ],
       "rank_prev": 60,
@@ -8258,7 +8258,7 @@
       "category": "Other",
       "license": "other",
       "downloads": 758882,
-      "likes": 1669,
+      "likes": 1670,
       "trending": 87,
       "last_modified": "2025-08-19T09:00:52.000Z",
       "updated_days": 436.8,
@@ -8591,7 +8591,7 @@
       "likes": 945,
       "trending": 87,
       "last_modified": "2026-10-23T15:20:56.000Z",
-      "updated_days": 6.5,
+      "updated_days": 6.6,
       "health": "fresh",
       "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
       "rank": 64,
@@ -9921,7 +9921,7 @@
       "likes": 115,
       "trending": 78,
       "last_modified": "2026-10-23T03:16:23.000Z",
-      "updated_days": 7.0,
+      "updated_days": 7.1,
       "health": "fresh",
       "url": "https://huggingface.co/chinoll/Moss-Image-Edit",
       "rank": 76,
@@ -9986,7 +9986,7 @@
       "likes": 226,
       "trending": 76,
       "last_modified": "2026-10-27T08:07:23.000Z",
-      "updated_days": 2.8,
+      "updated_days": 2.9,
       "health": "fresh",
       "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
       "rank": 77,
@@ -11298,7 +11298,7 @@
       "rank_prev": 87,
       "rank_delta": -1,
       "peak_rank": 23,
-      "tracked_days": 91
+      "tracked_days": 90
     },
     {
       "id": "facebook/sam3.1",
@@ -11308,10 +11308,10 @@
       "category": "Vision",
       "license": "other",
       "downloads": 176009,
-      "likes": 1286,
+      "likes": 1287,
       "trending": 67,
       "last_modified": "2026-03-27T17:40:55.000Z",
-      "updated_days": 216.4,
+      "updated_days": 216.5,
       "health": "older",
       "url": "https://huggingface.co/facebook/sam3.1",
       "rank": 89,
@@ -13058,7 +13058,7 @@
       "rank_prev": 98,
       "rank_delta": 0,
       "peak_rank": 1,
-      "tracked_days": 91
+      "tracked_days": 90
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
@@ -15226,6 +15226,86 @@
       "tracked_days": 21
     },
     {
+      "id": "tencent/WeVisOne-VL-2B",
+      "name": "WeVisOne-VL-2B",
+      "author": "tencent",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 4645,
+      "likes": 58,
+      "trending": 55,
+      "last_modified": "2026-10-28T13:18:05.000Z",
+      "updated_days": 1.6,
+      "health": "fresh",
+      "url": "https://huggingface.co/tencent/WeVisOne-VL-2B",
+      "rank": 111,
+      "params": 2441744384,
+      "params_h": "2.4B",
+      "slug": "tencent-wevisone-vl-2b",
+      "rank_history": [
+        {
+          "date": "2026-10-27",
+          "rank": 134,
+          "score": 45
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 122,
+          "score": 54
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 111,
+          "score": 55
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 111,
+          "score": 55
+        }
+      ],
+      "rank_prev": 111,
+      "rank_delta": 0,
+      "peak_rank": 111,
+      "tracked_days": 4
+    },
+    {
+      "id": "sensenova/SenseNova-6.8-Code2Video",
+      "name": "SenseNova-6.8-Code2Video",
+      "author": "sensenova",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 130,
+      "likes": 55,
+      "trending": 55,
+      "last_modified": "2026-10-29T11:32:05.000Z",
+      "updated_days": 0.7,
+      "health": "fresh",
+      "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
+      "rank": 112,
+      "params": 27356728560,
+      "params_h": "27.4B",
+      "slug": "sensenova-sensenova-6-8-code2video",
+      "rank_history": [
+        {
+          "date": "2026-10-29",
+          "rank": 113,
+          "score": 54
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 112,
+          "score": 55
+        }
+      ],
+      "rank_prev": 113,
+      "rank_delta": 1,
+      "peak_rank": 112,
+      "tracked_days": 2
+    },
+    {
       "id": "ornith-ai/Ornith-1.5-122B",
       "name": "Ornith-1.5-122B",
       "author": "ornith-ai",
@@ -15234,12 +15314,12 @@
       "license": "mit",
       "downloads": 105803,
       "likes": 203,
-      "trending": 55,
+      "trending": 54,
       "last_modified": "2026-10-21T08:29:30.000Z",
       "updated_days": 8.8,
       "health": "fresh",
       "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
-      "rank": 111,
+      "rank": 113,
       "params": 125086497008,
       "params_h": "125B",
       "slug": "ornith-ai-ornith-1-5-122b",
@@ -15291,94 +15371,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 111,
-          "score": 55
+          "rank": 113,
+          "score": 54
         }
       ],
       "rank_prev": 116,
-      "rank_delta": 5,
+      "rank_delta": 3,
       "peak_rank": 26,
       "tracked_days": 10
-    },
-    {
-      "id": "tencent/WeVisOne-VL-2B",
-      "name": "WeVisOne-VL-2B",
-      "author": "tencent",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 4645,
-      "likes": 58,
-      "trending": 55,
-      "last_modified": "2026-10-28T13:18:05.000Z",
-      "updated_days": 1.6,
-      "health": "fresh",
-      "url": "https://huggingface.co/tencent/WeVisOne-VL-2B",
-      "rank": 112,
-      "params": 2441744384,
-      "params_h": "2.4B",
-      "slug": "tencent-wevisone-vl-2b",
-      "rank_history": [
-        {
-          "date": "2026-10-27",
-          "rank": 134,
-          "score": 45
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 122,
-          "score": 54
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 111,
-          "score": 55
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 112,
-          "score": 55
-        }
-      ],
-      "rank_prev": 111,
-      "rank_delta": -1,
-      "peak_rank": 111,
-      "tracked_days": 4
-    },
-    {
-      "id": "sensenova/SenseNova-6.8-Code2Video",
-      "name": "SenseNova-6.8-Code2Video",
-      "author": "sensenova",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 130,
-      "likes": 55,
-      "trending": 55,
-      "last_modified": "2026-10-29T11:32:05.000Z",
-      "updated_days": 0.7,
-      "health": "fresh",
-      "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
-      "rank": 113,
-      "params": 27356728560,
-      "params_h": "27.4B",
-      "slug": "sensenova-sensenova-6-8-code2video",
-      "rank_history": [
-        {
-          "date": "2026-10-29",
-          "rank": 113,
-          "score": 54
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 113,
-          "score": 55
-        }
-      ],
-      "rank_prev": 113,
-      "rank_delta": 0,
-      "peak_rank": 113,
-      "tracked_days": 2
     },
     {
       "id": "linoyts/Qwen-Image-2.1-DMD2-2steps",
@@ -17031,7 +17031,7 @@
       "likes": 129,
       "trending": 45,
       "last_modified": "2026-10-22T08:02:14.000Z",
-      "updated_days": 7.8,
+      "updated_days": 7.9,
       "health": "fresh",
       "url": "https://huggingface.co/gradium/phonon-31m-en",
       "rank": 138,
