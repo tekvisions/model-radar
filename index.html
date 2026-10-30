@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Model Radar — what's surging on Hugging Face right now</title>
-<meta name="description" content="A live radar of the AI models trending on Hugging Face right now — ranked by trending score, with downloads, likes, and freshness, categorized by task. Updated daily by an AI agent.">
+<meta name="description" content="A live radar of the AI models trending on Hugging Face right now — ranked by trending score, with downloads, likes, and freshness, categorized by task. Updated daily.">
 <meta property="og:title" content="Model Radar — what's surging on Hugging Face right now">
-<meta property="og:description" content="The AI models trending right now, ranked by real Hugging Face signals. Downloads, likes, freshness — updated daily by an agent.">
+<meta property="og:description" content="The AI models trending right now, ranked by real Hugging Face signals. Downloads, likes, freshness — updated daily.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://modelradar.kymatalabs.com/og.png">
 <meta property="og:url" content="https://modelradar.kymatalabs.com/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Model Radar — what's surging on Hugging Face right now">
-<meta name="twitter:description" content="The AI models trending right now, ranked by real Hugging Face signals. Downloads, likes, freshness — updated daily by an agent.">
+<meta name="twitter:description" content="The AI models trending right now, ranked by real Hugging Face signals. Downloads, likes, freshness — updated daily.">
 <meta name="twitter:image" content="https://modelradar.kymatalabs.com/og.png">
 <meta name="theme-color" content="#05080e">
 <script>
@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json" id="jsonld-home"></script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Model Radar?", "acceptedAnswer": {"@type": "Answer", "text": "Model Radar is a live index of the open models surging on Hugging Face — ranked by how fast they are gaining downloads and likes across text, image, audio and multimodal. It is recomputed daily, so it surfaces what the community is adopting right now. It is one of The Living Indexes by Kymata Labs."}}, {"@type": "Question", "name": "How is the ranking computed?", "acceptedAnswer": {"@type": "Answer", "text": "Model Radar ranks models by recent momentum on Hugging Face — the rate of change in downloads and likes — recomputed every day, so a model breaking out this week rises above an older model that has plateaued."}}, {"@type": "Question", "name": "How often is it updated?", "acceptedAnswer": {"@type": "Answer", "text": "Every day. A scheduled job recomputes each model's momentum from live Hugging Face signals and republishes automatically, with no human in the loop."}}, {"@type": "Question", "name": "Part of The Living Indexes", "acceptedAnswer": {"@type": "Answer", "text": "A fleet of self-updating maps of the AI-builder ecosystem. Explore them all at indexes.kymatalabs.com."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Model Radar?", "acceptedAnswer": {"@type": "Answer", "text": "Model Radar is a live index of the open models surging on Hugging Face — ranked by how fast they are gaining downloads and likes across text, image, audio and multimodal. It is recomputed daily, so it surfaces what the community is adopting right now. It is one of The Living Indexes by Kymata Labs."}}, {"@type": "Question", "name": "How is the ranking computed?", "acceptedAnswer": {"@type": "Answer", "text": "Model Radar ranks models by recent momentum on Hugging Face — the rate of change in downloads and likes — recomputed every day, so a model breaking out this week rises above an older model that has plateaued."}}, {"@type": "Question", "name": "How often is it updated?", "acceptedAnswer": {"@type": "Answer", "text": "Every day. The index recomputes each model's momentum from live Hugging Face signals and republishes automatically."}}, {"@type": "Question", "name": "Part of The Living Indexes", "acceptedAnswer": {"@type": "Answer", "text": "A fleet of self-updating maps of the AI-builder ecosystem. Explore them all at indexes.kymatalabs.com."}}]}
 </script>
 </head>
 <body>
@@ -58,7 +58,7 @@
 <header class="hero"><div class="wrap">
   <div class="eyebrow"><span class="dot"></span><span id="liveline">Sourced from the Hugging Face API · updated daily</span></div>
   <h1>What's <em>surging</em> on Hugging Face right now.</h1>
-  <p class="lede">A live radar of the AI models trending on Hugging Face — ranked by trending score, with real downloads, likes, and freshness, categorized by task. The pulse of open models, swept daily by an agent.</p>
+  <p class="lede">A live radar of the AI models trending on Hugging Face — ranked by trending score, with real downloads, likes, and freshness, categorized by task. The pulse of open models, swept daily.</p>
   <div class="meta-row" id="metarow"></div>
 </div></header>
 
@@ -89,11 +89,11 @@
 
 <section class="geo-about">
   <h2>About Model Radar</h2>
-  <p class="intro">Model Radar tracks what is surging on Hugging Face right now &mdash; the open models gaining downloads, likes and momentum fastest across text, image, audio and multimodal. It is recomputed daily from live Hugging Face signals, so the radar reflects what the community is actually pulling down today, not last quarter's leaderboard. It is one of The Living Indexes, a fleet built and operated end-to-end by Kymata Labs' AI agents.</p>
+  <p class="intro">Model Radar tracks what is surging on Hugging Face right now &mdash; the open models gaining downloads, likes and momentum fastest across text, image, audio and multimodal. It is recomputed daily from live Hugging Face signals, so the radar reflects what the community is actually pulling down today, not last quarter's leaderboard. It is one of The Living Indexes, a fleet published by Kymata Labs.</p>
   <div class="geo-faq">
       <div class="q"><h3>What is Model Radar?</h3><p>Model Radar is a live index of the open models surging on Hugging Face &mdash; ranked by how fast they are gaining downloads and likes across text, image, audio and multimodal. It is recomputed daily, so it surfaces what the community is adopting right now. It is one of The Living Indexes by Kymata Labs.</p></div>
       <div class="q"><h3>How is the ranking computed?</h3><p>Model Radar ranks models by recent momentum on Hugging Face &mdash; the rate of change in downloads and likes &mdash; recomputed every day, so a model breaking out this week rises above an older model that has plateaued.</p></div>
-      <div class="q"><h3>How often is it updated?</h3><p>Every day. A scheduled job recomputes each model's momentum from live Hugging Face signals and republishes automatically, with no human in the loop.</p></div>
+      <div class="q"><h3>How often is it updated?</h3><p>Every day. The index recomputes each model's momentum from live Hugging Face signals and republishes automatically.</p></div>
       <div class="q"><h3>Part of The Living Indexes</h3><p>A fleet of self-updating maps of the AI-builder ecosystem. Explore them all at <a href="https://indexes.kymatalabs.com">indexes.kymatalabs.com</a>.</p></div>
   </div>
 </section>
@@ -102,7 +102,7 @@
 <footer id="how"><div class="wrap">
   <span class="mono" style="color:var(--radar-2)">How it's made</span>
   <h2>The pulse of open models, made <em>browsable.</em></h2>
-  <p>Model Radar pulls the <a class="inl" href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener">Hugging Face API</a> every day, takes the top models by trending score, categorizes them by task, and checks freshness from each model's last update. Nothing here is hand-picked or fabricated — it's Hugging Face's own signals (downloads, likes, trending), made fast to scan and pleasant to read, by the same agent stack that runs <a class="inl" href="https://kymatalabs.com/" target="_blank" rel="noopener">Kymata Labs</a>.</p>
+  <p>Model Radar pulls the <a class="inl" href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener">Hugging Face API</a> every day, takes the top models by trending score, categorizes them by task, and checks freshness from each model's last update. It presents Hugging Face's own signals (downloads, likes, trending), made fast to scan and pleasant to read. Published by <a class="inl" href="https://kymatalabs.com/" target="_blank" rel="noopener">Kymata Labs</a>.</p>
   <div class="foot-row">
     <span id="footgen">Updated daily from the Hugging Face API</span>
     <span>© 2026 Kymata Labs · Model Radar</span>
