@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T21:55:05.107971+00:00",
+  "generated_at": "2026-10-30T22:25:23.099868+00:00",
   "generated_date": "2026-10-30",
   "source": "huggingface.co/api/models (official, by trendingScore)",
   "model_count": 150,
-  "fresh_count": 110,
-  "total_downloads": 147316134,
+  "fresh_count": 111,
+  "total_downloads": 147293078,
   "categories": [
     "3D",
     "Audio",
@@ -18,10 +18,10 @@
   ],
   "category_counts": {
     "Vision": 47,
-    "Text": 44,
+    "Text": 45,
     "Audio": 9,
     "Video": 3,
-    "Image": 15,
+    "Image": 14,
     "Other": 26,
     "Multimodal": 3,
     "3D": 2,
@@ -35,7 +35,7 @@
       "slug": "pika-labs-pika-h3-flex",
       "rank": 20,
       "rank_delta": 81,
-      "trending": 186,
+      "trending": 188,
       "category": "Video"
     },
     {
@@ -43,9 +43,9 @@
       "name": "Qwen3.5-4B-Qwenputer",
       "author": "divagr1925",
       "slug": "divagr1925-qwen3-5-4b-qwenputer",
-      "rank": 52,
-      "rank_delta": 24,
-      "trending": 100,
+      "rank": 51,
+      "rank_delta": 25,
+      "trending": 101,
       "category": "Text"
     },
     {
@@ -88,8 +88,8 @@
       "category": "Vision",
       "license": "mit",
       "downloads": 145869,
-      "likes": 3999,
-      "trending": 824,
+      "likes": 4000,
+      "trending": 822,
       "last_modified": "2026-10-17T05:46:55.000Z",
       "updated_days": 13.7,
       "health": "fresh",
@@ -167,7 +167,7 @@
         {
           "date": "2026-10-30",
           "rank": 1,
-          "score": 824
+          "score": 822
         }
       ],
       "rank_prev": 1,
@@ -183,10 +183,10 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 12178,
-      "likes": 795,
-      "trending": 778,
+      "likes": 796,
+      "trending": 779,
       "last_modified": "2026-10-28T01:59:01.000Z",
-      "updated_days": 2.8,
+      "updated_days": 2.9,
       "health": "fresh",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
       "rank": 2,
@@ -222,7 +222,7 @@
         {
           "date": "2026-10-30",
           "rank": 2,
-          "score": 778
+          "score": 779
         }
       ],
       "rank_prev": 2,
@@ -238,7 +238,7 @@
       "category": "Text",
       "license": "other",
       "downloads": 23694,
-      "likes": 555,
+      "likes": 556,
       "trending": 537,
       "last_modified": "2026-10-28T17:16:37.000Z",
       "updated_days": 2.2,
@@ -373,8 +373,8 @@
       "category": "Vision",
       "license": "mit",
       "downloads": 24276,
-      "likes": 448,
-      "trending": 405,
+      "likes": 449,
+      "trending": 406,
       "last_modified": "2026-10-29T09:18:46.000Z",
       "updated_days": 1.5,
       "health": "fresh",
@@ -402,7 +402,7 @@
         {
           "date": "2026-10-30",
           "rank": 6,
-          "score": 405
+          "score": 406
         }
       ],
       "rank_prev": 11,
@@ -454,7 +454,7 @@
       "license": "apache-2.0",
       "downloads": 19015,
       "likes": 1256,
-      "trending": 384,
+      "trending": 382,
       "last_modified": "2026-10-21T14:24:03.000Z",
       "updated_days": 9.3,
       "health": "fresh",
@@ -507,7 +507,7 @@
         {
           "date": "2026-10-30",
           "rank": 8,
-          "score": 384
+          "score": 382
         }
       ],
       "rank_prev": 3,
@@ -523,8 +523,8 @@
       "category": "Video",
       "license": "other",
       "downloads": 2335172,
-      "likes": 9949,
-      "trending": 373,
+      "likes": 9952,
+      "trending": 372,
       "last_modified": "2026-10-11T07:00:53.000Z",
       "updated_days": 19.6,
       "health": "recent",
@@ -932,7 +932,7 @@
         {
           "date": "2026-10-30",
           "rank": 9,
-          "score": 373
+          "score": 372
         }
       ],
       "rank_prev": 8,
@@ -949,7 +949,7 @@
       "license": "apache-2.0",
       "downloads": 12515,
       "likes": 922,
-      "trending": 332,
+      "trending": 331,
       "last_modified": "2026-10-27T12:55:34.000Z",
       "updated_days": 3.4,
       "health": "fresh",
@@ -1007,7 +1007,7 @@
         {
           "date": "2026-10-30",
           "rank": 10,
-          "score": 332
+          "score": 331
         }
       ],
       "rank_prev": 5,
@@ -1023,7 +1023,7 @@
       "category": "Image",
       "license": "other",
       "downloads": 886973,
-      "likes": 2109,
+      "likes": 2111,
       "trending": 328,
       "last_modified": "2026-10-17T07:10:12.000Z",
       "updated_days": 13.6,
@@ -1124,7 +1124,7 @@
       "license": "other",
       "downloads": 2516721,
       "likes": 5369,
-      "trending": 300,
+      "trending": 299,
       "last_modified": "2026-10-12T07:10:55.000Z",
       "updated_days": 18.6,
       "health": "recent",
@@ -1227,7 +1227,7 @@
         {
           "date": "2026-10-30",
           "rank": 12,
-          "score": 300
+          "score": 299
         }
       ],
       "rank_prev": 12,
@@ -1303,8 +1303,8 @@
       "category": "Other",
       "license": "apache-2.0",
       "downloads": 20197,
-      "likes": 312,
-      "trending": 287,
+      "likes": 314,
+      "trending": 289,
       "last_modified": "2026-10-30T15:47:46.000Z",
       "updated_days": 0.3,
       "health": "fresh",
@@ -1337,7 +1337,7 @@
         {
           "date": "2026-10-30",
           "rank": 14,
-          "score": 287
+          "score": 289
         }
       ],
       "rank_prev": 16,
@@ -1353,8 +1353,8 @@
       "category": "Vision",
       "license": "apache-2.0",
       "downloads": 7624809,
-      "likes": 18799,
-      "trending": 278,
+      "likes": 18800,
+      "trending": 279,
       "last_modified": "2026-08-14T15:00:01.000Z",
       "updated_days": 77.3,
       "health": "older",
@@ -1747,7 +1747,7 @@
         {
           "date": "2026-10-30",
           "rank": 15,
-          "score": 278
+          "score": 279
         }
       ],
       "rank_prev": 13,
@@ -1766,7 +1766,7 @@
       "likes": 224,
       "trending": 219,
       "last_modified": "2026-10-28T23:16:38.000Z",
-      "updated_days": 1.9,
+      "updated_days": 2.0,
       "health": "fresh",
       "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
       "rank": 16,
@@ -1796,6 +1796,46 @@
       "tracked_days": 3
     },
     {
+      "id": "openbmb/MiniCPM-OCR-1.0",
+      "name": "MiniCPM-OCR-1.0",
+      "author": "openbmb",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 2413,
+      "likes": 363,
+      "trending": 200,
+      "last_modified": "2026-10-29T15:39:19.000Z",
+      "updated_days": 1.3,
+      "health": "fresh",
+      "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+      "rank": 17,
+      "params": 1300434160,
+      "params_h": "1.3B",
+      "slug": "openbmb-minicpm-ocr-1-0",
+      "rank_history": [
+        {
+          "date": "2026-10-28",
+          "rank": 29,
+          "score": 144
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 21,
+          "score": 185
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 17,
+          "score": 200
+        }
+      ],
+      "rank_prev": 21,
+      "rank_delta": 4,
+      "peak_rank": 17,
+      "tracked_days": 3
+    },
+    {
       "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
       "author": "nvidia",
@@ -1804,12 +1844,12 @@
       "license": "other",
       "downloads": 64263,
       "likes": 281,
-      "trending": 201,
+      "trending": 199,
       "last_modified": "2026-10-23T19:03:57.000Z",
       "updated_days": 7.1,
       "health": "fresh",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-      "rank": 17,
+      "rank": 18,
       "params": null,
       "params_h": null,
       "slug": "nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb",
@@ -1846,12 +1886,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 17,
-          "score": 201
+          "rank": 18,
+          "score": 199
         }
       ],
       "rank_prev": 17,
-      "rank_delta": 0,
+      "rank_delta": -1,
       "peak_rank": 17,
       "tracked_days": 7
     },
@@ -1864,12 +1904,12 @@
       "license": "other",
       "downloads": 18795,
       "likes": 503,
-      "trending": 199,
+      "trending": 197,
       "last_modified": "2026-10-30T08:44:16.000Z",
-      "updated_days": 0.5,
+      "updated_days": 0.6,
       "health": "fresh",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
-      "rank": 18,
+      "rank": 19,
       "params": 220490854016,
       "params_h": "220B",
       "slug": "minimaxai-minimax-m3-1-flash",
@@ -1911,54 +1951,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 18,
-          "score": 199
+          "rank": 19,
+          "score": 197
         }
       ],
       "rank_prev": 6,
-      "rank_delta": -12,
+      "rank_delta": -13,
       "peak_rank": 6,
       "tracked_days": 8
-    },
-    {
-      "id": "openbmb/MiniCPM-OCR-1.0",
-      "name": "MiniCPM-OCR-1.0",
-      "author": "openbmb",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 2413,
-      "likes": 362,
-      "trending": 199,
-      "last_modified": "2026-10-29T15:39:19.000Z",
-      "updated_days": 1.3,
-      "health": "fresh",
-      "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
-      "rank": 19,
-      "params": 1300434160,
-      "params_h": "1.3B",
-      "slug": "openbmb-minicpm-ocr-1-0",
-      "rank_history": [
-        {
-          "date": "2026-10-28",
-          "rank": 29,
-          "score": 144
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 21,
-          "score": 185
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 19,
-          "score": 199
-        }
-      ],
-      "rank_prev": 21,
-      "rank_delta": 2,
-      "peak_rank": 19,
-      "tracked_days": 3
     },
     {
       "id": "Pika-Labs/Pika-H3-Flex",
@@ -1968,10 +1968,10 @@
       "category": "Video",
       "license": "other",
       "downloads": 87,
-      "likes": 189,
-      "trending": 186,
+      "likes": 191,
+      "trending": 188,
       "last_modified": "2026-10-29T23:29:03.000Z",
-      "updated_days": 0.9,
+      "updated_days": 1.0,
       "health": "fresh",
       "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
       "rank": 20,
@@ -1987,7 +1987,7 @@
         {
           "date": "2026-10-30",
           "rank": 20,
-          "score": 186
+          "score": 188
         }
       ],
       "rank_prev": 101,
@@ -2433,10 +2433,10 @@
       "category": "Vision",
       "license": "other",
       "downloads": 6241,
-      "likes": 178,
-      "trending": 176,
+      "likes": 179,
+      "trending": 177,
       "last_modified": "2026-10-28T23:16:11.000Z",
-      "updated_days": 1.9,
+      "updated_days": 2.0,
       "health": "fresh",
       "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
       "rank": 22,
@@ -2457,7 +2457,7 @@
         {
           "date": "2026-10-30",
           "rank": 22,
-          "score": 176
+          "score": 177
         }
       ],
       "rank_prev": 24,
@@ -2473,8 +2473,8 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 1505,
-      "likes": 173,
-      "trending": 170,
+      "likes": 175,
+      "trending": 172,
       "last_modified": "2026-10-28T03:07:54.000Z",
       "updated_days": 2.8,
       "health": "fresh",
@@ -2497,7 +2497,7 @@
         {
           "date": "2026-10-30",
           "rank": 23,
-          "score": 170
+          "score": 172
         }
       ],
       "rank_prev": 30,
@@ -2513,8 +2513,8 @@
       "category": "Vision",
       "license": "apache-2.0",
       "downloads": 1725724,
-      "likes": 2242,
-      "trending": 159,
+      "likes": 2243,
+      "trending": 160,
       "last_modified": "2026-10-17T22:34:07.000Z",
       "updated_days": 13.0,
       "health": "fresh",
@@ -2817,7 +2817,7 @@
         {
           "date": "2026-10-30",
           "rank": 24,
-          "score": 159
+          "score": 160
         }
       ],
       "rank_prev": 23,
@@ -2873,8 +2873,8 @@
       "category": "Vision",
       "license": "apache-2.0",
       "downloads": 3158872,
-      "likes": 545,
-      "trending": 147,
+      "likes": 547,
+      "trending": 148,
       "last_modified": "2026-10-24T10:10:42.000Z",
       "updated_days": 6.5,
       "health": "fresh",
@@ -3017,7 +3017,7 @@
         {
           "date": "2026-10-30",
           "rank": 26,
-          "score": 147
+          "score": 148
         }
       ],
       "rank_prev": 34,
@@ -3034,9 +3034,9 @@
       "license": "apache-2.0",
       "downloads": 15575,
       "likes": 833,
-      "trending": 147,
+      "trending": 146,
       "last_modified": "2026-10-21T01:52:00.000Z",
-      "updated_days": 9.8,
+      "updated_days": 9.9,
       "health": "fresh",
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
       "rank": 27,
@@ -3117,7 +3117,7 @@
         {
           "date": "2026-10-30",
           "rank": 27,
-          "score": 147
+          "score": 146
         }
       ],
       "rank_prev": 18,
@@ -3133,7 +3133,7 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 3289,
-      "likes": 275,
+      "likes": 276,
       "trending": 141,
       "last_modified": "2026-10-29T14:46:50.000Z",
       "updated_days": 1.3,
@@ -3200,7 +3200,7 @@
       "downloads": 99353,
       "likes": 145,
       "trending": 141,
-      "last_modified": "2026-10-30T21:49:13.000Z",
+      "last_modified": "2026-10-30T22:13:51.000Z",
       "updated_days": 0.0,
       "health": "fresh",
       "url": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
@@ -3241,6 +3241,36 @@
       "tracked_days": 5
     },
     {
+      "id": "speridlabs/idol",
+      "name": "idol",
+      "author": "speridlabs",
+      "task": "image-to-3d",
+      "category": "3D",
+      "license": "apache-2.0",
+      "downloads": 221,
+      "likes": 142,
+      "trending": 141,
+      "last_modified": "2026-10-29T18:17:36.000Z",
+      "updated_days": 1.2,
+      "health": "fresh",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "rank": 30,
+      "params": null,
+      "params_h": null,
+      "slug": "speridlabs-idol",
+      "rank_history": [
+        {
+          "date": "2026-10-30",
+          "rank": 30,
+          "score": 141
+        }
+      ],
+      "rank_prev": null,
+      "rank_delta": null,
+      "peak_rank": 30,
+      "tracked_days": 1
+    },
+    {
       "id": "LiquidAI/LFM3-1.7B-GGUF",
       "name": "LFM3-1.7B-GGUF",
       "author": "LiquidAI",
@@ -3254,7 +3284,7 @@
       "updated_days": 2.0,
       "health": "fresh",
       "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
-      "rank": 30,
+      "rank": 31,
       "params": null,
       "params_h": null,
       "slug": "liquidai-lfm3-1-7b-gguf",
@@ -3271,44 +3301,54 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 30,
+          "rank": 31,
           "score": 139
         }
       ],
       "rank_prev": 39,
-      "rank_delta": 9,
-      "peak_rank": 30,
+      "rank_delta": 8,
+      "peak_rank": 31,
       "tracked_days": 3
     },
     {
-      "id": "speridlabs/idol",
-      "name": "idol",
-      "author": "speridlabs",
-      "task": "image-to-3d",
-      "category": "3D",
-      "license": "apache-2.0",
-      "downloads": 221,
-      "likes": 138,
-      "trending": 137,
-      "last_modified": "2026-10-29T18:17:36.000Z",
-      "updated_days": 1.2,
+      "id": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "name": "Open-H3-Regenerate-2K",
+      "author": "Efficient-Large-Model",
+      "task": "video-to-video",
+      "category": "Other",
+      "license": "other",
+      "downloads": 0,
+      "likes": 135,
+      "trending": 134,
+      "last_modified": "2026-10-28T05:36:22.000Z",
+      "updated_days": 2.7,
       "health": "fresh",
-      "url": "https://huggingface.co/speridlabs/idol",
-      "rank": 31,
+      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "rank": 32,
       "params": null,
       "params_h": null,
-      "slug": "speridlabs-idol",
+      "slug": "efficient-large-model-open-h3-regenerate-2k",
       "rank_history": [
         {
+          "date": "2026-10-28",
+          "rank": 150,
+          "score": 43
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 41,
+          "score": 121
+        },
+        {
           "date": "2026-10-30",
-          "rank": 31,
-          "score": 137
+          "rank": 32,
+          "score": 134
         }
       ],
-      "rank_prev": null,
-      "rank_delta": null,
-      "peak_rank": 31,
-      "tracked_days": 1
+      "rank_prev": 41,
+      "rank_delta": 9,
+      "peak_rank": 32,
+      "tracked_days": 3
     },
     {
       "id": "fishaudio/drama-3",
@@ -3319,12 +3359,12 @@
       "license": "other",
       "downloads": 29986,
       "likes": 1117,
-      "trending": 134,
+      "trending": 133,
       "last_modified": "2026-10-29T06:46:37.000Z",
-      "updated_days": 1.6,
+      "updated_days": 1.7,
       "health": "fresh",
       "url": "https://huggingface.co/fishaudio/drama-3",
-      "rank": 32,
+      "rank": 33,
       "params": 35899643008,
       "params_h": "35.9B",
       "slug": "fishaudio-drama-3",
@@ -3411,54 +3451,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 32,
-          "score": 134
+          "rank": 33,
+          "score": 133
         }
       ],
       "rank_prev": 25,
-      "rank_delta": -7,
+      "rank_delta": -8,
       "peak_rank": 3,
       "tracked_days": 17
-    },
-    {
-      "id": "Efficient-Large-Model/Open-H3-Regenerate-2K",
-      "name": "Open-H3-Regenerate-2K",
-      "author": "Efficient-Large-Model",
-      "task": "video-to-video",
-      "category": "Other",
-      "license": "other",
-      "downloads": 0,
-      "likes": 135,
-      "trending": 134,
-      "last_modified": "2026-10-28T05:36:22.000Z",
-      "updated_days": 2.7,
-      "health": "fresh",
-      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
-      "rank": 33,
-      "params": null,
-      "params_h": null,
-      "slug": "efficient-large-model-open-h3-regenerate-2k",
-      "rank_history": [
-        {
-          "date": "2026-10-28",
-          "rank": 150,
-          "score": 43
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 41,
-          "score": 121
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 33,
-          "score": 134
-        }
-      ],
-      "rank_prev": 41,
-      "rank_delta": 8,
-      "peak_rank": 33,
-      "tracked_days": 3
     },
     {
       "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
@@ -3553,7 +3553,7 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 221044,
-      "likes": 249,
+      "likes": 250,
       "trending": 132,
       "last_modified": "2026-10-27T12:54:40.000Z",
       "updated_days": 3.4,
@@ -3631,7 +3631,7 @@
       "likes": 138,
       "trending": 132,
       "last_modified": "2026-10-28T08:47:07.000Z",
-      "updated_days": 2.5,
+      "updated_days": 2.6,
       "health": "fresh",
       "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
       "rank": 36,
@@ -4063,10 +4063,10 @@
       "category": "Audio",
       "license": "cc-by-4.0",
       "downloads": 5202326,
-      "likes": 3611,
+      "likes": 3613,
       "trending": 123,
       "last_modified": "2025-09-29T08:43:24.000Z",
-      "updated_days": 396.5,
+      "updated_days": 396.6,
       "health": "older",
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
       "rank": 39,
@@ -4456,7 +4456,7 @@
       "likes": 2467,
       "trending": 123,
       "last_modified": "2026-09-02T09:11:34.000Z",
-      "updated_days": 58.5,
+      "updated_days": 58.6,
       "health": "recent",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "rank": 40,
@@ -4789,7 +4789,7 @@
       "license": "apache-2.0",
       "downloads": 7353,
       "likes": 146,
-      "trending": 122,
+      "trending": 121,
       "last_modified": "2026-10-28T07:37:46.000Z",
       "updated_days": 2.6,
       "health": "fresh",
@@ -4832,7 +4832,7 @@
         {
           "date": "2026-10-30",
           "rank": 41,
-          "score": 122
+          "score": 121
         }
       ],
       "rank_prev": 32,
@@ -4849,7 +4849,7 @@
       "license": "apache-2.0",
       "downloads": 338269,
       "likes": 3026,
-      "trending": 118,
+      "trending": 117,
       "last_modified": "2026-10-28T07:19:46.000Z",
       "updated_days": 2.6,
       "health": "fresh",
@@ -4977,7 +4977,7 @@
         {
           "date": "2026-10-30",
           "rank": 42,
-          "score": 118
+          "score": 117
         }
       ],
       "rank_prev": 38,
@@ -4994,7 +4994,7 @@
       "license": "apache-2.0",
       "downloads": 3702490,
       "likes": 556,
-      "trending": 118,
+      "trending": 117,
       "last_modified": "2026-10-26T03:09:23.000Z",
       "updated_days": 4.8,
       "health": "fresh",
@@ -5072,7 +5072,7 @@
         {
           "date": "2026-10-30",
           "rank": 43,
-          "score": 118
+          "score": 117
         }
       ],
       "rank_prev": 31,
@@ -5081,64 +5081,34 @@
       "tracked_days": 14
     },
     {
-      "id": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-      "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
-      "author": "unsloth",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "other",
-      "downloads": 162308,
-      "likes": 153,
-      "trending": 115,
-      "last_modified": "2026-10-24T04:00:15.000Z",
-      "updated_days": 6.7,
+      "id": "Edge0/Audio8-TTS-Realistic-0.6b",
+      "name": "Audio8-TTS-Realistic-0.6b",
+      "author": "Edge0",
+      "task": "text-to-speech",
+      "category": "Audio",
+      "license": "apache-2.0",
+      "downloads": 813,
+      "likes": 112,
+      "trending": 111,
+      "last_modified": "2026-10-27T11:07:20.000Z",
+      "updated_days": 3.5,
       "health": "fresh",
-      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
       "rank": 44,
-      "params": null,
-      "params_h": null,
-      "slug": "unsloth-nvidia-nemotron-3-5-bolt-e4b-gguf",
+      "params": 601159424,
+      "params_h": "601M",
+      "slug": "edge0-audio8-tts-realistic-0-6b",
       "rank_history": [
-        {
-          "date": "2026-10-24",
-          "rank": 79,
-          "score": 74
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 59,
-          "score": 97
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 46,
-          "score": 113
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 39,
-          "score": 128
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 32,
-          "score": 135
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 28,
-          "score": 144
-        },
         {
           "date": "2026-10-30",
           "rank": 44,
-          "score": 115
+          "score": 111
         }
       ],
-      "rank_prev": 28,
-      "rank_delta": -16,
-      "peak_rank": 28,
-      "tracked_days": 7
+      "rank_prev": null,
+      "rank_delta": null,
+      "peak_rank": 44,
+      "tracked_days": 1
     },
     {
       "id": "unsloth/flint-GGUF",
@@ -5149,7 +5119,7 @@
       "license": "apache-2.0",
       "downloads": 221711,
       "likes": 344,
-      "trending": 113,
+      "trending": 111,
       "last_modified": "2026-10-21T23:54:26.000Z",
       "updated_days": 8.9,
       "health": "fresh",
@@ -5202,7 +5172,7 @@
         {
           "date": "2026-10-30",
           "rank": 45,
-          "score": 113
+          "score": 111
         }
       ],
       "rank_prev": 27,
@@ -5211,34 +5181,64 @@
       "tracked_days": 9
     },
     {
-      "id": "Edge0/Audio8-TTS-Realistic-0.6b",
-      "name": "Audio8-TTS-Realistic-0.6b",
-      "author": "Edge0",
-      "task": "text-to-speech",
-      "category": "Audio",
-      "license": "apache-2.0",
-      "downloads": 813,
-      "likes": 109,
-      "trending": 108,
-      "last_modified": "2026-10-27T11:07:20.000Z",
-      "updated_days": 3.4,
+      "id": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "author": "unsloth",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "other",
+      "downloads": 162308,
+      "likes": 153,
+      "trending": 110,
+      "last_modified": "2026-10-24T04:00:15.000Z",
+      "updated_days": 6.8,
       "health": "fresh",
-      "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+      "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
       "rank": 46,
-      "params": 601159424,
-      "params_h": "601M",
-      "slug": "edge0-audio8-tts-realistic-0-6b",
+      "params": null,
+      "params_h": null,
+      "slug": "unsloth-nvidia-nemotron-3-5-bolt-e4b-gguf",
       "rank_history": [
+        {
+          "date": "2026-10-24",
+          "rank": 79,
+          "score": 74
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 59,
+          "score": 97
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 46,
+          "score": 113
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 39,
+          "score": 128
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 32,
+          "score": 135
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 28,
+          "score": 144
+        },
         {
           "date": "2026-10-30",
           "rank": 46,
-          "score": 108
+          "score": 110
         }
       ],
-      "rank_prev": null,
-      "rank_delta": null,
-      "peak_rank": 46,
-      "tracked_days": 1
+      "rank_prev": 28,
+      "rank_delta": -18,
+      "peak_rank": 28,
+      "tracked_days": 7
     },
     {
       "id": "unsloth/Qwen3.8-27B-GGUF",
@@ -5651,51 +5651,6 @@
       "tracked_days": 77
     },
     {
-      "id": "nvidia/MotionBricks",
-      "name": "MotionBricks",
-      "author": "nvidia",
-      "task": "robotics",
-      "category": "Other",
-      "license": null,
-      "downloads": 0,
-      "likes": 103,
-      "trending": 102,
-      "last_modified": "2026-10-23T18:49:31.000Z",
-      "updated_days": 7.1,
-      "health": "fresh",
-      "url": "https://huggingface.co/nvidia/MotionBricks",
-      "rank": 48,
-      "params": null,
-      "params_h": null,
-      "slug": "nvidia-motionbricks",
-      "rank_history": [
-        {
-          "date": "2026-10-27",
-          "rank": 99,
-          "score": 63
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 62,
-          "score": 88
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 54,
-          "score": 98
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 48,
-          "score": 102
-        }
-      ],
-      "rank_prev": 54,
-      "rank_delta": 6,
-      "peak_rank": 48,
-      "tracked_days": 4
-    },
-    {
       "id": "BreezeBlue/Breeze-TTS-2",
       "name": "Breeze-TTS-2",
       "author": "BreezeBlue",
@@ -5703,13 +5658,13 @@
       "category": "Audio",
       "license": "other",
       "downloads": 19914,
-      "likes": 886,
-      "trending": 101,
+      "likes": 887,
+      "trending": 102,
       "last_modified": "2026-09-09T18:59:45.000Z",
       "updated_days": 51.1,
       "health": "recent",
       "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
-      "rank": 49,
+      "rank": 48,
       "params": 3466363713,
       "params_h": "3.5B",
       "slug": "breezeblue-breeze-tts-2",
@@ -5781,14 +5736,59 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 49,
-          "score": 101
+          "rank": 48,
+          "score": 102
         }
       ],
       "rank_prev": 59,
-      "rank_delta": 10,
-      "peak_rank": 49,
+      "rank_delta": 11,
+      "peak_rank": 48,
       "tracked_days": 14
+    },
+    {
+      "id": "nvidia/MotionBricks",
+      "name": "MotionBricks",
+      "author": "nvidia",
+      "task": "robotics",
+      "category": "Other",
+      "license": null,
+      "downloads": 0,
+      "likes": 103,
+      "trending": 102,
+      "last_modified": "2026-10-23T18:49:31.000Z",
+      "updated_days": 7.1,
+      "health": "fresh",
+      "url": "https://huggingface.co/nvidia/MotionBricks",
+      "rank": 49,
+      "params": null,
+      "params_h": null,
+      "slug": "nvidia-motionbricks",
+      "rank_history": [
+        {
+          "date": "2026-10-27",
+          "rank": 99,
+          "score": 63
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 62,
+          "score": 88
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 54,
+          "score": 98
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 49,
+          "score": 102
+        }
+      ],
+      "rank_prev": 54,
+      "rank_delta": 5,
+      "peak_rank": 49,
+      "tracked_days": 4
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
@@ -5798,8 +5798,8 @@
       "category": "Vision",
       "license": "apache-2.0",
       "downloads": 7680507,
-      "likes": 1102,
-      "trending": 100,
+      "likes": 1103,
+      "trending": 101,
       "last_modified": "2026-09-29T10:28:23.000Z",
       "updated_days": 31.5,
       "health": "recent",
@@ -6032,13 +6032,48 @@
         {
           "date": "2026-10-30",
           "rank": 50,
-          "score": 100
+          "score": 101
         }
       ],
       "rank_prev": 52,
       "rank_delta": 2,
       "peak_rank": 13,
       "tracked_days": 45
+    },
+    {
+      "id": "divagr1925/Qwen3.5-4B-Qwenputer",
+      "name": "Qwen3.5-4B-Qwenputer",
+      "author": "divagr1925",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "apache-2.0",
+      "downloads": 572,
+      "likes": 101,
+      "trending": 101,
+      "last_modified": "2026-10-23T09:14:39.000Z",
+      "updated_days": 7.5,
+      "health": "fresh",
+      "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+      "rank": 51,
+      "params": 9357602496,
+      "params_h": "9.4B",
+      "slug": "divagr1925-qwen3-5-4b-qwenputer",
+      "rank_history": [
+        {
+          "date": "2026-10-29",
+          "rank": 76,
+          "score": 76
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 51,
+          "score": 101
+        }
+      ],
+      "rank_prev": 76,
+      "rank_delta": 25,
+      "peak_rank": 51,
+      "tracked_days": 2
     },
     {
       "id": "mistralai/Timestral-209M",
@@ -6049,12 +6084,12 @@
       "license": "other",
       "downloads": 16339,
       "likes": 455,
-      "trending": 100,
+      "trending": 99,
       "last_modified": "2026-10-15T15:33:49.000Z",
       "updated_days": 15.3,
       "health": "recent",
       "url": "https://huggingface.co/mistralai/Timestral-209M",
-      "rank": 51,
+      "rank": 52,
       "params": 209312256,
       "params_h": "209M",
       "slug": "mistralai-timestral-209m",
@@ -6131,49 +6166,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 51,
-          "score": 100
+          "rank": 52,
+          "score": 99
         }
       ],
       "rank_prev": 50,
-      "rank_delta": -1,
+      "rank_delta": -2,
       "peak_rank": 16,
       "tracked_days": 15
-    },
-    {
-      "id": "divagr1925/Qwen3.5-4B-Qwenputer",
-      "name": "Qwen3.5-4B-Qwenputer",
-      "author": "divagr1925",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "apache-2.0",
-      "downloads": 572,
-      "likes": 100,
-      "trending": 100,
-      "last_modified": "2026-10-23T09:14:39.000Z",
-      "updated_days": 7.5,
-      "health": "fresh",
-      "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
-      "rank": 52,
-      "params": 9357602496,
-      "params_h": "9.4B",
-      "slug": "divagr1925-qwen3-5-4b-qwenputer",
-      "rank_history": [
-        {
-          "date": "2026-10-29",
-          "rank": 76,
-          "score": 76
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 52,
-          "score": 100
-        }
-      ],
-      "rank_prev": 76,
-      "rank_delta": 24,
-      "peak_rank": 52,
-      "tracked_days": 2
     },
     {
       "id": "LiquidAI/d1-2B",
@@ -6626,7 +6626,7 @@
       "likes": 136,
       "trending": 98,
       "last_modified": "2026-10-23T16:04:31.000Z",
-      "updated_days": 7.2,
+      "updated_days": 7.3,
       "health": "fresh",
       "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
       "rank": 55,
@@ -6861,81 +6861,6 @@
       "tracked_days": 33
     },
     {
-      "id": "InternScience/Sage-A1.5",
-      "name": "Sage-A1.5",
-      "author": "InternScience",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "apache-2.0",
-      "downloads": 11029,
-      "likes": 379,
-      "trending": 96,
-      "last_modified": "2026-10-22T14:08:48.000Z",
-      "updated_days": 8.3,
-      "health": "fresh",
-      "url": "https://huggingface.co/InternScience/Sage-A1.5",
-      "rank": 57,
-      "params": 35951822704,
-      "params_h": "36.0B",
-      "slug": "internscience-sage-a1-5",
-      "rank_history": [
-        {
-          "date": "2026-10-21",
-          "rank": 60,
-          "score": 90
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 23,
-          "score": 201
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 16,
-          "score": 239
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 15,
-          "score": 257
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 12,
-          "score": 278
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 12,
-          "score": 301
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 11,
-          "score": 316
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 18,
-          "score": 230
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 44,
-          "score": 116
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 57,
-          "score": 96
-        }
-      ],
-      "rank_prev": 44,
-      "rank_delta": -13,
-      "peak_rank": 11,
-      "tracked_days": 10
-    },
-    {
       "id": "MiniMaxAI/MiniMax-H3",
       "name": "MiniMax-H3",
       "author": "MiniMaxAI",
@@ -6946,10 +6871,10 @@
       "likes": 6449,
       "trending": 95,
       "last_modified": "2026-08-13T01:46:29.000Z",
-      "updated_days": 78.8,
+      "updated_days": 78.9,
       "health": "older",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "rank": 58,
+      "rank": 57,
       "params": 33122992896,
       "params_h": "33.1B",
       "slug": "minimaxai-minimax-h3",
@@ -7396,14 +7321,164 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 58,
+          "rank": 57,
           "score": 95
         }
       ],
       "rank_prev": 47,
-      "rank_delta": -11,
+      "rank_delta": -10,
       "peak_rank": 1,
       "tracked_days": 89
+    },
+    {
+      "id": "InternScience/Sage-A1.5",
+      "name": "Sage-A1.5",
+      "author": "InternScience",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "apache-2.0",
+      "downloads": 11029,
+      "likes": 379,
+      "trending": 95,
+      "last_modified": "2026-10-22T14:08:48.000Z",
+      "updated_days": 8.3,
+      "health": "fresh",
+      "url": "https://huggingface.co/InternScience/Sage-A1.5",
+      "rank": 58,
+      "params": 35951822704,
+      "params_h": "36.0B",
+      "slug": "internscience-sage-a1-5",
+      "rank_history": [
+        {
+          "date": "2026-10-21",
+          "rank": 60,
+          "score": 90
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 23,
+          "score": 201
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 16,
+          "score": 239
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 15,
+          "score": 257
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 12,
+          "score": 278
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 12,
+          "score": 301
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 11,
+          "score": 316
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 18,
+          "score": 230
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 44,
+          "score": 116
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 58,
+          "score": 95
+        }
+      ],
+      "rank_prev": 44,
+      "rank_delta": -14,
+      "peak_rank": 11,
+      "tracked_days": 10
+    },
+    {
+      "id": "inclusionAI/Ming-3.0-tts-0.5B",
+      "name": "Ming-3.0-tts-0.5B",
+      "author": "inclusionAI",
+      "task": "text-to-speech",
+      "category": "Audio",
+      "license": "mit",
+      "downloads": 7737,
+      "likes": 176,
+      "trending": 91,
+      "last_modified": "2026-10-27T12:07:15.000Z",
+      "updated_days": 3.4,
+      "health": "fresh",
+      "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+      "rank": 59,
+      "params": 1479454868,
+      "params_h": "1.5B",
+      "slug": "inclusionai-ming-3-0-tts-0-5b",
+      "rank_history": [
+        {
+          "date": "2026-10-21",
+          "rank": 117,
+          "score": 49
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 99,
+          "score": 57
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 71,
+          "score": 77
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 60,
+          "score": 88
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 44,
+          "score": 118
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 37,
+          "score": 136
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 49,
+          "score": 113
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 50,
+          "score": 107
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 49,
+          "score": 110
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 59,
+          "score": 91
+        }
+      ],
+      "rank_prev": 49,
+      "rank_delta": -10,
+      "peak_rank": 37,
+      "tracked_days": 10
     },
     {
       "id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
@@ -7414,12 +7489,12 @@
       "license": "other",
       "downloads": 752156,
       "likes": 1691,
-      "trending": 91,
+      "trending": 90,
       "last_modified": "2025-08-19T09:00:52.000Z",
-      "updated_days": 437.5,
+      "updated_days": 437.6,
       "health": "older",
       "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
-      "rank": 59,
+      "rank": 60,
       "params": 303129600,
       "params_h": "303M",
       "slug": "facebook-dinov3-vitl16-pretrain-lvd1689m",
@@ -7726,89 +7801,149 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 59,
-          "score": 91
-        }
-      ],
-      "rank_prev": 64,
-      "rank_delta": 5,
-      "peak_rank": 41,
-      "tracked_days": 61
-    },
-    {
-      "id": "inclusionAI/Ming-3.0-tts-0.5B",
-      "name": "Ming-3.0-tts-0.5B",
-      "author": "inclusionAI",
-      "task": "text-to-speech",
-      "category": "Audio",
-      "license": "mit",
-      "downloads": 7737,
-      "likes": 175,
-      "trending": 90,
-      "last_modified": "2026-10-27T12:07:15.000Z",
-      "updated_days": 3.4,
-      "health": "fresh",
-      "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
-      "rank": 60,
-      "params": 1479454868,
-      "params_h": "1.5B",
-      "slug": "inclusionai-ming-3-0-tts-0-5b",
-      "rank_history": [
-        {
-          "date": "2026-10-21",
-          "rank": 117,
-          "score": 49
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 99,
-          "score": 57
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 71,
-          "score": 77
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 60,
-          "score": 88
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 44,
-          "score": 118
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 37,
-          "score": 136
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 49,
-          "score": 113
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 50,
-          "score": 107
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 49,
-          "score": 110
-        },
-        {
-          "date": "2026-10-30",
           "rank": 60,
           "score": 90
         }
       ],
-      "rank_prev": 49,
-      "rank_delta": -11,
-      "peak_rank": 37,
-      "tracked_days": 10
+      "rank_prev": 64,
+      "rank_delta": 4,
+      "peak_rank": 41,
+      "tracked_days": 61
+    },
+    {
+      "id": "tencent/Hy-Nomas",
+      "name": "Hy-Nomas",
+      "author": "tencent",
+      "task": "\u2014",
+      "category": "Other",
+      "license": "apache-2.0",
+      "downloads": 52249,
+      "likes": 123,
+      "trending": 88,
+      "last_modified": "2026-10-28T06:28:38.000Z",
+      "updated_days": 2.7,
+      "health": "fresh",
+      "url": "https://huggingface.co/tencent/Hy-Nomas",
+      "rank": 61,
+      "params": null,
+      "params_h": null,
+      "slug": "tencent-hy-nomas",
+      "rank_history": [
+        {
+          "date": "2026-10-24",
+          "rank": 110,
+          "score": 50
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 96,
+          "score": 61
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 78,
+          "score": 75
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 68,
+          "score": 82
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 55,
+          "score": 102
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 46,
+          "score": 112
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 61,
+          "score": 88
+        }
+      ],
+      "rank_prev": 46,
+      "rank_delta": -15,
+      "peak_rank": 46,
+      "tracked_days": 7
+    },
+    {
+      "id": "c41/deepopen-banking77-sam13-v1",
+      "name": "deepopen-banking77-sam13-v1",
+      "author": "c41",
+      "task": "text-classification",
+      "category": "Text",
+      "license": "apache-2.0",
+      "downloads": 160,
+      "likes": 222,
+      "trending": 88,
+      "last_modified": "2026-10-21T06:37:39.000Z",
+      "updated_days": 9.7,
+      "health": "fresh",
+      "url": "https://huggingface.co/c41/deepopen-banking77-sam13-v1",
+      "rank": 62,
+      "params": 395910221,
+      "params_h": "396M",
+      "slug": "c41-deepopen-banking77-sam13-v1",
+      "rank_history": [
+        {
+          "date": "2026-10-28",
+          "rank": 67,
+          "score": 86
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 63,
+          "score": 88
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 62,
+          "score": 88
+        }
+      ],
+      "rank_prev": 63,
+      "rank_delta": 1,
+      "peak_rank": 62,
+      "tracked_days": 3
+    },
+    {
+      "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "name": "GLM-5.3-CYBERSECURITY-FP8",
+      "author": "dealignai",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "mit",
+      "downloads": 136596,
+      "likes": 816,
+      "trending": 87,
+      "last_modified": "2026-09-08T14:59:56.000Z",
+      "updated_days": 52.3,
+      "health": "recent",
+      "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "rank": 63,
+      "params": 753329940480,
+      "params_h": "753B",
+      "slug": "dealignai-glm-5-3-cybersecurity-fp8",
+      "rank_history": [
+        {
+          "date": "2026-10-29",
+          "rank": 70,
+          "score": 82
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 63,
+          "score": 87
+        }
+      ],
+      "rank_prev": 70,
+      "rank_delta": 7,
+      "peak_rank": 63,
+      "tracked_days": 2
     },
     {
       "id": "datalab-to/indra-ocr",
@@ -7819,12 +7954,12 @@
       "license": "openrail",
       "downloads": 6227,
       "likes": 492,
-      "trending": 88,
+      "trending": 87,
       "last_modified": "2026-10-19T14:36:52.000Z",
       "updated_days": 11.3,
       "health": "fresh",
       "url": "https://huggingface.co/datalab-to/indra-ocr",
-      "rank": 61,
+      "rank": 64,
       "params": 1250566,
       "params_h": "1.3M",
       "slug": "datalab-to-indra-ocr",
@@ -7911,149 +8046,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 61,
-          "score": 88
-        }
-      ],
-      "rank_prev": 51,
-      "rank_delta": -10,
-      "peak_rank": 14,
-      "tracked_days": 17
-    },
-    {
-      "id": "tencent/Hy-Nomas",
-      "name": "Hy-Nomas",
-      "author": "tencent",
-      "task": "\u2014",
-      "category": "Other",
-      "license": "apache-2.0",
-      "downloads": 52249,
-      "likes": 123,
-      "trending": 88,
-      "last_modified": "2026-10-28T06:28:38.000Z",
-      "updated_days": 2.6,
-      "health": "fresh",
-      "url": "https://huggingface.co/tencent/Hy-Nomas",
-      "rank": 62,
-      "params": null,
-      "params_h": null,
-      "slug": "tencent-hy-nomas",
-      "rank_history": [
-        {
-          "date": "2026-10-24",
-          "rank": 110,
-          "score": 50
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 96,
-          "score": 61
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 78,
-          "score": 75
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 68,
-          "score": 82
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 55,
-          "score": 102
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 46,
-          "score": 112
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 62,
-          "score": 88
-        }
-      ],
-      "rank_prev": 46,
-      "rank_delta": -16,
-      "peak_rank": 46,
-      "tracked_days": 7
-    },
-    {
-      "id": "c41/deepopen-banking77-sam13-v1",
-      "name": "deepopen-banking77-sam13-v1",
-      "author": "c41",
-      "task": "text-classification",
-      "category": "Text",
-      "license": "apache-2.0",
-      "downloads": 160,
-      "likes": 222,
-      "trending": 88,
-      "last_modified": "2026-10-21T06:37:39.000Z",
-      "updated_days": 9.6,
-      "health": "fresh",
-      "url": "https://huggingface.co/c41/deepopen-banking77-sam13-v1",
-      "rank": 63,
-      "params": 395910221,
-      "params_h": "396M",
-      "slug": "c41-deepopen-banking77-sam13-v1",
-      "rank_history": [
-        {
-          "date": "2026-10-28",
-          "rank": 67,
-          "score": 86
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 63,
-          "score": 88
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 63,
-          "score": 88
-        }
-      ],
-      "rank_prev": 63,
-      "rank_delta": 0,
-      "peak_rank": 63,
-      "tracked_days": 3
-    },
-    {
-      "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
-      "name": "GLM-5.3-CYBERSECURITY-FP8",
-      "author": "dealignai",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "mit",
-      "downloads": 136596,
-      "likes": 816,
-      "trending": 87,
-      "last_modified": "2026-09-08T14:59:56.000Z",
-      "updated_days": 52.3,
-      "health": "recent",
-      "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
-      "rank": 64,
-      "params": 753329940480,
-      "params_h": "753B",
-      "slug": "dealignai-glm-5-3-cybersecurity-fp8",
-      "rank_history": [
-        {
-          "date": "2026-10-29",
-          "rank": 70,
-          "score": 82
-        },
-        {
-          "date": "2026-10-30",
           "rank": 64,
           "score": 87
         }
       ],
-      "rank_prev": 70,
-      "rank_delta": 6,
-      "peak_rank": 64,
-      "tracked_days": 2
+      "rank_prev": 51,
+      "rank_delta": -13,
+      "peak_rank": 14,
+      "tracked_days": 17
     },
     {
       "id": "LiquidAI/LFM3-1.7B-Base",
@@ -8104,9 +8104,9 @@
       "license": null,
       "downloads": 2852,
       "likes": 129,
-      "trending": 83,
+      "trending": 82,
       "last_modified": "2026-10-24T15:59:48.000Z",
-      "updated_days": 6.2,
+      "updated_days": 6.3,
       "health": "fresh",
       "url": "https://huggingface.co/SoMarkAI/OXR-1.0",
       "rank": 66,
@@ -8152,113 +8152,13 @@
         {
           "date": "2026-10-30",
           "rank": 66,
-          "score": 83
+          "score": 82
         }
       ],
       "rank_prev": 65,
       "rank_delta": -1,
       "peak_rank": 63,
       "tracked_days": 8
-    },
-    {
-      "id": "black-forest-labs/flux-3-image-klein",
-      "name": "flux-3-image-klein",
-      "author": "black-forest-labs",
-      "task": "image-to-image",
-      "category": "Image",
-      "license": "other",
-      "downloads": 142933,
-      "likes": 770,
-      "trending": 82,
-      "last_modified": "2026-10-16T04:58:03.000Z",
-      "updated_days": 14.7,
-      "health": "recent",
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-      "rank": 67,
-      "params": 5548681984,
-      "params_h": "5.5B",
-      "slug": "black-forest-labs-flux-3-image-klein",
-      "rank_history": [
-        {
-          "date": "2026-10-16",
-          "rank": 12,
-          "score": 339
-        },
-        {
-          "date": "2026-10-17",
-          "rank": 12,
-          "score": 395
-        },
-        {
-          "date": "2026-10-18",
-          "rank": 10,
-          "score": 434
-        },
-        {
-          "date": "2026-10-19",
-          "rank": 8,
-          "score": 476
-        },
-        {
-          "date": "2026-10-20",
-          "rank": 7,
-          "score": 495
-        },
-        {
-          "date": "2026-10-21",
-          "rank": 5,
-          "score": 523
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 4,
-          "score": 548
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 19,
-          "score": 227
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 22,
-          "score": 178
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 29,
-          "score": 162
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 38,
-          "score": 136
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 38,
-          "score": 128
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 47,
-          "score": 110
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 62,
-          "score": 88
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 67,
-          "score": 82
-        }
-      ],
-      "rank_prev": 62,
-      "rank_delta": -5,
-      "peak_rank": 4,
-      "tracked_days": 15
     },
     {
       "id": "inclusionAI/Ling-3.1-flash-1019",
@@ -8274,7 +8174,7 @@
       "updated_days": 3.5,
       "health": "fresh",
       "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
-      "rank": 68,
+      "rank": 67,
       "params": 572120680768,
       "params_h": "572B",
       "slug": "inclusionai-ling-3-1-flash-1019",
@@ -8296,13 +8196,13 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 68,
+          "rank": 67,
           "score": 82
         }
       ],
       "rank_prev": 74,
-      "rank_delta": 6,
-      "peak_rank": 68,
+      "rank_delta": 7,
+      "peak_rank": 67,
       "tracked_days": 4
     },
     {
@@ -8319,7 +8219,7 @@
       "updated_days": 74.0,
       "health": "older",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "rank": 69,
+      "rank": 68,
       "params": null,
       "params_h": null,
       "slug": "hauhaucs-qwen3-8-27b-uncensored-hauhaucs-aggressive-mtp-gguf",
@@ -8691,12 +8591,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 69,
+          "rank": 68,
           "score": 81
         }
       ],
       "rank_prev": 57,
-      "rank_delta": -12,
+      "rank_delta": -11,
       "peak_rank": 6,
       "tracked_days": 74
     },
@@ -8714,7 +8614,7 @@
       "updated_days": 1.3,
       "health": "fresh",
       "url": "https://huggingface.co/LiquidAI/d1-Omni-2B",
-      "rank": 70,
+      "rank": 69,
       "params": 2166928384,
       "params_h": "2.2B",
       "slug": "liquidai-d1-omni-2b",
@@ -8731,14 +8631,114 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 70,
+          "rank": 69,
           "score": 81
         }
       ],
       "rank_prev": 75,
-      "rank_delta": 5,
-      "peak_rank": 70,
+      "rank_delta": 6,
+      "peak_rank": 69,
       "tracked_days": 3
+    },
+    {
+      "id": "black-forest-labs/flux-3-image-klein",
+      "name": "flux-3-image-klein",
+      "author": "black-forest-labs",
+      "task": "image-to-image",
+      "category": "Image",
+      "license": "other",
+      "downloads": 142933,
+      "likes": 771,
+      "trending": 80,
+      "last_modified": "2026-10-16T04:58:03.000Z",
+      "updated_days": 14.7,
+      "health": "recent",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "rank": 70,
+      "params": 5548681984,
+      "params_h": "5.5B",
+      "slug": "black-forest-labs-flux-3-image-klein",
+      "rank_history": [
+        {
+          "date": "2026-10-16",
+          "rank": 12,
+          "score": 339
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 12,
+          "score": 395
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 10,
+          "score": 434
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 8,
+          "score": 476
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 7,
+          "score": 495
+        },
+        {
+          "date": "2026-10-21",
+          "rank": 5,
+          "score": 523
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 4,
+          "score": 548
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 19,
+          "score": 227
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 22,
+          "score": 178
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 29,
+          "score": 162
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 38,
+          "score": 136
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 38,
+          "score": 128
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 47,
+          "score": 110
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 62,
+          "score": 88
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 70,
+          "score": 80
+        }
+      ],
+      "rank_prev": 62,
+      "rank_delta": -8,
+      "peak_rank": 4,
+      "tracked_days": 15
     },
     {
       "id": "jialinyyzz/humanizer",
@@ -8749,7 +8749,7 @@
       "license": "apache-2.0",
       "downloads": 229568,
       "likes": 2207,
-      "trending": 79,
+      "trending": 78,
       "last_modified": "2026-10-15T02:09:56.000Z",
       "updated_days": 15.8,
       "health": "recent",
@@ -8892,7 +8892,7 @@
         {
           "date": "2026-10-30",
           "rank": 71,
-          "score": 79
+          "score": 78
         }
       ],
       "rank_prev": 60,
@@ -9343,8 +9343,8 @@
       "category": "Vision",
       "license": "mit",
       "downloads": 293875,
-      "likes": 210,
-      "trending": 75,
+      "likes": 211,
+      "trending": 76,
       "last_modified": "2026-10-30T13:21:51.000Z",
       "updated_days": 0.4,
       "health": "fresh",
@@ -9357,7 +9357,7 @@
         {
           "date": "2026-10-30",
           "rank": 75,
-          "score": 75
+          "score": 76
         }
       ],
       "rank_prev": null,
@@ -9406,6 +9406,326 @@
       "tracked_days": 3
     },
     {
+      "id": "facebook/sam3.1",
+      "name": "sam3.1",
+      "author": "facebook",
+      "task": "mask-generation",
+      "category": "Vision",
+      "license": "other",
+      "downloads": 176921,
+      "likes": 1304,
+      "trending": 73,
+      "last_modified": "2026-03-27T17:40:55.000Z",
+      "updated_days": 217.2,
+      "health": "older",
+      "url": "https://huggingface.co/facebook/sam3.1",
+      "rank": 77,
+      "params": null,
+      "params_h": null,
+      "slug": "facebook-sam3-1",
+      "rank_history": [
+        {
+          "date": "2026-09-02",
+          "rank": 125,
+          "score": 31
+        },
+        {
+          "date": "2026-09-03",
+          "rank": 114,
+          "score": 32
+        },
+        {
+          "date": "2026-09-04",
+          "rank": 95,
+          "score": 38
+        },
+        {
+          "date": "2026-09-05",
+          "rank": 93,
+          "score": 39
+        },
+        {
+          "date": "2026-09-06",
+          "rank": 86,
+          "score": 41
+        },
+        {
+          "date": "2026-09-07",
+          "rank": 86,
+          "score": 43
+        },
+        {
+          "date": "2026-09-08",
+          "rank": 81,
+          "score": 42
+        },
+        {
+          "date": "2026-09-09",
+          "rank": 93,
+          "score": 37
+        },
+        {
+          "date": "2026-09-10",
+          "rank": 83,
+          "score": 41
+        },
+        {
+          "date": "2026-09-11",
+          "rank": 87,
+          "score": 40
+        },
+        {
+          "date": "2026-09-12",
+          "rank": 105,
+          "score": 36
+        },
+        {
+          "date": "2026-09-13",
+          "rank": 127,
+          "score": 31
+        },
+        {
+          "date": "2026-09-14",
+          "rank": 139,
+          "score": 31
+        },
+        {
+          "date": "2026-09-15",
+          "rank": 138,
+          "score": 33
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 139,
+          "score": 33
+        },
+        {
+          "date": "2026-09-17",
+          "rank": 143,
+          "score": 33
+        },
+        {
+          "date": "2026-09-18",
+          "rank": 148,
+          "score": 34
+        },
+        {
+          "date": "2026-09-19",
+          "rank": 120,
+          "score": 43
+        },
+        {
+          "date": "2026-09-20",
+          "rank": 102,
+          "score": 51
+        },
+        {
+          "date": "2026-09-21",
+          "rank": 91,
+          "score": 56
+        },
+        {
+          "date": "2026-09-22",
+          "rank": 84,
+          "score": 69
+        },
+        {
+          "date": "2026-09-23",
+          "rank": 85,
+          "score": 72
+        },
+        {
+          "date": "2026-09-24",
+          "rank": 80,
+          "score": 74
+        },
+        {
+          "date": "2026-09-25",
+          "rank": 76,
+          "score": 76
+        },
+        {
+          "date": "2026-09-26",
+          "rank": 75,
+          "score": 73
+        },
+        {
+          "date": "2026-09-27",
+          "rank": 79,
+          "score": 69
+        },
+        {
+          "date": "2026-09-28",
+          "rank": 92,
+          "score": 58
+        },
+        {
+          "date": "2026-09-29",
+          "rank": 101,
+          "score": 49
+        },
+        {
+          "date": "2026-09-30",
+          "rank": 106,
+          "score": 46
+        },
+        {
+          "date": "2026-10-01",
+          "rank": 108,
+          "score": 43
+        },
+        {
+          "date": "2026-10-02",
+          "rank": 124,
+          "score": 38
+        },
+        {
+          "date": "2026-10-03",
+          "rank": 124,
+          "score": 38
+        },
+        {
+          "date": "2026-10-04",
+          "rank": 138,
+          "score": 34
+        },
+        {
+          "date": "2026-10-05",
+          "rank": 142,
+          "score": 34
+        },
+        {
+          "date": "2026-10-06",
+          "rank": 121,
+          "score": 38
+        },
+        {
+          "date": "2026-10-07",
+          "rank": 119,
+          "score": 39
+        },
+        {
+          "date": "2026-10-08",
+          "rank": 117,
+          "score": 40
+        },
+        {
+          "date": "2026-10-09",
+          "rank": 99,
+          "score": 48
+        },
+        {
+          "date": "2026-10-10",
+          "rank": 95,
+          "score": 46
+        },
+        {
+          "date": "2026-10-11",
+          "rank": 89,
+          "score": 51
+        },
+        {
+          "date": "2026-10-12",
+          "rank": 85,
+          "score": 55
+        },
+        {
+          "date": "2026-10-13",
+          "rank": 88,
+          "score": 56
+        },
+        {
+          "date": "2026-10-14",
+          "rank": 94,
+          "score": 55
+        },
+        {
+          "date": "2026-10-15",
+          "rank": 89,
+          "score": 57
+        },
+        {
+          "date": "2026-10-16",
+          "rank": 92,
+          "score": 59
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 94,
+          "score": 58
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 92,
+          "score": 55
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 101,
+          "score": 51
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 115,
+          "score": 45
+        },
+        {
+          "date": "2026-10-21",
+          "rank": 120,
+          "score": 48
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 125,
+          "score": 46
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 120,
+          "score": 46
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 119,
+          "score": 47
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 112,
+          "score": 51
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 116,
+          "score": 52
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 100,
+          "score": 61
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 108,
+          "score": 59
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 86,
+          "score": 68
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 77,
+          "score": 73
+        }
+      ],
+      "rank_prev": 86,
+      "rank_delta": 9,
+      "peak_rank": 75,
+      "tracked_days": 59
+    },
+    {
       "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
       "name": "Qwen3.8-27B-Uncensored-GGUF",
       "author": "JonathanColetti",
@@ -9416,10 +9736,10 @@
       "likes": 1817,
       "trending": 73,
       "last_modified": "2026-08-29T04:18:18.000Z",
-      "updated_days": 62.7,
+      "updated_days": 62.8,
       "health": "older",
       "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "rank": 77,
+      "rank": 78,
       "params": null,
       "params_h": null,
       "slug": "jonathancoletti-qwen3-8-27b-uncensored-gguf",
@@ -9806,12 +10126,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 77,
+          "rank": 78,
           "score": 73
         }
       ],
       "rank_prev": 71,
-      "rank_delta": -6,
+      "rank_delta": -7,
       "peak_rank": 5,
       "tracked_days": 77
     },
@@ -9824,12 +10144,12 @@
       "license": "other",
       "downloads": 36125,
       "likes": 292,
-      "trending": 73,
+      "trending": 72,
       "last_modified": "2026-10-27T06:56:23.000Z",
       "updated_days": 3.6,
       "health": "fresh",
       "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
-      "rank": 78,
+      "rank": 79,
       "params": null,
       "params_h": null,
       "slug": "orcarouter-orcacyber-nano-1-0",
@@ -9891,334 +10211,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 78,
-          "score": 73
+          "rank": 79,
+          "score": 72
         }
       ],
       "rank_prev": 68,
-      "rank_delta": -10,
+      "rank_delta": -11,
       "peak_rank": 18,
       "tracked_days": 12
-    },
-    {
-      "id": "facebook/sam3.1",
-      "name": "sam3.1",
-      "author": "facebook",
-      "task": "mask-generation",
-      "category": "Vision",
-      "license": "other",
-      "downloads": 176921,
-      "likes": 1303,
-      "trending": 72,
-      "last_modified": "2026-03-27T17:40:55.000Z",
-      "updated_days": 217.2,
-      "health": "older",
-      "url": "https://huggingface.co/facebook/sam3.1",
-      "rank": 79,
-      "params": null,
-      "params_h": null,
-      "slug": "facebook-sam3-1",
-      "rank_history": [
-        {
-          "date": "2026-09-02",
-          "rank": 125,
-          "score": 31
-        },
-        {
-          "date": "2026-09-03",
-          "rank": 114,
-          "score": 32
-        },
-        {
-          "date": "2026-09-04",
-          "rank": 95,
-          "score": 38
-        },
-        {
-          "date": "2026-09-05",
-          "rank": 93,
-          "score": 39
-        },
-        {
-          "date": "2026-09-06",
-          "rank": 86,
-          "score": 41
-        },
-        {
-          "date": "2026-09-07",
-          "rank": 86,
-          "score": 43
-        },
-        {
-          "date": "2026-09-08",
-          "rank": 81,
-          "score": 42
-        },
-        {
-          "date": "2026-09-09",
-          "rank": 93,
-          "score": 37
-        },
-        {
-          "date": "2026-09-10",
-          "rank": 83,
-          "score": 41
-        },
-        {
-          "date": "2026-09-11",
-          "rank": 87,
-          "score": 40
-        },
-        {
-          "date": "2026-09-12",
-          "rank": 105,
-          "score": 36
-        },
-        {
-          "date": "2026-09-13",
-          "rank": 127,
-          "score": 31
-        },
-        {
-          "date": "2026-09-14",
-          "rank": 139,
-          "score": 31
-        },
-        {
-          "date": "2026-09-15",
-          "rank": 138,
-          "score": 33
-        },
-        {
-          "date": "2026-09-16",
-          "rank": 139,
-          "score": 33
-        },
-        {
-          "date": "2026-09-17",
-          "rank": 143,
-          "score": 33
-        },
-        {
-          "date": "2026-09-18",
-          "rank": 148,
-          "score": 34
-        },
-        {
-          "date": "2026-09-19",
-          "rank": 120,
-          "score": 43
-        },
-        {
-          "date": "2026-09-20",
-          "rank": 102,
-          "score": 51
-        },
-        {
-          "date": "2026-09-21",
-          "rank": 91,
-          "score": 56
-        },
-        {
-          "date": "2026-09-22",
-          "rank": 84,
-          "score": 69
-        },
-        {
-          "date": "2026-09-23",
-          "rank": 85,
-          "score": 72
-        },
-        {
-          "date": "2026-09-24",
-          "rank": 80,
-          "score": 74
-        },
-        {
-          "date": "2026-09-25",
-          "rank": 76,
-          "score": 76
-        },
-        {
-          "date": "2026-09-26",
-          "rank": 75,
-          "score": 73
-        },
-        {
-          "date": "2026-09-27",
-          "rank": 79,
-          "score": 69
-        },
-        {
-          "date": "2026-09-28",
-          "rank": 92,
-          "score": 58
-        },
-        {
-          "date": "2026-09-29",
-          "rank": 101,
-          "score": 49
-        },
-        {
-          "date": "2026-09-30",
-          "rank": 106,
-          "score": 46
-        },
-        {
-          "date": "2026-10-01",
-          "rank": 108,
-          "score": 43
-        },
-        {
-          "date": "2026-10-02",
-          "rank": 124,
-          "score": 38
-        },
-        {
-          "date": "2026-10-03",
-          "rank": 124,
-          "score": 38
-        },
-        {
-          "date": "2026-10-04",
-          "rank": 138,
-          "score": 34
-        },
-        {
-          "date": "2026-10-05",
-          "rank": 142,
-          "score": 34
-        },
-        {
-          "date": "2026-10-06",
-          "rank": 121,
-          "score": 38
-        },
-        {
-          "date": "2026-10-07",
-          "rank": 119,
-          "score": 39
-        },
-        {
-          "date": "2026-10-08",
-          "rank": 117,
-          "score": 40
-        },
-        {
-          "date": "2026-10-09",
-          "rank": 99,
-          "score": 48
-        },
-        {
-          "date": "2026-10-10",
-          "rank": 95,
-          "score": 46
-        },
-        {
-          "date": "2026-10-11",
-          "rank": 89,
-          "score": 51
-        },
-        {
-          "date": "2026-10-12",
-          "rank": 85,
-          "score": 55
-        },
-        {
-          "date": "2026-10-13",
-          "rank": 88,
-          "score": 56
-        },
-        {
-          "date": "2026-10-14",
-          "rank": 94,
-          "score": 55
-        },
-        {
-          "date": "2026-10-15",
-          "rank": 89,
-          "score": 57
-        },
-        {
-          "date": "2026-10-16",
-          "rank": 92,
-          "score": 59
-        },
-        {
-          "date": "2026-10-17",
-          "rank": 94,
-          "score": 58
-        },
-        {
-          "date": "2026-10-18",
-          "rank": 92,
-          "score": 55
-        },
-        {
-          "date": "2026-10-19",
-          "rank": 101,
-          "score": 51
-        },
-        {
-          "date": "2026-10-20",
-          "rank": 115,
-          "score": 45
-        },
-        {
-          "date": "2026-10-21",
-          "rank": 120,
-          "score": 48
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 125,
-          "score": 46
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 120,
-          "score": 46
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 119,
-          "score": 47
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 112,
-          "score": 51
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 116,
-          "score": 52
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 100,
-          "score": 61
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 108,
-          "score": 59
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 86,
-          "score": 68
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 79,
-          "score": 72
-        }
-      ],
-      "rank_prev": 86,
-      "rank_delta": 7,
-      "peak_rank": 75,
-      "tracked_days": 59
     },
     {
       "id": "Nanbeige/Nanbeige4.3-33B-Base",
@@ -10641,7 +10641,7 @@
       "likes": 87,
       "trending": 70,
       "last_modified": "2026-10-27T04:23:41.000Z",
-      "updated_days": 3.7,
+      "updated_days": 3.8,
       "health": "fresh",
       "url": "https://huggingface.co/tencent/WeVisOne-VL-4B",
       "rank": 83,
@@ -10689,9 +10689,9 @@
       "license": "apache-2.0",
       "downloads": 10060,
       "likes": 595,
-      "trending": 69,
+      "trending": 68,
       "last_modified": "2026-10-21T01:51:54.000Z",
-      "updated_days": 9.8,
+      "updated_days": 9.9,
       "health": "fresh",
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
       "rank": 84,
@@ -10772,7 +10772,7 @@
         {
           "date": "2026-10-30",
           "rank": 84,
-          "score": 69
+          "score": 68
         }
       ],
       "rank_prev": 53,
@@ -10789,7 +10789,7 @@
       "license": "other",
       "downloads": 452297,
       "likes": 188,
-      "trending": 69,
+      "trending": 68,
       "last_modified": "2026-10-20T21:58:57.000Z",
       "updated_days": 10.0,
       "health": "fresh",
@@ -10847,7 +10847,7 @@
         {
           "date": "2026-10-30",
           "rank": 85,
-          "score": 69
+          "score": 68
         }
       ],
       "rank_prev": 79,
@@ -10864,7 +10864,7 @@
       "license": "apache-2.0",
       "downloads": 3280,
       "likes": 228,
-      "trending": 69,
+      "trending": 68,
       "last_modified": "2026-10-27T08:07:23.000Z",
       "updated_days": 3.6,
       "health": "fresh",
@@ -10922,13 +10922,58 @@
         {
           "date": "2026-10-30",
           "rank": 86,
-          "score": 69
+          "score": 68
         }
       ],
       "rank_prev": 73,
       "rank_delta": -13,
       "peak_rank": 20,
       "tracked_days": 10
+    },
+    {
+      "id": "facebook/sam-3d-body-dinov3",
+      "name": "sam-3d-body-dinov3",
+      "author": "facebook",
+      "task": "\u2014",
+      "category": "Other",
+      "license": "other",
+      "downloads": 10969,
+      "likes": 712,
+      "trending": 66,
+      "last_modified": "2025-12-10T18:45:19.000Z",
+      "updated_days": 324.2,
+      "health": "older",
+      "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+      "rank": 87,
+      "params": null,
+      "params_h": null,
+      "slug": "facebook-sam-3d-body-dinov3",
+      "rank_history": [
+        {
+          "date": "2026-10-27",
+          "rank": 139,
+          "score": 43
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 124,
+          "score": 50
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 94,
+          "score": 63
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 87,
+          "score": 66
+        }
+      ],
+      "rank_prev": 94,
+      "rank_delta": 7,
+      "peak_rank": 87,
+      "tracked_days": 4
     },
     {
       "id": "WarmBloodAban/Minimax-h3_Singularity",
@@ -10939,12 +10984,12 @@
       "license": "apache-2.0",
       "downloads": 983299,
       "likes": 948,
-      "trending": 68,
+      "trending": 66,
       "last_modified": "2026-10-23T15:20:56.000Z",
       "updated_days": 7.3,
       "health": "fresh",
       "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
-      "rank": 87,
+      "rank": 88,
       "params": null,
       "params_h": null,
       "slug": "warmbloodaban-minimax-h3-singularity",
@@ -10991,59 +11036,44 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 87,
-          "score": 68
+          "rank": 88,
+          "score": 66
         }
       ],
       "rank_prev": 61,
-      "rank_delta": -26,
+      "rank_delta": -27,
       "peak_rank": 33,
       "tracked_days": 9
     },
     {
-      "id": "facebook/sam-3d-body-dinov3",
-      "name": "sam-3d-body-dinov3",
-      "author": "facebook",
-      "task": "\u2014",
-      "category": "Other",
-      "license": "other",
-      "downloads": 10969,
-      "likes": 712,
-      "trending": 67,
-      "last_modified": "2025-12-10T18:45:19.000Z",
-      "updated_days": 324.1,
-      "health": "older",
-      "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
-      "rank": 88,
-      "params": null,
-      "params_h": null,
-      "slug": "facebook-sam-3d-body-dinov3",
+      "id": "sensenova/SenseNova-Loop-9B-Preview",
+      "name": "SenseNova-Loop-9B-Preview",
+      "author": "sensenova",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 12,
+      "likes": 66,
+      "trending": 66,
+      "last_modified": "2026-10-30T12:42:16.000Z",
+      "updated_days": 0.4,
+      "health": "fresh",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+      "rank": 89,
+      "params": 9656250480,
+      "params_h": "9.7B",
+      "slug": "sensenova-sensenova-loop-9b-preview",
       "rank_history": [
         {
-          "date": "2026-10-27",
-          "rank": 139,
-          "score": 43
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 124,
-          "score": 50
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 94,
-          "score": 63
-        },
-        {
           "date": "2026-10-30",
-          "rank": 88,
-          "score": 67
+          "rank": 89,
+          "score": 66
         }
       ],
-      "rank_prev": 94,
-      "rank_delta": 6,
-      "peak_rank": 88,
-      "tracked_days": 4
+      "rank_prev": null,
+      "rank_delta": null,
+      "peak_rank": 89,
+      "tracked_days": 1
     },
     {
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -11059,7 +11089,7 @@
       "updated_days": 498.9,
       "health": "older",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "rank": 89,
+      "rank": 90,
       "params": 8030261248,
       "params_h": "8.0B",
       "slug": "meta-llama-meta-llama-3-8b-instruct",
@@ -11206,12 +11236,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 89,
+          "rank": 90,
           "score": 64
         }
       ],
       "rank_prev": 93,
-      "rank_delta": 4,
+      "rank_delta": 3,
       "peak_rank": 66,
       "tracked_days": 29
     },
@@ -11229,7 +11259,7 @@
       "updated_days": 7.0,
       "health": "fresh",
       "url": "https://huggingface.co/audnai/penclaw-Kimi-K3.1-pro-unrestricted",
-      "rank": 90,
+      "rank": 91,
       "params": null,
       "params_h": null,
       "slug": "audnai-penclaw-kimi-k3-1-pro-unrestricted",
@@ -11256,44 +11286,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 90,
-          "score": 64
-        }
-      ],
-      "rank_prev": 97,
-      "rank_delta": 7,
-      "peak_rank": 90,
-      "tracked_days": 5
-    },
-    {
-      "id": "sensenova/SenseNova-Loop-9B-Preview",
-      "name": "SenseNova-Loop-9B-Preview",
-      "author": "sensenova",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 12,
-      "likes": 64,
-      "trending": 64,
-      "last_modified": "2026-10-30T12:42:16.000Z",
-      "updated_days": 0.4,
-      "health": "fresh",
-      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
-      "rank": 91,
-      "params": 9656250480,
-      "params_h": "9.7B",
-      "slug": "sensenova-sensenova-loop-9b-preview",
-      "rank_history": [
-        {
-          "date": "2026-10-30",
           "rank": 91,
           "score": 64
         }
       ],
-      "rank_prev": null,
-      "rank_delta": null,
+      "rank_prev": 97,
+      "rank_delta": 6,
       "peak_rank": 91,
-      "tracked_days": 1
+      "tracked_days": 5
     },
     {
       "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
@@ -11383,7 +11383,7 @@
       "category": "Text",
       "license": "apache-2.0",
       "downloads": 60093,
-      "likes": 5864,
+      "likes": 5865,
       "trending": 62,
       "last_modified": "2026-10-03T18:00:07.000Z",
       "updated_days": 27.2,
@@ -12146,6 +12146,281 @@
       "tracked_days": 90
     },
     {
+      "id": "gugujiji/novel-humanize-4b",
+      "name": "novel-humanize-4b",
+      "author": "gugujiji",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "cc-by-nc-4.0",
+      "downloads": 756,
+      "likes": 66,
+      "trending": 61,
+      "last_modified": "2026-10-27T07:39:06.000Z",
+      "updated_days": 3.6,
+      "health": "fresh",
+      "url": "https://huggingface.co/gugujiji/novel-humanize-4b",
+      "rank": 96,
+      "params": 4022468096,
+      "params_h": "4.0B",
+      "slug": "gugujiji-novel-humanize-4b",
+      "rank_history": [
+        {
+          "date": "2026-10-27",
+          "rank": 115,
+          "score": 54
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 118,
+          "score": 56
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 106,
+          "score": 58
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 96,
+          "score": 61
+        }
+      ],
+      "rank_prev": 106,
+      "rank_delta": 10,
+      "peak_rank": 96,
+      "tracked_days": 4
+    },
+    {
+      "id": "Qwen/Qwen-Image-2.1",
+      "name": "Qwen-Image-2.1",
+      "author": "Qwen",
+      "task": "text-to-image",
+      "category": "Image",
+      "license": "other",
+      "downloads": 206320,
+      "likes": 3503,
+      "trending": 60,
+      "last_modified": "2026-09-30T02:14:09.000Z",
+      "updated_days": 30.8,
+      "health": "recent",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "rank": 97,
+      "params": 7115124736,
+      "params_h": "7.1B",
+      "slug": "qwen-qwen-image-2-1",
+      "rank_history": [
+        {
+          "date": "2026-09-20",
+          "rank": 30,
+          "score": 147
+        },
+        {
+          "date": "2026-09-21",
+          "rank": 3,
+          "score": 1245
+        },
+        {
+          "date": "2026-09-22",
+          "rank": 3,
+          "score": 1604
+        },
+        {
+          "date": "2026-09-23",
+          "rank": 2,
+          "score": 1842
+        },
+        {
+          "date": "2026-09-24",
+          "rank": 2,
+          "score": 2008
+        },
+        {
+          "date": "2026-09-25",
+          "rank": 2,
+          "score": 2111
+        },
+        {
+          "date": "2026-09-26",
+          "rank": 2,
+          "score": 2191
+        },
+        {
+          "date": "2026-09-27",
+          "rank": 2,
+          "score": 1986
+        },
+        {
+          "date": "2026-09-28",
+          "rank": 4,
+          "score": 1074
+        },
+        {
+          "date": "2026-09-29",
+          "rank": 4,
+          "score": 785
+        },
+        {
+          "date": "2026-09-30",
+          "rank": 5,
+          "score": 591
+        },
+        {
+          "date": "2026-10-01",
+          "rank": 5,
+          "score": 464
+        },
+        {
+          "date": "2026-10-02",
+          "rank": 6,
+          "score": 397
+        },
+        {
+          "date": "2026-10-03",
+          "rank": 7,
+          "score": 368
+        },
+        {
+          "date": "2026-10-04",
+          "rank": 7,
+          "score": 329
+        },
+        {
+          "date": "2026-10-05",
+          "rank": 11,
+          "score": 279
+        },
+        {
+          "date": "2026-10-06",
+          "rank": 12,
+          "score": 265
+        },
+        {
+          "date": "2026-10-07",
+          "rank": 14,
+          "score": 229
+        },
+        {
+          "date": "2026-10-08",
+          "rank": 17,
+          "score": 224
+        },
+        {
+          "date": "2026-10-09",
+          "rank": 18,
+          "score": 217
+        },
+        {
+          "date": "2026-10-10",
+          "rank": 18,
+          "score": 199
+        },
+        {
+          "date": "2026-10-11",
+          "rank": 20,
+          "score": 186
+        },
+        {
+          "date": "2026-10-12",
+          "rank": 20,
+          "score": 174
+        },
+        {
+          "date": "2026-10-13",
+          "rank": 27,
+          "score": 161
+        },
+        {
+          "date": "2026-10-14",
+          "rank": 30,
+          "score": 147
+        },
+        {
+          "date": "2026-10-15",
+          "rank": 34,
+          "score": 136
+        },
+        {
+          "date": "2026-10-16",
+          "rank": 37,
+          "score": 124
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 51,
+          "score": 113
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 50,
+          "score": 109
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 56,
+          "score": 104
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 58,
+          "score": 90
+        },
+        {
+          "date": "2026-10-21",
+          "rank": 59,
+          "score": 92
+        },
+        {
+          "date": "2026-10-22",
+          "rank": 62,
+          "score": 82
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 60,
+          "score": 85
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 71,
+          "score": 78
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 85,
+          "score": 69
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 84,
+          "score": 70
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 77,
+          "score": 75
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 83,
+          "score": 71
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 92,
+          "score": 64
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 97,
+          "score": 60
+        }
+      ],
+      "rank_prev": 92,
+      "rank_delta": -5,
+      "peak_rank": 2,
+      "tracked_days": 41
+    },
+    {
       "id": "Comfy-Org/Fibo-2.0",
       "name": "Fibo-2.0",
       "author": "Comfy-Org",
@@ -12154,12 +12429,12 @@
       "license": "cc-by-nc-4.0",
       "downloads": 238948,
       "likes": 222,
-      "trending": 61,
+      "trending": 60,
       "last_modified": "2026-10-28T12:14:46.000Z",
       "updated_days": 2.4,
       "health": "fresh",
       "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
-      "rank": 96,
+      "rank": 98,
       "params": null,
       "params_h": null,
       "slug": "comfy-org-fibo-2-0",
@@ -12211,59 +12486,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 96,
-          "score": 61
+          "rank": 98,
+          "score": 60
         }
       ],
       "rank_prev": 84,
-      "rank_delta": -12,
+      "rank_delta": -14,
       "peak_rank": 18,
       "tracked_days": 10
-    },
-    {
-      "id": "gugujiji/novel-humanize-4b",
-      "name": "novel-humanize-4b",
-      "author": "gugujiji",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "cc-by-nc-4.0",
-      "downloads": 756,
-      "likes": 66,
-      "trending": 61,
-      "last_modified": "2026-10-27T07:39:06.000Z",
-      "updated_days": 3.6,
-      "health": "fresh",
-      "url": "https://huggingface.co/gugujiji/novel-humanize-4b",
-      "rank": 97,
-      "params": 4022468096,
-      "params_h": "4.0B",
-      "slug": "gugujiji-novel-humanize-4b",
-      "rank_history": [
-        {
-          "date": "2026-10-27",
-          "rank": 115,
-          "score": 54
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 118,
-          "score": 56
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 106,
-          "score": 58
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 97,
-          "score": 61
-        }
-      ],
-      "rank_prev": 106,
-      "rank_delta": 9,
-      "peak_rank": 97,
-      "tracked_days": 4
     },
     {
       "id": "TOTORONG/AD103_win_unlocker",
@@ -12279,7 +12509,7 @@
       "updated_days": 7.4,
       "health": "fresh",
       "url": "https://huggingface.co/TOTORONG/AD103_win_unlocker",
-      "rank": 98,
+      "rank": 99,
       "params": null,
       "params_h": null,
       "slug": "totorong-ad103-win-unlocker",
@@ -12311,14 +12541,49 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 98,
+          "rank": 99,
           "score": 60
         }
       ],
       "rank_prev": 96,
-      "rank_delta": -2,
+      "rank_delta": -3,
       "peak_rank": 96,
       "tracked_days": 6
+    },
+    {
+      "id": "sensenova/SenseNova-6.8-Code2Video",
+      "name": "SenseNova-6.8-Code2Video",
+      "author": "sensenova",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 266,
+      "likes": 60,
+      "trending": 60,
+      "last_modified": "2026-10-29T11:32:05.000Z",
+      "updated_days": 1.5,
+      "health": "fresh",
+      "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
+      "rank": 100,
+      "params": 27356728560,
+      "params_h": "27.4B",
+      "slug": "sensenova-sensenova-6-8-code2video",
+      "rank_history": [
+        {
+          "date": "2026-10-29",
+          "rank": 113,
+          "score": 54
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 100,
+          "score": 60
+        }
+      ],
+      "rank_prev": 113,
+      "rank_delta": 13,
+      "peak_rank": 100,
+      "tracked_days": 2
     },
     {
       "id": "moonshotai/Kimi-K3",
@@ -12334,7 +12599,7 @@
       "updated_days": 58.8,
       "health": "recent",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "rank": 99,
+      "rank": 101,
       "params": 2779931837184,
       "params_h": "2780B",
       "slug": "moonshotai-kimi-k3",
@@ -12786,244 +13051,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 99,
+          "rank": 101,
           "score": 59
         }
       ],
       "rank_prev": 98,
-      "rank_delta": -1,
+      "rank_delta": -3,
       "peak_rank": 1,
       "tracked_days": 90
-    },
-    {
-      "id": "Qwen/Qwen-Image-2.1",
-      "name": "Qwen-Image-2.1",
-      "author": "Qwen",
-      "task": "text-to-image",
-      "category": "Image",
-      "license": "other",
-      "downloads": 206320,
-      "likes": 3502,
-      "trending": 59,
-      "last_modified": "2026-09-30T02:14:09.000Z",
-      "updated_days": 30.8,
-      "health": "recent",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "rank": 100,
-      "params": 7115124736,
-      "params_h": "7.1B",
-      "slug": "qwen-qwen-image-2-1",
-      "rank_history": [
-        {
-          "date": "2026-09-20",
-          "rank": 30,
-          "score": 147
-        },
-        {
-          "date": "2026-09-21",
-          "rank": 3,
-          "score": 1245
-        },
-        {
-          "date": "2026-09-22",
-          "rank": 3,
-          "score": 1604
-        },
-        {
-          "date": "2026-09-23",
-          "rank": 2,
-          "score": 1842
-        },
-        {
-          "date": "2026-09-24",
-          "rank": 2,
-          "score": 2008
-        },
-        {
-          "date": "2026-09-25",
-          "rank": 2,
-          "score": 2111
-        },
-        {
-          "date": "2026-09-26",
-          "rank": 2,
-          "score": 2191
-        },
-        {
-          "date": "2026-09-27",
-          "rank": 2,
-          "score": 1986
-        },
-        {
-          "date": "2026-09-28",
-          "rank": 4,
-          "score": 1074
-        },
-        {
-          "date": "2026-09-29",
-          "rank": 4,
-          "score": 785
-        },
-        {
-          "date": "2026-09-30",
-          "rank": 5,
-          "score": 591
-        },
-        {
-          "date": "2026-10-01",
-          "rank": 5,
-          "score": 464
-        },
-        {
-          "date": "2026-10-02",
-          "rank": 6,
-          "score": 397
-        },
-        {
-          "date": "2026-10-03",
-          "rank": 7,
-          "score": 368
-        },
-        {
-          "date": "2026-10-04",
-          "rank": 7,
-          "score": 329
-        },
-        {
-          "date": "2026-10-05",
-          "rank": 11,
-          "score": 279
-        },
-        {
-          "date": "2026-10-06",
-          "rank": 12,
-          "score": 265
-        },
-        {
-          "date": "2026-10-07",
-          "rank": 14,
-          "score": 229
-        },
-        {
-          "date": "2026-10-08",
-          "rank": 17,
-          "score": 224
-        },
-        {
-          "date": "2026-10-09",
-          "rank": 18,
-          "score": 217
-        },
-        {
-          "date": "2026-10-10",
-          "rank": 18,
-          "score": 199
-        },
-        {
-          "date": "2026-10-11",
-          "rank": 20,
-          "score": 186
-        },
-        {
-          "date": "2026-10-12",
-          "rank": 20,
-          "score": 174
-        },
-        {
-          "date": "2026-10-13",
-          "rank": 27,
-          "score": 161
-        },
-        {
-          "date": "2026-10-14",
-          "rank": 30,
-          "score": 147
-        },
-        {
-          "date": "2026-10-15",
-          "rank": 34,
-          "score": 136
-        },
-        {
-          "date": "2026-10-16",
-          "rank": 37,
-          "score": 124
-        },
-        {
-          "date": "2026-10-17",
-          "rank": 51,
-          "score": 113
-        },
-        {
-          "date": "2026-10-18",
-          "rank": 50,
-          "score": 109
-        },
-        {
-          "date": "2026-10-19",
-          "rank": 56,
-          "score": 104
-        },
-        {
-          "date": "2026-10-20",
-          "rank": 58,
-          "score": 90
-        },
-        {
-          "date": "2026-10-21",
-          "rank": 59,
-          "score": 92
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 62,
-          "score": 82
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 60,
-          "score": 85
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 71,
-          "score": 78
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 85,
-          "score": 69
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 84,
-          "score": 70
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 77,
-          "score": 75
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 83,
-          "score": 71
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 92,
-          "score": 64
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 100,
-          "score": 59
-        }
-      ],
-      "rank_prev": 92,
-      "rank_delta": -8,
-      "peak_rank": 2,
-      "tracked_days": 41
     },
     {
       "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
@@ -13039,7 +13074,7 @@
       "updated_days": 11.2,
       "health": "fresh",
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
-      "rank": 101,
+      "rank": 102,
       "params": null,
       "params_h": null,
       "slug": "ista-daslab-qwen3-8-flash-next-gsq-rco-coder-gguf",
@@ -13206,12 +13241,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 101,
+          "rank": 102,
           "score": 59
         }
       ],
       "rank_prev": 95,
-      "rank_delta": -6,
+      "rank_delta": -7,
       "peak_rank": 16,
       "tracked_days": 33
     },
@@ -13229,7 +13264,7 @@
       "updated_days": 15.4,
       "health": "recent",
       "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-      "rank": 102,
+      "rank": 103,
       "params": null,
       "params_h": null,
       "slug": "conwayresearch-underdog-saluki-27b-1-0",
@@ -13346,49 +13381,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 102,
-          "score": 59
-        }
-      ],
-      "rank_prev": 100,
-      "rank_delta": -2,
-      "peak_rank": 7,
-      "tracked_days": 23
-    },
-    {
-      "id": "sensenova/SenseNova-6.8-Code2Video",
-      "name": "SenseNova-6.8-Code2Video",
-      "author": "sensenova",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 266,
-      "likes": 59,
-      "trending": 59,
-      "last_modified": "2026-10-29T11:32:05.000Z",
-      "updated_days": 1.4,
-      "health": "fresh",
-      "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
-      "rank": 103,
-      "params": 27356728560,
-      "params_h": "27.4B",
-      "slug": "sensenova-sensenova-6-8-code2video",
-      "rank_history": [
-        {
-          "date": "2026-10-29",
-          "rank": 113,
-          "score": 54
-        },
-        {
-          "date": "2026-10-30",
           "rank": 103,
           "score": 59
         }
       ],
-      "rank_prev": 113,
-      "rank_delta": 10,
-      "peak_rank": 103,
-      "tracked_days": 2
+      "rank_prev": 100,
+      "rank_delta": -3,
+      "peak_rank": 7,
+      "tracked_days": 23
     },
     {
       "id": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
@@ -14056,36 +14056,6 @@
       "tracked_days": 66
     },
     {
-      "id": "xiaomi-research/Xiaomi-OCR-0",
-      "name": "Xiaomi-OCR-0",
-      "author": "xiaomi-research",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 15472,
-      "likes": 108,
-      "trending": 56,
-      "last_modified": "2026-10-29T02:17:14.000Z",
-      "updated_days": 1.8,
-      "health": "fresh",
-      "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
-      "rank": 108,
-      "params": 873438784,
-      "params_h": "873M",
-      "slug": "xiaomi-research-xiaomi-ocr-0",
-      "rank_history": [
-        {
-          "date": "2026-10-30",
-          "rank": 108,
-          "score": 56
-        }
-      ],
-      "rank_prev": null,
-      "rank_delta": null,
-      "peak_rank": 108,
-      "tracked_days": 1
-    },
-    {
       "id": "Comfy-Org/MiniMax-H3",
       "name": "MiniMax-H3",
       "author": "Comfy-Org",
@@ -14093,13 +14063,13 @@
       "category": "Other",
       "license": "other",
       "downloads": 28838337,
-      "likes": 2455,
-      "trending": 55,
+      "likes": 2456,
+      "trending": 56,
       "last_modified": "2026-10-29T16:49:28.000Z",
       "updated_days": 1.2,
       "health": "fresh",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-      "rank": 109,
+      "rank": 108,
       "params": null,
       "params_h": null,
       "slug": "comfy-org-minimax-h3",
@@ -14546,14 +14516,44 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 109,
-          "score": 55
+          "rank": 108,
+          "score": 56
         }
       ],
       "rank_prev": 107,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "peak_rank": 3,
       "tracked_days": 89
+    },
+    {
+      "id": "xiaomi-research/Xiaomi-OCR-0",
+      "name": "Xiaomi-OCR-0",
+      "author": "xiaomi-research",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 15472,
+      "likes": 108,
+      "trending": 56,
+      "last_modified": "2026-10-29T02:17:14.000Z",
+      "updated_days": 1.8,
+      "health": "fresh",
+      "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+      "rank": 109,
+      "params": 873438784,
+      "params_h": "873M",
+      "slug": "xiaomi-research-xiaomi-ocr-0",
+      "rank_history": [
+        {
+          "date": "2026-10-30",
+          "rank": 109,
+          "score": 56
+        }
+      ],
+      "rank_prev": null,
+      "rank_delta": null,
+      "peak_rank": 109,
+      "tracked_days": 1
     },
     {
       "id": "lodestones/Kromoss",
@@ -14676,6 +14676,51 @@
       "tracked_days": 2
     },
     {
+      "id": "linoyts/Qwen-Image-2.1-DMD2-2steps",
+      "name": "Qwen-Image-2.1-DMD2-2steps",
+      "author": "linoyts",
+      "task": "image-to-image",
+      "category": "Image",
+      "license": "other",
+      "downloads": 2357,
+      "likes": 56,
+      "trending": 55,
+      "last_modified": "2026-10-30T20:35:26.000Z",
+      "updated_days": 0.1,
+      "health": "fresh",
+      "url": "https://huggingface.co/linoyts/Qwen-Image-2.1-DMD2-2steps",
+      "rank": 112,
+      "params": null,
+      "params_h": null,
+      "slug": "linoyts-qwen-image-2-1-dmd2-2steps",
+      "rank_history": [
+        {
+          "date": "2026-10-27",
+          "rank": 130,
+          "score": 46
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 133,
+          "score": 49
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 112,
+          "score": 54
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 112,
+          "score": 55
+        }
+      ],
+      "rank_prev": 112,
+      "rank_delta": 0,
+      "peak_rank": 112,
+      "tracked_days": 4
+    },
+    {
       "id": "kyutai/pocket-tts",
       "name": "pocket-tts",
       "author": "kyutai",
@@ -14689,7 +14734,7 @@
       "updated_days": 9.4,
       "health": "fresh",
       "url": "https://huggingface.co/kyutai/pocket-tts",
-      "rank": 112,
+      "rank": 113,
       "params": null,
       "params_h": null,
       "slug": "kyutai-pocket-tts",
@@ -14796,12 +14841,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 112,
+          "rank": 113,
           "score": 54
         }
       ],
       "rank_prev": 108,
-      "rank_delta": -4,
+      "rank_delta": -5,
       "peak_rank": 81,
       "tracked_days": 21
     },
@@ -14816,10 +14861,10 @@
       "likes": 2989,
       "trending": 54,
       "last_modified": "2026-10-15T06:32:52.000Z",
-      "updated_days": 15.6,
+      "updated_days": 15.7,
       "health": "recent",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "rank": 113,
+      "rank": 114,
       "params": 321323031390,
       "params_h": "321B",
       "slug": "zai-org-glm-5-3-flash",
@@ -15146,12 +15191,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 113,
+          "rank": 114,
           "score": 54
         }
       ],
       "rank_prev": 104,
-      "rank_delta": -9,
+      "rank_delta": -10,
       "peak_rank": 1,
       "tracked_days": 65
     },
@@ -15169,7 +15214,7 @@
       "updated_days": 0.3,
       "health": "fresh",
       "url": "https://huggingface.co/Cloudflare/clef",
-      "rank": 114,
+      "rank": 115,
       "params": 27356728560,
       "params_h": "27.4B",
       "slug": "cloudflare-clef",
@@ -15316,12 +15361,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 114,
+          "rank": 115,
           "score": 54
         }
       ],
       "rank_prev": 121,
-      "rank_delta": 7,
+      "rank_delta": 6,
       "peak_rank": 1,
       "tracked_days": 29
     },
@@ -15339,66 +15384,21 @@
       "updated_days": 1.2,
       "health": "fresh",
       "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
-      "rank": 115,
+      "rank": 116,
       "params": null,
       "params_h": null,
       "slug": "mistralai-mistral-large-4-1t-a52b-nvfp4",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 115,
+          "rank": 116,
           "score": 54
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 115,
+      "peak_rank": 116,
       "tracked_days": 1
-    },
-    {
-      "id": "linoyts/Qwen-Image-2.1-DMD2-2steps",
-      "name": "Qwen-Image-2.1-DMD2-2steps",
-      "author": "linoyts",
-      "task": "image-to-image",
-      "category": "Image",
-      "license": "other",
-      "downloads": 2357,
-      "likes": 55,
-      "trending": 54,
-      "last_modified": "2026-10-30T20:35:26.000Z",
-      "updated_days": 0.1,
-      "health": "fresh",
-      "url": "https://huggingface.co/linoyts/Qwen-Image-2.1-DMD2-2steps",
-      "rank": 116,
-      "params": null,
-      "params_h": null,
-      "slug": "linoyts-qwen-image-2-1-dmd2-2steps",
-      "rank_history": [
-        {
-          "date": "2026-10-27",
-          "rank": 130,
-          "score": 46
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 133,
-          "score": 49
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 112,
-          "score": 54
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 116,
-          "score": 54
-        }
-      ],
-      "rank_prev": 112,
-      "rank_delta": -4,
-      "peak_rank": 112,
-      "tracked_days": 4
     },
     {
       "id": "AtomicChat/Nanbeige4.3-33B-GGUF",
@@ -15411,7 +15411,7 @@
       "likes": 54,
       "trending": 54,
       "last_modified": "2026-10-28T08:51:14.000Z",
-      "updated_days": 2.5,
+      "updated_days": 2.6,
       "health": "fresh",
       "url": "https://huggingface.co/AtomicChat/Nanbeige4.3-33B-GGUF",
       "rank": 117,
@@ -16176,7 +16176,7 @@
       "likes": 806,
       "trending": 47,
       "last_modified": "2026-09-20T13:42:25.000Z",
-      "updated_days": 40.3,
+      "updated_days": 40.4,
       "health": "recent",
       "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "rank": 128,
@@ -16351,7 +16351,7 @@
       "likes": 132,
       "trending": 45,
       "last_modified": "2026-10-21T01:50:37.000Z",
-      "updated_days": 9.8,
+      "updated_days": 9.9,
       "health": "fresh",
       "url": "https://huggingface.co/DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
       "rank": 132,
@@ -16426,6 +16426,111 @@
       "tracked_days": 12
     },
     {
+      "id": "ATH-MaaS/OvisOCR3",
+      "name": "OvisOCR3",
+      "author": "ATH-MaaS",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 3638,
+      "likes": 103,
+      "trending": 45,
+      "last_modified": "2026-10-27T03:08:24.000Z",
+      "updated_days": 3.8,
+      "health": "fresh",
+      "url": "https://huggingface.co/ATH-MaaS/OvisOCR3",
+      "rank": 133,
+      "params": 852985920,
+      "params_h": "853M",
+      "slug": "ath-maas-ovisocr3",
+      "rank_history": [
+        {
+          "date": "2026-10-22",
+          "rank": 128,
+          "score": 46
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 96,
+          "score": 57
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 97,
+          "score": 59
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 98,
+          "score": 60
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 92,
+          "score": 64
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 76,
+          "score": 76
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 130,
+          "score": 50
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 123,
+          "score": 50
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 133,
+          "score": 45
+        }
+      ],
+      "rank_prev": 123,
+      "rank_delta": -10,
+      "peak_rank": 76,
+      "tracked_days": 9
+    },
+    {
+      "id": "google/gemma-4-31B-it",
+      "name": "gemma-4-31B-it",
+      "author": "google",
+      "task": "image-text-to-text",
+      "category": "Vision",
+      "license": "apache-2.0",
+      "downloads": 8453913,
+      "likes": 4250,
+      "trending": 44,
+      "last_modified": "2026-07-20T16:42:18.000Z",
+      "updated_days": 102.2,
+      "health": "older",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "rank": 134,
+      "params": 31273088876,
+      "params_h": "31.3B",
+      "slug": "google-gemma-4-31b-it",
+      "rank_history": [
+        {
+          "date": "2026-10-29",
+          "rank": 134,
+          "score": 45
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 134,
+          "score": 44
+        }
+      ],
+      "rank_prev": 134,
+      "rank_delta": 0,
+      "peak_rank": 134,
+      "tracked_days": 2
+    },
+    {
       "id": "vllm-sr/d3-turbo",
       "name": "d3-turbo",
       "author": "vllm-sr",
@@ -16434,12 +16539,12 @@
       "license": "apache-2.0",
       "downloads": 2842,
       "likes": 129,
-      "trending": 45,
+      "trending": 44,
       "last_modified": "2026-10-20T15:49:39.000Z",
       "updated_days": 10.3,
       "health": "fresh",
       "url": "https://huggingface.co/vllm-sr/d3-turbo",
-      "rank": 133,
+      "rank": 135,
       "params": 26085330160,
       "params_h": "26.1B",
       "slug": "vllm-sr-d3-turbo",
@@ -16496,174 +16601,14 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 133,
-          "score": 45
-        }
-      ],
-      "rank_prev": 120,
-      "rank_delta": -13,
-      "peak_rank": 56,
-      "tracked_days": 11
-    },
-    {
-      "id": "ATH-MaaS/OvisOCR3",
-      "name": "OvisOCR3",
-      "author": "ATH-MaaS",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 3638,
-      "likes": 103,
-      "trending": 45,
-      "last_modified": "2026-10-27T03:08:24.000Z",
-      "updated_days": 3.8,
-      "health": "fresh",
-      "url": "https://huggingface.co/ATH-MaaS/OvisOCR3",
-      "rank": 134,
-      "params": 852985920,
-      "params_h": "853M",
-      "slug": "ath-maas-ovisocr3",
-      "rank_history": [
-        {
-          "date": "2026-10-22",
-          "rank": 128,
-          "score": 46
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 96,
-          "score": 57
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 97,
-          "score": 59
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 98,
-          "score": 60
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 92,
-          "score": 64
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 76,
-          "score": 76
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 130,
-          "score": 50
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 123,
-          "score": 50
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 134,
-          "score": 45
-        }
-      ],
-      "rank_prev": 123,
-      "rank_delta": -11,
-      "peak_rank": 76,
-      "tracked_days": 9
-    },
-    {
-      "id": "google/gemma-4-31B-it",
-      "name": "gemma-4-31B-it",
-      "author": "google",
-      "task": "image-text-to-text",
-      "category": "Vision",
-      "license": "apache-2.0",
-      "downloads": 8453913,
-      "likes": 4249,
-      "trending": 44,
-      "last_modified": "2026-07-20T16:42:18.000Z",
-      "updated_days": 102.2,
-      "health": "older",
-      "url": "https://huggingface.co/google/gemma-4-31B-it",
-      "rank": 135,
-      "params": 31273088876,
-      "params_h": "31.3B",
-      "slug": "google-gemma-4-31b-it",
-      "rank_history": [
-        {
-          "date": "2026-10-29",
-          "rank": 134,
-          "score": 45
-        },
-        {
-          "date": "2026-10-30",
           "rank": 135,
           "score": 44
         }
       ],
-      "rank_prev": 134,
-      "rank_delta": -1,
-      "peak_rank": 134,
-      "tracked_days": 2
-    },
-    {
-      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
-      "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
-      "author": "nvidia",
-      "task": "text-generation",
-      "category": "Text",
-      "license": "other",
-      "downloads": 7426,
-      "likes": 59,
-      "trending": 44,
-      "last_modified": "2026-10-23T17:12:03.000Z",
-      "updated_days": 7.2,
-      "health": "fresh",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
-      "rank": 136,
-      "params": 7996156490,
-      "params_h": "8.0B",
-      "slug": "nvidia-nvidia-nemotron-3-5-bolt-e4b-bf16",
-      "rank_history": [
-        {
-          "date": "2026-10-25",
-          "rank": 119,
-          "score": 49
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 115,
-          "score": 53
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 111,
-          "score": 56
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 114,
-          "score": 57
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 105,
-          "score": 58
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 136,
-          "score": 44
-        }
-      ],
-      "rank_prev": 105,
-      "rank_delta": -31,
-      "peak_rank": 105,
-      "tracked_days": 6
+      "rank_prev": 120,
+      "rank_delta": -15,
+      "peak_rank": 56,
+      "tracked_days": 11
     },
     {
       "id": "tencent/Hy-SimulMT-30B-A3B",
@@ -16679,20 +16624,20 @@
       "updated_days": 3.5,
       "health": "fresh",
       "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B",
-      "rank": 137,
+      "rank": 136,
       "params": 30394794496,
       "params_h": "30.4B",
       "slug": "tencent-hy-simulmt-30b-a3b",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 137,
+          "rank": 136,
           "score": 44
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 137,
+      "peak_rank": 136,
       "tracked_days": 1
     },
     {
@@ -16709,20 +16654,20 @@
       "updated_days": 4.2,
       "health": "fresh",
       "url": "https://huggingface.co/vllm-sr/d3-ultra",
-      "rank": 138,
+      "rank": 137,
       "params": 26085330160,
       "params_h": "26.1B",
       "slug": "vllm-sr-d3-ultra",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 138,
+          "rank": 137,
           "score": 44
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 138,
+      "peak_rank": 137,
       "tracked_days": 1
     },
     {
@@ -16739,20 +16684,20 @@
       "updated_days": 67.8,
       "health": "older",
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "rank": 139,
+      "rank": 138,
       "params": 27781427952,
       "params_h": "27.8B",
       "slug": "huihui-ai-huihui-qwen3-8-27b-abliterated",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 139,
+          "rank": 138,
           "score": 43
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 139,
+      "peak_rank": 138,
       "tracked_days": 1
     },
     {
@@ -16769,20 +16714,20 @@
       "updated_days": 16.5,
       "health": "recent",
       "url": "https://huggingface.co/GroundingPI/GroundAnything-VLM",
-      "rank": 140,
+      "rank": 139,
       "params": 4843664384,
       "params_h": "4.8B",
       "slug": "groundingpi-groundanything-vlm",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 140,
+          "rank": 139,
           "score": 43
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 140,
+      "peak_rank": 139,
       "tracked_days": 1
     },
     {
@@ -16799,7 +16744,7 @@
       "updated_days": 5.0,
       "health": "fresh",
       "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
-      "rank": 141,
+      "rank": 140,
       "params": null,
       "params_h": null,
       "slug": "agentionai-qwen3-8-flash-next-gyro-gguf",
@@ -16856,14 +16801,69 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 141,
+          "rank": 140,
           "score": 43
         }
       ],
       "rank_prev": 133,
-      "rank_delta": -8,
+      "rank_delta": -7,
       "peak_rank": 86,
       "tracked_days": 11
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+      "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+      "author": "nvidia",
+      "task": "text-generation",
+      "category": "Text",
+      "license": "other",
+      "downloads": 7426,
+      "likes": 59,
+      "trending": 42,
+      "last_modified": "2026-10-23T17:12:03.000Z",
+      "updated_days": 7.2,
+      "health": "fresh",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
+      "rank": 141,
+      "params": 7996156490,
+      "params_h": "8.0B",
+      "slug": "nvidia-nvidia-nemotron-3-5-bolt-e4b-bf16",
+      "rank_history": [
+        {
+          "date": "2026-10-25",
+          "rank": 119,
+          "score": 49
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 115,
+          "score": 53
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 111,
+          "score": 56
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 114,
+          "score": 57
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 105,
+          "score": 58
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 141,
+          "score": 42
+        }
+      ],
+      "rank_prev": 105,
+      "rank_delta": -36,
+      "peak_rank": 105,
+      "tracked_days": 6
     },
     {
       "id": "reflection/Beam-1.0-501B-A23B",
@@ -16876,7 +16876,7 @@
       "likes": 288,
       "trending": 42,
       "last_modified": "2026-10-30T11:31:23.000Z",
-      "updated_days": 0.4,
+      "updated_days": 0.5,
       "health": "fresh",
       "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
       "rank": 142,
@@ -17070,7 +17070,7 @@
       "downloads": 201012,
       "likes": 43,
       "trending": 42,
-      "last_modified": "2026-10-30T21:52:45.000Z",
+      "last_modified": "2026-10-30T22:02:29.000Z",
       "updated_days": 0.0,
       "health": "fresh",
       "url": "https://huggingface.co/Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
@@ -17091,6 +17091,36 @@
       "tracked_days": 1
     },
     {
+      "id": "black-forest-labs/FLUX.2-klein-base-9b-fp8",
+      "name": "FLUX.2-klein-base-9b-fp8",
+      "author": "black-forest-labs",
+      "task": "image-to-image",
+      "category": "Image",
+      "license": "other",
+      "downloads": 35986,
+      "likes": 1529,
+      "trending": 41,
+      "last_modified": "2026-02-24T00:47:48.000Z",
+      "updated_days": 248.9,
+      "health": "older",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9b-fp8",
+      "rank": 145,
+      "params": null,
+      "params_h": null,
+      "slug": "black-forest-labs-flux-2-klein-base-9b-fp8",
+      "rank_history": [
+        {
+          "date": "2026-10-30",
+          "rank": 145,
+          "score": 41
+        }
+      ],
+      "rank_prev": null,
+      "rank_delta": null,
+      "peak_rank": 145,
+      "tracked_days": 1
+    },
+    {
       "id": "Qwen/Qwen3.5-4B",
       "name": "Qwen3.5-4B",
       "author": "Qwen",
@@ -17104,20 +17134,20 @@
       "updated_days": 242.9,
       "health": "older",
       "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
-      "rank": 145,
+      "rank": 146,
       "params": 4659865088,
       "params_h": "4.7B",
       "slug": "qwen-qwen3-5-4b",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 145,
+          "rank": 146,
           "score": 41
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 145,
+      "peak_rank": 146,
       "tracked_days": 1
     },
     {
@@ -17134,156 +17164,21 @@
       "updated_days": 3.6,
       "health": "fresh",
       "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "rank": 146,
+      "rank": 147,
       "params": null,
       "params_h": null,
       "slug": "orcarouter-qwen3-8-27b-uncensored-gguf",
       "rank_history": [
         {
           "date": "2026-10-30",
-          "rank": 146,
+          "rank": 147,
           "score": 41
         }
       ],
       "rank_prev": null,
       "rank_delta": null,
-      "peak_rank": 146,
+      "peak_rank": 147,
       "tracked_days": 1
-    },
-    {
-      "id": "Qwen/Qwen-Image-2.1-Turbo",
-      "name": "Qwen-Image-2.1-Turbo",
-      "author": "Qwen",
-      "task": "text-to-image",
-      "category": "Image",
-      "license": "other",
-      "downloads": 38769,
-      "likes": 1086,
-      "trending": 41,
-      "last_modified": "2026-10-12T09:45:49.000Z",
-      "updated_days": 18.5,
-      "health": "recent",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-      "rank": 147,
-      "params": 7115124736,
-      "params_h": "7.1B",
-      "slug": "qwen-qwen-image-2-1-turbo",
-      "rank_history": [
-        {
-          "date": "2026-10-09",
-          "rank": 22,
-          "score": 178
-        },
-        {
-          "date": "2026-10-10",
-          "rank": 8,
-          "score": 400
-        },
-        {
-          "date": "2026-10-11",
-          "rank": 5,
-          "score": 503
-        },
-        {
-          "date": "2026-10-12",
-          "rank": 3,
-          "score": 593
-        },
-        {
-          "date": "2026-10-13",
-          "rank": 3,
-          "score": 651
-        },
-        {
-          "date": "2026-10-14",
-          "rank": 3,
-          "score": 700
-        },
-        {
-          "date": "2026-10-15",
-          "rank": 3,
-          "score": 768
-        },
-        {
-          "date": "2026-10-16",
-          "rank": 3,
-          "score": 695
-        },
-        {
-          "date": "2026-10-17",
-          "rank": 11,
-          "score": 423
-        },
-        {
-          "date": "2026-10-18",
-          "rank": 13,
-          "score": 340
-        },
-        {
-          "date": "2026-10-19",
-          "rank": 17,
-          "score": 274
-        },
-        {
-          "date": "2026-10-20",
-          "rank": 18,
-          "score": 222
-        },
-        {
-          "date": "2026-10-21",
-          "rank": 26,
-          "score": 176
-        },
-        {
-          "date": "2026-10-22",
-          "rank": 40,
-          "score": 129
-        },
-        {
-          "date": "2026-10-23",
-          "rank": 56,
-          "score": 92
-        },
-        {
-          "date": "2026-10-24",
-          "rank": 80,
-          "score": 71
-        },
-        {
-          "date": "2026-10-25",
-          "rank": 91,
-          "score": 66
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 103,
-          "score": 57
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 113,
-          "score": 55
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 123,
-          "score": 52
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 130,
-          "score": 47
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 147,
-          "score": 41
-        }
-      ],
-      "rank_prev": 130,
-      "rank_delta": -17,
-      "peak_rank": 3,
-      "tracked_days": 22
     },
     {
       "id": "gradium/phonon-31m-en",
@@ -17361,23 +17256,23 @@
       "tracked_days": 10
     },
     {
-      "id": "dealignai/Nanbeige4.3-33B-UNCENSORED-GGUF",
-      "name": "Nanbeige4.3-33B-UNCENSORED-GGUF",
-      "author": "dealignai",
+      "id": "abenzerps/Nanbeige4.3-33B-GSQ-RCO-GGUF",
+      "name": "Nanbeige4.3-33B-GSQ-RCO-GGUF",
+      "author": "abenzerps",
       "task": "text-generation",
       "category": "Text",
-      "license": "other",
-      "downloads": 23266,
+      "license": "apache-2.0",
+      "downloads": 15713,
       "likes": 42,
       "trending": 41,
-      "last_modified": "2026-10-25T23:06:11.000Z",
-      "updated_days": 5.0,
+      "last_modified": "2026-10-27T11:41:24.000Z",
+      "updated_days": 3.4,
       "health": "fresh",
-      "url": "https://huggingface.co/dealignai/Nanbeige4.3-33B-UNCENSORED-GGUF",
+      "url": "https://huggingface.co/abenzerps/Nanbeige4.3-33B-GSQ-RCO-GGUF",
       "rank": 149,
       "params": null,
       "params_h": null,
-      "slug": "dealignai-nanbeige4-3-33b-uncensored-gguf",
+      "slug": "abenzerps-nanbeige4-3-33b-gsq-rco-gguf",
       "rank_history": [
         {
           "date": "2026-10-30",
@@ -17391,28 +17286,28 @@
       "tracked_days": 1
     },
     {
-      "id": "black-forest-labs/FLUX.2-klein-base-9b-fp8",
-      "name": "FLUX.2-klein-base-9b-fp8",
-      "author": "black-forest-labs",
-      "task": "image-to-image",
-      "category": "Image",
+      "id": "dealignai/Nanbeige4.3-33B-UNCENSORED-GGUF",
+      "name": "Nanbeige4.3-33B-UNCENSORED-GGUF",
+      "author": "dealignai",
+      "task": "text-generation",
+      "category": "Text",
       "license": "other",
-      "downloads": 35986,
-      "likes": 1528,
-      "trending": 40,
-      "last_modified": "2026-02-24T00:47:48.000Z",
-      "updated_days": 248.9,
-      "health": "older",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-9b-fp8",
+      "downloads": 23266,
+      "likes": 42,
+      "trending": 41,
+      "last_modified": "2026-10-25T23:06:11.000Z",
+      "updated_days": 5.0,
+      "health": "fresh",
+      "url": "https://huggingface.co/dealignai/Nanbeige4.3-33B-UNCENSORED-GGUF",
       "rank": 150,
       "params": null,
       "params_h": null,
-      "slug": "black-forest-labs-flux-2-klein-base-9b-fp8",
+      "slug": "dealignai-nanbeige4-3-33b-uncensored-gguf",
       "rank_history": [
         {
           "date": "2026-10-30",
           "rank": 150,
-          "score": 40
+          "score": 41
         }
       ],
       "rank_prev": null,
