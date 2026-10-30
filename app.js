@@ -22,7 +22,7 @@
   function fmtDays(d){ if(d==null)return"—"; if(d<1)return"today"; if(d<2)return"1d ago"; if(d<30)return Math.round(d)+"d ago"; if(d<365)return Math.round(d/30)+"mo ago"; return Math.round(d/365)+"y ago"; }
   function relDate(iso){ if(!iso)return"recently"; var d=(Date.now()-new Date(iso).getTime())/86400000; if(isNaN(d))return"recently"; return fmtDays(d); }
 
-  /* slug from model id — MUST match build_data.py slugify() exactly */
+  /* Stable catalog URL slug from the public model identifier. */
   function slugify(id){
     var s=String(id==null?"":id).toLowerCase();
     s=s.replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
