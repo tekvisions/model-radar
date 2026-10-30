@@ -177,7 +177,7 @@ FOOTER_HTML = (
     '<h2>The pulse of open models, made <em>browsable.</em></h2>'
     '<p>Model Radar pulls the <a class="inl" href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener">Hugging Face API</a> '
     'every day, takes the top models by trending score, categorizes them by task, and checks freshness from each model\'s last update. '
-    'Nothing here is hand-picked or fabricated — it\'s Hugging Face\'s own signals, made fast to scan, by the agent stack that runs '
+    'Nothing here is hand-picked or fabricated — it\'s Hugging Face\'s own signals, made fast to scan. Published by '
     '<a class="inl" href="https://kymatalabs.com/" target="_blank" rel="noopener">Kymata Labs</a>.</p>'
     '<div class="foot-row">'
     '<span>Updated daily from the Hugging Face API</span>'
@@ -425,7 +425,7 @@ def generate_rss(data):
     rfc = format_datetime(dt)
     title = "Model Radar — what's surging on Hugging Face"
     desc = ("The live radar of trending AI models on Hugging Face — ranked by trending "
-            "score with real downloads, recomputed daily by autonomous agents.")
+            "score with real downloads, updated daily from public source signals.")
     items = []
     for m in models:
         url = "%s/m/%s/" % (SITE, m["slug"])
