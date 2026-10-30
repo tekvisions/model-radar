@@ -896,7 +896,7 @@ def write_llms(data):
         "# Model Radar",
         "",
         "> A live radar of the AI models trending on Hugging Face right now — ranked by trending score, "
-        "with real downloads, likes, and freshness, categorized by task. Updated daily by an AI agent. "
+        "with real downloads, likes, and freshness, categorized by task. Updated daily. "
         "Built and operated by Kymata Labs.",
         "",
         "- Site: %s/" % SITE,

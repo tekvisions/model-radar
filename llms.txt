@@ -1,6 +1,6 @@
 # Model Radar
 
-> A live radar of the AI models trending on Hugging Face right now — ranked by trending score, with real downloads, likes, and freshness, categorized by task. Updated daily by an AI agent. Built and operated by Kymata Labs.
+> A live radar of the AI models trending on Hugging Face right now — ranked by trending score, with real downloads, likes, and freshness, categorized by task. Updated daily. Built and operated by Kymata Labs.
 
 - Site: https://modelradar.kymatalabs.com/
 - Source of truth: the official Hugging Face API (https://huggingface.co/api/models?sort=trendingScore). Every number (downloads, likes, trending score, last-modified) comes straight from Hugging Face; nothing is hand-picked or fabricated.
