@@ -49,7 +49,7 @@ jobs:
           git config user.name "model-radar-bot"
           git config user.email "actions@users.noreply.github.com"
           if ! git diff --quiet -- index.html sitemap.xml llms.txt data.json og.png og-20261030.png; then
-            git add capabilities.json ai.txt index.html sitemap.xml llms.txt data.json og.png og-20261030.png && git commit -m "data: daily trending refresh ($(date -u +%Y-%m-%d))" && git push
+            git add m/ capabilities.json ai.txt index.html sitemap.xml llms.txt data.json og.png og-20261030.png && git commit -m "data: daily trending refresh ($(date -u +%Y-%m-%d))" && git push
           else echo "No data change."; fi
       - name: Check deployment upload safety
         run: python -m unittest discover -s tests -p test_deploy_retry.py

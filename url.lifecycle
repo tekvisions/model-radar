@@ -156,8 +156,243 @@
     "https://modelradar.kymatalabs.com/m/liquidai-lfm3-audio-2b-gguf/",
     "https://modelradar.kymatalabs.com/m/pyannote-segmentation-3-0/"
   ],
-  "retained_references": [],
+  "retained_references": [
+    {
+      "slug": "akhaliq-pika-h3-flex-turbo-lora",
+      "entity": "akhaliq/Pika-H3-Flex-Turbo-LoRA",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/akhaliq-pika-h3-flex-turbo-lora/",
+      "repository": "https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+      "summary": "The upstream repository formerly under akhaliq now redirects to Pika-Labs/Pika-H3-Flex-Turbo-LoRA, a published video-generation adapter. This reference preserves the previously published identifier and explains the move.",
+      "selection_context": "Reference for tracing the repository transfer and checking the current publisher, base-model requirements and adapter license.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA"
+        },
+        {
+          "title": "Former identifier \u2014 upstream redirect observed",
+          "url": "https://huggingface.co/akhaliq/Pika-H3-Flex-Turbo-LoRA"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available; transferred upstream identifier"
+    },
+    {
+      "slug": "kaitchup-qwen3-8-27b-slq-gguf",
+      "entity": "kaitchup/Qwen3.8-27B-SLQ-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/kaitchup-qwen3-8-27b-slq-gguf/",
+      "repository": "https://huggingface.co/kaitchup/Qwen3.8-27B-SLQ-GGUF",
+      "summary": "A published GGUF quantization collection for a Qwen-family text-generation model.",
+      "selection_context": "Reference for comparing published quantization formats and runtime requirements.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/kaitchup/Qwen3.8-27B-SLQ-GGUF"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "chatrlabs-qwen-image-2-1-uncensored-omni-lora-v0-1",
+      "entity": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-lora-v0-1/",
+      "repository": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1",
+      "summary": "A published adapter repository for Qwen image-generation and editing workflows. Its card lists the base-model and research-license context.",
+      "selection_context": "Reference for checking adapter/base-model compatibility and stated use restrictions.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "unsloth-nvidia-nemotron-3-5-bolt-e4b-gguf",
+      "entity": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/unsloth-nvidia-nemotron-3-5-bolt-e4b-gguf/",
+      "repository": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "summary": "A public Unsloth repository distributing GGUF variants of the named Nemotron model.",
+      "selection_context": "Reference for locating published weight formats, runtime notes and upstream licensing.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "ath-maas-ovisocr3",
+      "entity": "ATH-MaaS/OvisOCR3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ath-maas-ovisocr3/",
+      "repository": "https://huggingface.co/ATH-MaaS/OvisOCR3",
+      "summary": "A public multimodal model repository whose card describes OCR and structured document parsing.",
+      "selection_context": "Reference for investigating document extraction and the publisher's input/output expectations.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/ATH-MaaS/OvisOCR3"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "conwayresearch-underdog-saluki-27b-1-0",
+      "entity": "ConwayResearch/Underdog-Saluki-27B-1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/conwayresearch-underdog-saluki-27b-1-0/",
+      "repository": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+      "summary": "A public text-model repository with GGUF artifacts and documented agent/tool-use context.",
+      "selection_context": "Reference for checking the publisher's formats and tool-calling claims against a project's requirements.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "0bserverx-qwen3-8-27b-heretic-abliterated-uncensored-gguf",
+      "entity": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/0bserverx-qwen3-8-27b-heretic-abliterated-uncensored-gguf/",
+      "repository": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "summary": "A public model-variant repository with publisher-provided GGUF artifacts and modification descriptions.",
+      "selection_context": "Reference for tracing this specific variant and its stated changes; suitability requires independent evaluation.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "alissonerdx-minimax-h3-comfyui",
+      "entity": "Alissonerdx/Minimax-H3-ComfyUI",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/alissonerdx-minimax-h3-comfyui/",
+      "repository": "https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI",
+      "summary": "A public collection of experimental video adapters and ComfyUI workflow materials, with asset-specific license notes.",
+      "selection_context": "Reference for checking the documented video workflow, matching assets and research limitations.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "k2-fsa-omnivoice",
+      "entity": "k2-fsa/OmniVoice",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/k2-fsa-omnivoice/",
+      "repository": "https://huggingface.co/k2-fsa/OmniVoice",
+      "summary": "A public speech-model repository describing multilingual text-to-speech and voice-generation features.",
+      "selection_context": "Reference for checking supported speech workflows, licensing, and responsible-use requirements.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/k2-fsa/OmniVoice"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "zai-org-glm-5-3",
+      "entity": "zai-org/GLM-5.3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/zai-org-glm-5-3/",
+      "repository": "https://huggingface.co/zai-org/GLM-5.3",
+      "summary": "The public publisher model card and artifacts for the GLM-5.3 text model.",
+      "selection_context": "Reference for checking model interfaces, deployment requirements and the published license.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/zai-org/GLM-5.3"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "vllm-sr-d3-ultra",
+      "entity": "vllm-sr/d3-ultra",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/vllm-sr-d3-ultra/",
+      "repository": "https://huggingface.co/vllm-sr/d3-ultra",
+      "summary": "A public classification and routing-model repository with a publisher-supplied model card and custom-code usage notes.",
+      "selection_context": "Reference for evaluating routing/classification use and reviewing custom code before adoption.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/vllm-sr/d3-ultra"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "liquidai-lfm3-audio-2b-gguf",
+      "entity": "LiquidAI/LFM3-Audio-2B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-audio-2b-gguf/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-GGUF",
+      "summary": "A public Liquid AI GGUF audio-model repository with documented speech and audio use.",
+      "selection_context": "Reference for checking published audio capabilities, formats and license constraints.",
+      "limitations": "The upstream card is publisher evidence, not an independent benchmark or safety review. Check the current license, base-model dependencies, hardware and software compatibility, and use restrictions. This retained page carries no current trending rank.",
+      "reviewed_on": "2026-11-03",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Current publisher model card",
+          "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B-GGUF"
+        }
+      ],
+      "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
+      "upstream_status": "public publisher card available"
+    }
+  ],
   "retirements": [],
   "planned_release_urls": [],
-  "baseline_maintenance": "This captured baseline and proposed additions are explicit release inputs, not a rolling publication log. After each authorized release, refresh the protected baseline from verified published sitemaps before reviewing the next snapshot; keep capture provenance separate."
+  "baseline_maintenance": "This captured baseline and proposed additions are explicit release inputs, not a rolling publication log. After each authorized release, refresh the protected baseline from verified published sitemaps before reviewing the next snapshot; keep capture provenance separate.",
+  "site_name": "Model Radar",
+  "detail_prefix": "m"
 }
