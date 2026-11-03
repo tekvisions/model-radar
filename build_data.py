@@ -6,6 +6,7 @@ trendingScore), categorizes them by task, derives freshness, and writes
 data.json. Authoritative source, zero fabrication — every number (downloads,
 likes, trendingScore, lastModified) comes straight from the HF response.
 """
+import html_json
 import json, os, re, sys, html, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone
 
@@ -752,12 +753,8 @@ def detail_html(m, ctx=None):
     software = {
         "@context": "https://schema.org", "@type": "SoftwareApplication",
         "name": mid, "applicationCategory": "Machine Learning Model",
-        "operatingSystem": "Cross-platform",
         "description": "%s — a %s model (%s) published by %s, tracked by Model Radar from Hugging Face trending signals." % (name, task, cat, author),
         "url": canonical, "sameAs": m["url"],
-        "author": {"@type": "Organization", "name": author},
-        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5", "reviewCount": max(1, int(m["likes"]))} if m["likes"] else None,
     }
     software = {k: v for k, v in software.items() if v is not None}
 
@@ -790,8 +787,8 @@ def detail_html(m, ctx=None):
     out.append('<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Outfit:wght@300;400;500&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">')
     out.append('<link rel="icon" href="/favicon.svg">')
     out.append('<link rel="stylesheet" href="/style.css">')
-    out.append('<script type="application/ld+json">%s</script>' % json.dumps(breadcrumb))
-    out.append('<script type="application/ld+json">%s</script>' % json.dumps(software))
+    out.append('<script type="application/ld+json">%s</script>' % html_json.dumps(breadcrumb))
+    out.append('<script type="application/ld+json">%s</script>' % html_json.dumps(software))
     out.append('</head><body>')
     out.append(NAV_HTML)
     out.append('<main class="detail"><div class="wrap">')

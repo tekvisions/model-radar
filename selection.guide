@@ -1,0 +1,62 @@
+{
+  "host": "modelradar.kymatalabs.com",
+  "reviewed_on": "2026-11-03",
+  "title": "Choose a model using its card and your evaluation",
+  "answer": "Hugging Face trending order identifies models attracting attention in the captured snapshot. Shortlist by task and model-card requirements, then evaluate the exact artifact you plan to run.",
+  "choices": [
+    {
+      "categories": [
+        "Text",
+        "Embeddings"
+      ],
+      "task": "Process or retrieve text",
+      "guidance": "Verify language, context/input constraints, output behavior and runtime compatibility for the selected artifact."
+    },
+    {
+      "categories": [
+        "Image",
+        "Vision",
+        "Video",
+        "Multimodal"
+      ],
+      "task": "Generate or interpret media",
+      "guidance": "Check modality-specific inputs, output constraints, model/license terms and supported inference path in primary sources."
+    },
+    {
+      "categories": [
+        "Audio",
+        "3D",
+        "Other"
+      ],
+      "task": "Evaluate another model task",
+      "guidance": "Identify the precise task, artifact version and evaluation method. A broad category does not establish a specific capability."
+    }
+  ],
+  "checks": [
+    "Read the model card and license; record artifact revision and runtime settings.",
+    "Compare held-out task results on the intended hardware.",
+    "Distinguish download/like counts, upstream trendingScore and this site's separate detail-page surge calculation."
+  ],
+  "unknowns": "Likes are not reviews. No comparative task quality, speed, safety or hardware-fit result is verified by this trending directory.",
+  "related": [
+    {
+      "url": "https://localllm.kymatalabs.com/",
+      "label": "localllm"
+    },
+    {
+      "url": "https://voice.kymatalabs.com/",
+      "label": "voice"
+    },
+    {
+      "url": "https://diffusion.kymatalabs.com/",
+      "label": "diffusion"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Published collection and scoring rules",
+      "url": "https://github.com/tekvisions/model-radar/blob/6156dd74121924911fb74fade60bea6150faaf66/build_data.py",
+      "reviewed_on": "2026-11-03"
+    }
+  ]
+}

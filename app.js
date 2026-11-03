@@ -163,22 +163,12 @@
   }
 
   /* count-up animation on the hero stat numbers */
-  function animateCounter(el,target,fmt){
-    if(RM || target<=0){ el.textContent=fmt?fmt(target):String(target); return; }
-    var dur=900, t0=null;
-    function step(ts){
-      if(t0==null) t0=ts;
-      var p=Math.min((ts-t0)/dur,1), e=1-Math.pow(1-p,3); // easeOutCubic
-      var v=Math.round(target*e);
-      el.textContent=fmt?fmt(v):String(v);
-      if(p<1) requestAnimationFrame(step); else el.textContent=fmt?fmt(target):String(target);
-    }
-    requestAnimationFrame(step);
-  }
+  function animateCounter(el,target,fmt){ el.textContent=fmt?fmt(target):String(target); }
 
   function chip(label,group,val,n){ return '<button class="chip" data-group="'+group+'" data-val="'+esc(val)+'" type="button" aria-pressed="false">'+esc(label)+(n!=null?'<span class="n">'+n+'</span>':'')+'</button>'; }
 
   function injectJsonLd(data){
+    if (document.getElementById("catalog-schema")) return;
     var el=D.getElementById("jsonld-home"); if(!el) return;
     var base="https://modelradar.kymatalabs.com";
     var top=(data.models||[]).slice(0,50).map(function(m,i){
@@ -214,8 +204,8 @@
 
     renderMovers(data.movers||[]);  // biggest climbers since the prior run (board-wide, not filtered)
 
-    var ll=D.getElementById("liveline"); if(ll) ll.textContent="Sourced from the Hugging Face API · updated "+relDate(data.generated_at);
-    var fg=D.getElementById("footgen"); if(fg) fg.textContent="Updated "+relDate(data.generated_at)+" from the Hugging Face API";
+    var ll=D.getElementById("liveline"); if(ll) ll.textContent="Sourced from the Hugging Face API · updated "+(String(data.generated_at||"unknown").slice(0,10)+" UTC");
+    var fg=D.getElementById("footgen"); if(fg) fg.textContent="Updated "+(String(data.generated_at||"unknown").slice(0,10)+" UTC")+" from the Hugging Face API";
 
     var cc=data.category_counts||{}, cats=Object.keys(cc).sort(function(a,b){return cc[b]-cc[a];});
     D.getElementById("filters").innerHTML = chip("All","cat","All",data.model_count)+cats.map(function(c){return chip(c,"cat",c,cc[c]);}).join("");
@@ -250,28 +240,28 @@
     render();
   }
 
-  /* sortable column headers — click or keyboard, with an aria-sort + arrow indicator */
+  /* sortable column headers — click or keyboard, with an data-sort-direction + arrow indicator */
   function bindSort(){
     var heads=D.querySelectorAll('#colhead .sortable');
     function apply(btn){
       var key=btn.getAttribute("data-sort");
-      var cur=btn.getAttribute("aria-sort");
+      var cur=btn.getAttribute("data-sort-direction");
       var startAsc = (key==="category"||key==="name"); // text columns start A→Z; numbers start high→low
       var dir;
       if(cur==="none"){ dir=startAsc?"asc":"desc"; }
       else { dir = cur==="ascending" ? "desc" : "asc"; }
-      heads.forEach(function(h){ h.setAttribute("aria-sort","none"); var arr=h.querySelector(".arr"); if(arr)arr.textContent=""; });
-      btn.setAttribute("aria-sort",dir==="asc"?"ascending":"descending");
+      heads.forEach(function(h){ h.setAttribute("data-sort-direction","none"); var arr=h.querySelector(".arr"); if(arr)arr.textContent=""; });
+      btn.setAttribute("data-sort-direction",dir==="asc"?"ascending":"descending");
       var arr=btn.querySelector(".arr"); if(arr)arr.textContent=dir==="asc"?"▲":"▼";
       state.sort=key; state.dir=dir; limit=PAGE; render();
     }
     heads.forEach(function(btn){
       btn.addEventListener("click",function(){apply(btn);});
-      btn.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){e.preventDefault();apply(btn);} });
     });
   }
 
-  fetch("data.json",{cache:"no-store"}).then(function(r){return r.json();}).then(build).catch(function(e){
-    D.getElementById("rows").innerHTML='<div class="loading">Could not load the index. Refresh to retry.</div>';
+  fetch("data.json",{cache:"no-store"}).then(function(r){return r.json();}).then(build).then(function(){if(window.dispatchEvent&&window.Event)window.dispatchEvent(new window.Event("catalog:ready"));}).catch(function(e){
+    if(window.dispatchEvent&&window.Event)window.dispatchEvent(new window.Event("catalog:error"));
+    var status=D.getElementById("count"); if(status) status.textContent="Could not load fresh data. Showing the published snapshot. Refresh to retry.";
   });
 })();
