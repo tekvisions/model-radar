@@ -21,7 +21,9 @@
     "style.css",
     "vercel.json",
     "fleet.css",
-    "fleet.js"
+    "fleet.js",
+    "atlas.css",
+    "atlas.js"
   ],
   "legacy_source_paths": [
     "badge/aessedai-step-3-7-flash-gguf.svg",

@@ -79,7 +79,7 @@
   function rowHTML(m,q){
     var fresh = m.health==="fresh" ? '<span class="new">FRESH</span>' : '';
     var w=intensity(m.trending);
-    return '<a class="row reveal" href="/m/'+esc(slugify(m.id))+'/" tabindex="0" aria-label="'+esc(m.name)+' by '+esc(m.author)+', rank '+m.rank+'">'
+    return '<a class="row reveal" href="/m/'+esc(slugify(m.id))+'/" tabindex="0">'
       +'<div class="nm"><h3><span class="rk">#'+m.rank+moveBadge(m)+'</span> '+hl(m.name,q)+' '+fresh+'</h3>'
         +'<div class="ns">'+hl(m.author,q)+' · '+hl(m.task,q)+'</div></div>'
       +'<div class="cat">'+esc(m.category)+'</div>'
