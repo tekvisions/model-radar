@@ -23,7 +23,8 @@
     "fleet.css",
     "fleet.js",
     "atlas.css",
-    "atlas.js"
+    "atlas.js",
+    "capabilities.json"
   ],
   "legacy_source_paths": [
     "badge/aessedai-step-3-7-flash-gguf.svg",

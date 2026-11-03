@@ -62,3 +62,23 @@ The default order follows Hugging Face trendingScore. Downloads, likes and last-
 - [nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB](https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb/) — Text
 - [divagr1925/Qwen3.5-4B-Qwenputer](https://modelradar.kymatalabs.com/m/divagr1925-qwen3-5-4b-qwenputer/) — Text
 - [microsoft/Mage-VL-Cowork](https://modelradar.kymatalabs.com/m/microsoft-mage-vl-cowork/) — Vision
+
+<!-- Kymata discovery capabilities -->
+## Mission and scope
+Kymata Labs makes open-source AI tools, models and infrastructure easier to understand through focused, source-backed indexes. We publish dated source signals, explain ranking methods and limitations, and separate advertising from ranking and inclusion.
+
+Explore public models, their categories and available source signals.
+
+## Supported capabilities
+- Browse dated catalog records and published detail pages
+- Search the catalog locally in the browser; raw search text is not sent by these controls.
+- Use the available catalog category filters and sorting controls
+- Read source references, snapshot dates, methodology, selection guidance and evidence limits.
+
+## Evidence limits
+- Snapshot signals are not proof of quality, safety, license suitability or fitness for a project. Verify upstream sources before adoption.
+- Search and filters are browser controls; this description does not advertise a remote search API or an MCP endpoint.
+- Crawl permission and machine-readable descriptions do not guarantee crawling, indexing, ranking or AI citation.
+
+- [Machine-readable capabilities, resources and dated coverage](https://modelradar.kymatalabs.com/capabilities.json)
+- The capabilities document uses Kymata's descriptive format; it is not a standard agent tool protocol.
