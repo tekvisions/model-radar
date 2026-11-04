@@ -173,7 +173,7 @@
           "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA"
         },
         {
-          "title": "Former identifier \u2014 upstream redirect observed",
+          "title": "Former identifier — upstream redirect observed",
           "url": "https://huggingface.co/akhaliq/Pika-H3-Flex-Turbo-LoRA"
         }
       ],
@@ -388,6 +388,278 @@
       ],
       "decision": "retain reviewed reference; preserve identifier without fabricating current rank",
       "upstream_status": "public publisher card available"
+    },
+    {
+      "slug": "abenzerps-qwen-image-2-1-uncensored-quantized",
+      "entity": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/abenzerps-qwen-image-2-1-uncensored-quantized/",
+      "repository": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+      "summary": "A publisher collection of quantized Qwen image-generation artifacts. The former Uncensored-Quantized URL now redirects to abenzerps/Qwen-Image-2.1-Turbo-Quantized.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "black-forest-labs-flux-2-dev",
+      "entity": "black-forest-labs/FLUX.2-dev",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/black-forest-labs-flux-2-dev/",
+      "repository": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+      "summary": "A publisher release for text-guided image generation and editing. Access to model files is gated and subject to publisher terms.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare-clef",
+      "entity": "Cloudflare/clef",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/cloudflare-clef/",
+      "repository": "https://huggingface.co/Cloudflare/clef",
+      "summary": "A multimodal decision model that returns typed answers to structured questions rather than generating free-form chat.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Cloudflare/clef",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "datalab-to-indra-ocr",
+      "entity": "datalab-to/indra-ocr",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/datalab-to-indra-ocr/",
+      "repository": "https://huggingface.co/datalab-to/indra-ocr",
+      "summary": "An OCR model release for converting document images and PDFs into text, markdown or structured layout output.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/datalab-to/indra-ocr",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "hi3d-official-hi3dv1-0",
+      "entity": "hi3d-official/Hi3Dv1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/hi3d-official-hi3dv1-0/",
+      "repository": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+      "summary": "Image-conditioned 3D geometry refinement model artifacts, with a separately documented inference implementation.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "inclusionai-ling-3-1-flash-1019",
+      "entity": "inclusionAI/Ling-3.1-flash-1019",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/inclusionai-ling-3-1-flash-1019/",
+      "repository": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+      "summary": "A Ling model checkpoint documented for text generation, reasoning and agent workflows.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "internscience-sage-a1-5",
+      "entity": "InternScience/Sage-A1.5",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/internscience-sage-a1-5/",
+      "repository": "https://huggingface.co/InternScience/Sage-A1.5",
+      "summary": "A multimodal model release documented for reasoning, coding and tool-use workloads.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/InternScience/Sage-A1.5",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "liconstudio-minimax-h3-vbvr",
+      "entity": "LiconStudio/Minimax-H3-VBVR",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liconstudio-minimax-h3-vbvr/",
+      "repository": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
+      "summary": "An image-to-video LoRA for MiniMax-H3, documented by its publisher as trained using reprocessed VBVR data.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "liquidai-d1-omni-2b",
+      "entity": "LiquidAI/d1-Omni-2B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-d1-omni-2b/",
+      "repository": "https://huggingface.co/LiquidAI/d1-Omni-2B",
+      "summary": "A multimodal decision model for typed answers from text, pictures and audio; it is not a transcript or speech-generation model.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/d1-Omni-2B",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "liquidai-lfm3-vl-2b-gguf",
+      "entity": "LiquidAI/LFM3-VL-2B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-vl-2b-gguf/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-VL-2B-GGUF",
+      "summary": "GGUF artifacts for the LFM3 vision-language model family, intended for compatible local runtimes.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B-GGUF",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "mistralai-timestral-209m",
+      "entity": "mistralai/Timestral-209M",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/mistralai-timestral-209m/",
+      "repository": "https://huggingface.co/mistralai/Timestral-209M",
+      "summary": "A time-series foundation-model checkpoint for forecasting; this is not a general chat model.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/mistralai/Timestral-209M",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-kumo-tabular",
+      "entity": "nvidia/Kumo-Tabular",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-kumo-tabular/",
+      "repository": "https://huggingface.co/nvidia/Kumo-Tabular",
+      "summary": "Pretrained tabular model artifacts for classification and regression.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/Kumo-Tabular",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-motionbricks",
+      "entity": "nvidia/MotionBricks",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-motionbricks/",
+      "repository": "https://huggingface.co/nvidia/MotionBricks",
+      "summary": "Pose-conditioned motion-generation model artifacts for human characters and humanoid robots; a physical tracking controller is separate.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted. Physical deployment needs separate control, robot-limit checks and safety validation.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/MotionBricks",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-qwen3-8-flash-next-nvfp4",
+      "entity": "nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-qwen3-8-flash-next-nvfp4/",
+      "repository": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "summary": "A quantized Qwen multimodal checkpoint published with NVIDIA Model Optimizer integration guidance.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "tencent-hy-nomas",
+      "entity": "tencent/Hy-Nomas",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/tencent-hy-nomas/",
+      "repository": "https://huggingface.co/tencent/Hy-Nomas",
+      "summary": "A video world-generation model documented for interactive text guidance and camera control.",
+      "selection_context": "Use this dated reference to locate the publisher documentation and compare the documented scope; consult the current catalog for ranked entries.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/tencent/Hy-Nomas",
+          "title": "Publisher documentation"
+        }
+      ]
+    },
+    {
+      "slug": "xhtoken-spark-x2-6-1-7b",
+      "entity": "XHToken/Spark-X2.6-1.7B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/xhtoken-spark-x2-6-1-7b/",
+      "repository": "https://huggingface.co/XHToken/Spark-X2.6-1.7B",
+      "summary": "A text-model listing preserved from the dated Model Radar snapshot. Its publisher card could not be confirmed through the public reader during this review; current availability is unverified.",
+      "selection_context": "Use only as historical catalog context. Check with the publisher before relying on current availability; no replacement identity is asserted.",
+      "limitations": "Verify current publisher terms, compatibility and requirements. No new runtime, safety, quality or benchmark test is claimed. Model or weight downloads, gated access and license acceptance were not attempted. Availability is unresolved; do not assume this source is currently downloadable or maintained.",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "reviewed_on": "2026-11-04",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/XHToken/Spark-X2.6-1.7B",
+          "title": "Historical publisher reference; current availability unconfirmed"
+        }
+      ]
     }
   ],
   "retirements": [],
