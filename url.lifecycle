@@ -869,6 +869,150 @@
       ],
       "evidence_sha256": "6eebaf4818f2514b136e89acd034cb579ac51a3e44263094ab1a77c474256427",
       "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "datalab-to-surya-ocr-2-5",
+      "entity": "datalab-to/surya-ocr-2.5",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/datalab-to-surya-ocr-2-5/",
+      "repository": "https://huggingface.co/datalab-to/surya-ocr-2.5",
+      "summary": "Surya OCR 2.5 is a document vision-language model for OCR, layout and table extraction. The publisher documents full-page HTML and layout JSON output, with a separate text-line detector.",
+      "selection_context": "Review document formats, licensing and runtime requirements; publisher benchmark results are not independently reproduced here.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/datalab-to/surya-ocr-2.5"
+        }
+      ],
+      "evidence_sha256": "a9f70ba9c1c2a9e08894db314d1880cca3a24ab07d9d60d655f90ef9e4c00b32"
+    },
+    {
+      "slug": "liquidai-lfm3-audio-2b",
+      "entity": "LiquidAI/LFM3-Audio-2B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-audio-2b/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+      "summary": "LFM3-Audio-2B accepts text and audio and can generate text or speech. Its publisher distinguishes English voice chat from speech transcription, synthesis and translation across a broader language set.",
+      "selection_context": "Evaluate the exact speech task and language rather than assuming every feature supports every advertised language.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        }
+      ],
+      "evidence_sha256": "778f4733f822014b5764b018d9f4124e78c0d62d3326b1f07b1290a6322aef4d"
+    },
+    {
+      "slug": "liquidai-lfm3-vl-2b",
+      "entity": "LiquidAI/LFM3-VL-2B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-vl-2b/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+      "summary": "LFM3-VL-2B is a vision-language model with documented image-text tasks, reasoning and tool-use interfaces. Publisher comparisons depend on the listed runtimes and generation settings.",
+      "selection_context": "Compare the artifact and supported inputs; reproduce relevant tasks on your runtime before relying on performance claims.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        }
+      ],
+      "evidence_sha256": "3181595b12a751b6ec9aff9270dece257fc72fa1bb910bf8a19e2165aa21a1a8"
+    },
+    {
+      "slug": "mistralai-mistral-large-4-1t-a52b-nvfp4",
+      "entity": "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/mistralai-mistral-large-4-1t-a52b-nvfp4/",
+      "repository": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "summary": "The NVFP4 distribution of Mistral Large 4 contains quantized mixture-of-experts weights and targets NVIDIA Blackwell hardware. The publisher distinguishes it from the FP8 checkpoint.",
+      "selection_context": "Check hardware support and the exact model license; the smaller representation is not a separately validated base model.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4"
+        }
+      ],
+      "evidence_sha256": "62f4a49a75da4de8e2d511641f8b6f3c1aa20d76ffc49eac40686e1e0685ba57"
+    },
+    {
+      "slug": "peculiar-ragdoll-cyber-tiel-coder-35b-a3b-gguf-mtp",
+      "entity": "peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/peculiar-ragdoll-cyber-tiel-coder-35b-a3b-gguf-mtp/",
+      "repository": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP",
+      "summary": "Cyber-Tiel-Coder-35B-A3B-GGUF-MTP is a GGUF coding-model distribution with a multi-token prediction head. The card distinguishes decoding-speed experiments from model-quality evaluations and discloses benchmark task-set limitations.",
+      "selection_context": "Use the exact quantization and runtime requirements; do not treat its modified benchmark results as directly comparable to standard published scores.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP"
+        }
+      ],
+      "evidence_sha256": "f9b6f36109618681a2ff72fa473b524742fd520ce051a55b75cfee3b10bf159b"
+    },
+    {
+      "slug": "somarkai-oxr-1-0",
+      "entity": "SoMarkAI/OXR-1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/somarkai-oxr-1-0/",
+      "repository": "https://huggingface.co/SoMarkAI/OXR-1.0",
+      "summary": "OXR 1.0 is a document-parsing model producing Markdown or JSON with layout coordinates. Its publisher describes a replaceable layout-analysis module and multiple document element types.",
+      "selection_context": "Evaluate parsing on representative documents; the publisher accuracy and speed claims have not been independently reproduced here.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/SoMarkAI/OXR-1.0"
+        }
+      ],
+      "evidence_sha256": "b35108f030511c49f7e319facc4f7be4346316ecf1c3e7db716674bd77516d86"
+    },
+    {
+      "slug": "tenstrip-10eros-max",
+      "entity": "TenStrip/10Eros-Max",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/tenstrip-10eros-max/",
+      "repository": "https://huggingface.co/TenStrip/10Eros-Max",
+      "summary": "10Eros-Max is an experimental H3-derived image-model collection. The publisher distinguishes beta, turbo and raw variants and documents changing projection and adapter behavior.",
+      "selection_context": "Identify the exact file and compatible generation settings; experimental variants should not be treated as interchangeable stable releases.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/TenStrip/10Eros-Max"
+        }
+      ],
+      "evidence_sha256": "f7e5fcb400bf2f921a2f534be4b37dec134d0d4c2d1ccb34bbd707228f64cd8f"
+    },
+    {
+      "slug": "unsloth-flint-gguf",
+      "entity": "unsloth/flint-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/unsloth-flint-gguf/",
+      "repository": "https://huggingface.co/unsloth/flint-GGUF",
+      "summary": "An Unsloth GGUF distribution of Flint, a mixture-of-experts model for coding and tool-use tasks. The card includes upstream Flint descriptions that must be distinguished from file-specific quantization and serving requirements.",
+      "selection_context": "Compare the exact GGUF file and compatible runtime. Upstream benchmark results do not independently validate this distribution on your hardware.",
+      "limitations": "Dated publisher-documentation review, not an independent runtime, safety or performance certification. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher documentation reviewed 6 November 2026",
+          "url": "https://huggingface.co/unsloth/flint-GGUF"
+        }
+      ],
+      "evidence_sha256": "86bab9c784329502061c0f48c4eac0b8adc1f0ef57f593a5d662777736e9342a"
     }
   ],
   "retirements": [],
