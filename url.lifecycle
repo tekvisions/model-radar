@@ -660,6 +660,215 @@
           "title": "Historical publisher reference; current availability unconfirmed"
         }
       ]
+    },
+    {
+      "slug": "apexintelligence-ai-apex-35b-v1-0",
+      "entity": "Apexintelligence-AI/Apex-35B-V1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/apexintelligence-ai-apex-35b-v1-0/",
+      "repository": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0",
+      "summary": "Apex-35B-V1.0 is a published model checkpoint with text-generation metadata and an Apache-2.0 license declaration. Publisher examples include multimodal inputs; compatibility must be checked against its current model card.",
+      "selection_context": "Use to compare the model artifact, declared task and documented runtime requirements; parameter count and popularity are not quality measurements.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/Apexintelligence-AI/Apex-35B-V1.0"
+        }
+      ],
+      "evidence_sha256": "557d9537ad45c5985c8c8b301f4cf3e0a562ff5005027fa071e6dcf48dacb1d8",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "electrongirl-anima-ref-adapter",
+      "entity": "ElectronGirl/anima-ref-adapter",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/electrongirl-anima-ref-adapter/",
+      "repository": "https://huggingface.co/ElectronGirl/anima-ref-adapter",
+      "summary": "Anima Ref Adapter conditions image generation on reference characters or style while a prompt controls the scene. The publisher documents a dedicated adapter node and a non-commercial license.",
+      "selection_context": "Use when evaluating reference-image conditioning for Anima; verify the specific adapter version, node and licensing requirements.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/ElectronGirl/anima-ref-adapter"
+        }
+      ],
+      "evidence_sha256": "9ff77298995bfc11cc857ebba22b80c92e86e15479d28ce5b8bfa51385067ce9",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "groundingpi-groundanything-vlm",
+      "entity": "GroundingPI/GroundAnything-VLM",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/groundingpi-groundanything-vlm/",
+      "repository": "https://huggingface.co/GroundingPI/GroundAnything-VLM",
+      "summary": "GroundAnything-VLM is a vision-language model for grounding and locating content in images. Its publisher warns that coordinates and detections can be inaccurate; predicted GUI points do not themselves execute actions.",
+      "selection_context": "Use for evaluating visual grounding, with task-specific validation before integrating outputs into an interactive or physical system.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/GroundingPI/GroundAnything-VLM"
+        }
+      ],
+      "evidence_sha256": "21e7a6a38833526b52b15bed90f3fb7cf9e5a831f2e6e40d16a4bfa9061e4de1",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "huggingfacebio-carbon-x",
+      "entity": "HuggingFaceBio/Carbon-X",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/huggingfacebio-carbon-x/",
+      "repository": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+      "summary": "Carbon-X is a DNA-focused language model. Its publisher documents variant-effect and sequence-recovery uses and explicitly limits long-sequence generation and uneven biological task coverage.",
+      "selection_context": "Use to locate model artifacts and biological-task limitations. This catalog does not validate scientific or clinical performance.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/HuggingFaceBio/Carbon-X"
+        }
+      ],
+      "evidence_sha256": "2e258ba5e877062938cf81a54020198365920871608a267c97bbab339c6f1e34",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "kijai-minimax-h3-experimental",
+      "entity": "Kijai/MiniMax-H3-experimental",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/kijai-minimax-h3-experimental/",
+      "repository": "https://huggingface.co/Kijai/MiniMax-H3-experimental",
+      "summary": "An experimental MiniMax-H3 artifact collection containing adapters and quantization experiments. The publisher describes work in progress and uncertain use cases for some files.",
+      "selection_context": "Use for identifying an exact experimental artifact; confirm base-model compatibility, license and file-specific requirements before evaluation.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/Kijai/MiniMax-H3-experimental"
+        }
+      ],
+      "evidence_sha256": "6fbe79a7f192bbff5687c952683b462422b8c4446c0ded917c096d416fcdd222",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "maya-research-maya2-native",
+      "entity": "maya-research/maya2-native",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/maya-research-maya2-native/",
+      "repository": "https://huggingface.co/maya-research/maya2-native",
+      "summary": "Maya 2 Native is a publisher-described streaming text-to-speech model supporting eleven Indian languages and English, with a documented Apache-2.0 release. Voice cloning and cross-language speech are described by the publisher, not independently tested here.",
+      "selection_context": "Use for comparing self-hosted multilingual speech options; listen to representative permitted inputs and verify model, voice and runtime requirements.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/maya-research/maya2-native"
+        }
+      ],
+      "evidence_sha256": "043d8b873b0f1af594f208511f827f3188099a846405b54e9520da458654a530",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "minimaxai-minimax-m3-1-flash",
+      "entity": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/minimaxai-minimax-m3-1-flash/",
+      "repository": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "summary": "MiniMax-M3.1-Flash is a published multimodal model checkpoint with image-text-to-text metadata. The publisher provides model-card evaluation results and runtime examples.",
+      "selection_context": "Use to review the exact checkpoint, its license and publisher evaluation conditions; this retained reference does not independently reproduce the benchmarks.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        }
+      ],
+      "evidence_sha256": "d0e41792d2b1eedff40b4eb4935d79afa02c20cdac31169d92d59fb2940d2488",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "octen-octen-webgr-4b",
+      "entity": "Octen/Octen-WebGR-4B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/octen-octen-webgr-4b/",
+      "repository": "https://huggingface.co/Octen/Octen-WebGR-4B",
+      "summary": "Octen-WebGR-4B maps search queries to candidate web URLs through generative retrieval. Its publisher states that the released weights are not licensed for commercial use.",
+      "selection_context": "Use to evaluate navigational retrieval research; verify the current license, indexed corpus and coverage before deployment.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/Octen/Octen-WebGR-4B"
+        }
+      ],
+      "evidence_sha256": "91366ba64103261f30d53e6cda276454a260aedd8cdcc7bce3401d160c546ba2",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "openbmb-minicpm-ocr-1-0",
+      "entity": "openbmb/MiniCPM-OCR-1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/openbmb-minicpm-ocr-1-0/",
+      "repository": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+      "summary": "MiniCPM-OCR-1.0 is a document-understanding checkpoint for extracting text and structured document content. The publisher provides OCR evaluation results and multiple deployment variants.",
+      "selection_context": "Use for comparing OCR tasks and input types; inspect file-specific hardware requirements and validate accuracy on your documents.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0"
+        }
+      ],
+      "evidence_sha256": "d2bff24da55eeb05cfa4162813662aea331981a4ac921304bfbe76a1afa225bc",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "openbmb-minicpm-ocr-jev",
+      "entity": "openbmb/MiniCPM-OCR-Jev",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/openbmb-minicpm-ocr-jev/",
+      "repository": "https://huggingface.co/openbmb/MiniCPM-OCR-Jev",
+      "summary": "MiniCPM-OCR-Jev is a separate model artifact in the MiniCPM OCR family, with original BF16 and linked quantized distributions. The card documents OCR quality-assessment workflows.",
+      "selection_context": "Use when comparing OCR quality-assessment artifacts; distinguish the original weights from the separate GGUF, AWQ and GPTQ variants.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/openbmb/MiniCPM-OCR-Jev"
+        }
+      ],
+      "evidence_sha256": "6d8ef5e638ae0305b9a4ccdc2c6bb544dd581abfac38180e601af82fb77e7440",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
+    },
+    {
+      "slug": "unsloth-mistral-large-4-1t-a52b-gguf",
+      "entity": "unsloth/Mistral-Large-4-1T-A52B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/unsloth-mistral-large-4-1t-a52b-gguf/",
+      "repository": "https://huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF",
+      "summary": "An Unsloth GGUF distribution of Mistral Large 4 with file-specific quantization options. Its publisher links the Mistral Ecosystem Open-Weight License.",
+      "selection_context": "Use to compare compatible quantized files and memory requirements; a GGUF distribution is not a separate benchmarked base model.",
+      "limitations": "Publisher documentation is source evidence, not an independent runtime, safety, licensing or performance certification. Confirm current terms, requirements and outputs. No current catalog rank or momentum score is assigned to a retained reference.",
+      "reviewed_on": "2026-11-06",
+      "last_catalog_snapshot": "2026-11-02T19:50:33.272983+00:00",
+      "primary_sources": [
+        {
+          "title": "Publisher repository and documentation (availability checked 6 November 2026)",
+          "url": "https://huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF"
+        }
+      ],
+      "evidence_sha256": "6eebaf4818f2514b136e89acd034cb579ac51a3e44263094ab1a77c474256427",
+      "decision": "Retain the previously published route outside the ranked discovery snapshot; do not infer obsolescence from discovery-window churn."
     }
   ],
   "retirements": [],

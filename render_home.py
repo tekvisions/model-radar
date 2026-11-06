@@ -79,7 +79,12 @@ def normalize(data, site):
                 stats = f"{row.get('transport', 'Unknown transport')} · {row.get('health', 'unknown')} freshness · registry updated {row.get('updated_at') or 'unknown'}"
             else:
                 stats = f"Trending score {row['trending']} · {row['downloads']:,} downloads · {row['likes']:,} likes"
-                desc = f"{row.get('task', 'Unspecified task')} model by {row.get('author', 'unknown author')}."
+                task = row.get('task')
+                task_label = f"Task: {task}" if task and task != '—' else 'Task not supplied'
+                parameters = f"Parameters: {row['params_h']}" if row.get('params_h') else 'Parameter count not supplied'
+                license_value = row.get('license')
+                license_label = f"Declared license: {license_value}" if license_value and license_value not in ('other', 'unknown') else 'License not supplied as a standard identifier; check the model card'
+                desc = f"{name}. {task_label}. {parameters}. {license_label}. Publisher metadata; hardware fit and benchmark results are not independently verified."
         records.append({'url': url, 'name': name, 'description': desc, 'category': category, 'stats': stats, 'position': index})
     if len({r['url'] for r in records}) != len(records):
         raise ValueError('Duplicate detail URLs; investigate slug collisions before rendering')
