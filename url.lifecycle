@@ -1139,6 +1139,27 @@
           "evidence_sha256": "94c1470d340a5eb48a5b4b32e71798cb40fca23afe632fa503765ba2b2163b32"
         }
       ]
+    },
+    {
+      "slug": "inclusionai-ming-3-0-tts-0-5b",
+      "entity": "inclusionAI/Ming-3.0-tts-0.5B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/inclusionai-ming-3-0-tts-0-5b/",
+      "repository": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+      "summary": "Ming-3.0-tts-0.5B documents a multilingual speech-synthesis checkpoint with speaker and delivery controls. Its model card states that inference requires the separate Ming-3.0-tts code repository.",
+      "selection_context": "Distinguish the checkpoint distribution from the inference software, then check the task-specific voice, language and control interfaces.",
+      "limitations": "Check speaker consent, model terms, hardware and software requirements. The saved catalog parameter estimate differs from the publisher checkpoint naming; do not infer hardware fit from that estimate. Speech quality, voice similarity, privacy and performance were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+          "title": "Publisher model card",
+          "evidence_sha256": "51766f77f64192e81c3156d0741659b158f953590e233d6d84d59f856fed5273"
+        }
+      ]
     }
   ],
   "retirements": [],

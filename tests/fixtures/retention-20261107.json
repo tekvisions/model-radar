@@ -125,6 +125,27 @@
           "evidence_sha256": "94c1470d340a5eb48a5b4b32e71798cb40fca23afe632fa503765ba2b2163b32"
         }
       ]
+    },
+    {
+      "slug": "inclusionai-ming-3-0-tts-0-5b",
+      "entity": "inclusionAI/Ming-3.0-tts-0.5B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/inclusionai-ming-3-0-tts-0-5b/",
+      "repository": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+      "summary": "Ming-3.0-tts-0.5B documents a multilingual speech-synthesis checkpoint with speaker and delivery controls. Its model card states that inference requires the separate Ming-3.0-tts code repository.",
+      "selection_context": "Distinguish the checkpoint distribution from the inference software, then check the task-specific voice, language and control interfaces.",
+      "limitations": "Check speaker consent, model terms, hardware and software requirements. The saved catalog parameter estimate differs from the publisher checkpoint naming; do not infer hardware fit from that estimate. Speech quality, voice similarity, privacy and performance were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+          "title": "Publisher model card",
+          "evidence_sha256": "51766f77f64192e81c3156d0741659b158f953590e233d6d84d59f856fed5273"
+        }
+      ]
     }
   ],
   "saved_snapshot": "2026-11-06T17:23:58.950295+00:00",
@@ -986,6 +1007,132 @@
         }
       ],
       "evidence_sha256": "86bab9c784329502061c0f48c4eac0b8adc1f0ef57f593a5d662777736e9342a"
+    },
+    {
+      "slug": "akhaliq-moss-image-idm-2-steps",
+      "entity": "akhaliq/MOSS-Image-IDM-2-Steps",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/akhaliq-moss-image-idm-2-steps/",
+      "repository": "https://huggingface.co/akhaliq/MOSS-Image-IDM-2-Steps",
+      "summary": "This publisher repository documents a two-step LoRA adapter for MOSS-Image, with separate text-to-image and editing checkpoints.",
+      "selection_context": "Distinguish the recommended v1 text-to-image checkpoint from the v2 editing continuation.",
+      "limitations": "The card reports degraded general text-to-image behavior in v2 and limits on structural edits at few steps. Verify base-model terms and runtime requirements; speed and image-quality claims were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/akhaliq/MOSS-Image-IDM-2-Steps",
+          "title": "Publisher model card",
+          "evidence_sha256": "123d4b0fa7e3f064056a7f8c1f89e012c70d712d76a57008dd4bed32a820301c"
+        }
+      ]
+    },
+    {
+      "slug": "dealignai-glm-5-3-cybersecurity-fp8",
+      "entity": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/dealignai-glm-5-3-cybersecurity-fp8/",
+      "repository": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "summary": "This repository documents a modified FP8 GLM-5.3 checkpoint focused on cybersecurity, with reduced refusal behavior reported by the publisher.",
+      "selection_context": "Trace the derivative model lineage and checkpoint-specific serving and evaluation notes.",
+      "limitations": "Reduced refusal is not a safety or security certification. Review model terms, authorization boundaries and isolation before use. Publisher capability, compliance and performance claims were not independently reproduced.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+          "title": "Publisher model card",
+          "evidence_sha256": "f34a7c0e125f59a3a2251ba3d97794f09903236f92c94d915ed9e495b418eb95"
+        }
+      ]
+    },
+    {
+      "slug": "grootteam-groot-19b-a3b-261023",
+      "entity": "GrootTeam/Groot-19B-A3B-261023",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/grootteam-groot-19b-a3b-261023/",
+      "repository": "https://huggingface.co/GrootTeam/Groot-19B-A3B-261023",
+      "summary": "Groot-19B-A3B-261023 is documented as a mixture-of-experts reasoning model with multiple precision variants and tool-use evaluations.",
+      "selection_context": "Compare the specific checkpoint, precision and inference recipe against the publisher's evaluation setup.",
+      "limitations": "The card distinguishes estimated device fits from benchmark reports. Verify hardware capacity, context settings and model terms; reasoning, memory and efficiency claims were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/GrootTeam/Groot-19B-A3B-261023",
+          "title": "Publisher model card",
+          "evidence_sha256": "68607c419c845d9b8fa750f5ea7263064423b8d96d4f11984d2266ab9dfbe27f"
+        }
+      ]
+    },
+    {
+      "slug": "jackjusko-swift-1-5-flash-next-heretic-reverseengineer",
+      "entity": "jackjusko/Swift-1.5-Flash-Next-Heretic-ReverseEngineer",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/jackjusko-swift-1-5-flash-next-heretic-reverseengineer/",
+      "repository": "https://huggingface.co/jackjusko/Swift-1.5-Flash-Next-Heretic-ReverseEngineer",
+      "summary": "This repository documents community GGUF quantizations of Swift-1.5-Flash-Next-Heretic with a reverse-engineering focus and deliberately reduced refusal behavior.",
+      "selection_context": "Identify the exact quantized artifact and its base-model lineage and runtime requirements.",
+      "limitations": "The publisher warns about removed refusal behavior. Review terms, authorization and runtime isolation. Quantization fidelity, capacity estimates, coding performance and safety were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/jackjusko/Swift-1.5-Flash-Next-Heretic-ReverseEngineer",
+          "title": "Publisher model card",
+          "evidence_sha256": "75c16f5f2629d4024838c485d6e1efb1f92fe030acd087bc1855480376240f25"
+        }
+      ]
+    },
+    {
+      "slug": "ostris-primal-vae",
+      "entity": "ostris/primal_vae",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ostris-primal-vae/",
+      "repository": "https://huggingface.co/ostris/primal_vae",
+      "summary": "Primal VAE documents image-autoencoder variants using shallow spatial compression and latent patching, with variant-specific shape and normalization instructions.",
+      "selection_context": "Compare latent layouts, encoder and decoder interfaces and integration requirements for the selected variant.",
+      "limitations": "Matching a latent shape alone does not establish drop-in model compatibility. Check training, normalization, custom-code requirements and terms; reconstruction quality and runtime performance were not independently tested.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ostris/primal_vae",
+          "title": "Publisher model card",
+          "evidence_sha256": "bc564d8b704c6ae66393851cbacc1d245da12b3db061b4e3731d894ae7b9d827"
+        }
+      ]
+    },
+    {
+      "slug": "xhtoken-spark-x2-6-4b-gguf",
+      "entity": "XHToken/Spark-X2.6-4B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/xhtoken-spark-x2-6-4b-gguf/",
+      "repository": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+      "summary": "This repository documents a GGUF variant of Spark-X2.6-4B, a language model presented for on-device reasoning, coding and agent tasks.",
+      "selection_context": "Locate the quantized artifact and compare runtime and reasoning-effort settings for a target device.",
+      "limitations": "Check quantization, context limits, model terms and runtime compatibility. Publisher agent benchmarks, efficiency and device-performance claims were not independently reproduced.",
+      "schema_type": "CreativeWork",
+      "last_catalog_snapshot": "2026-11-06T17:23:58.950295+00:00",
+      "reviewed_on": "2026-11-07",
+      "last_successful_source_commit": "2d9a2843a41fd8f0f2d49e94e9501f26dbda689a",
+      "decision": "Retain the published route as a dated unranked reference when absent from current discovery.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "94c1470d340a5eb48a5b4b32e71798cb40fca23afe632fa503765ba2b2163b32"
+        }
+      ]
     }
   ]
 }
