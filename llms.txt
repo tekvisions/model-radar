@@ -2,7 +2,7 @@
 
 > Model Radar: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-06T17:23:58.950295+00:00
+Snapshot collected: 2026-11-07T16:43:57.733984+00:00
 Current catalog records: 150
 
 ## Sources and interpretation
@@ -22,46 +22,46 @@ The default order follows Hugging Face trendingScore. Downloads, likes and last-
 
 ## Current catalog sample
 
-- [moonshotai/Kimi-K3.1-Pro](https://modelradar.kymatalabs.com/m/moonshotai-kimi-k3-1-pro/) — Vision
 - [speridlabs/idol](https://modelradar.kymatalabs.com/m/speridlabs-idol/) — 3D
+- [moonshotai/Kimi-K3.1-Pro](https://modelradar.kymatalabs.com/m/moonshotai-kimi-k3-1-pro/) — Vision
 - [ccore/Qwen3.5-4B-3D-Coder](https://modelradar.kymatalabs.com/m/ccore-qwen3-5-4b-3d-coder/) — Other
 - [Lightricks/LTX-2.5](https://modelradar.kymatalabs.com/m/lightricks-ltx-2-5/) — Video
+- [ricursiveAI/Ripple-65B-Preview](https://modelradar.kymatalabs.com/m/ricursiveai-ripple-65b-preview/) — Other
 - [burner22/numbat](https://modelradar.kymatalabs.com/m/burner22-numbat/) — Other
 - [FusionCow/Sulphur-3](https://modelradar.kymatalabs.com/m/fusioncow-sulphur-3/) — Other
-- [nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b/) — Audio
-- [ricursiveAI/Ripple-65B-Preview](https://modelradar.kymatalabs.com/m/ricursiveai-ripple-65b-preview/) — Other
 - [Qwen/Qwen3.8-27B](https://modelradar.kymatalabs.com/m/qwen-qwen3-8-27b/) — Vision
-- [AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF](https://modelradar.kymatalabs.com/m/atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf/) — Text
-- [Pika-Labs/Pika-H3-Flex](https://modelradar.kymatalabs.com/m/pika-labs-pika-h3-flex/) — Video
+- [xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic](https://modelradar.kymatalabs.com/m/xtools-at-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic/) — Text
+- [nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b/) — Audio
 - [DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF](https://modelradar.kymatalabs.com/m/davidau-qwen3-8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf/) — Vision
 - [black-forest-labs/flux-3-image-klein-comfy](https://modelradar.kymatalabs.com/m/black-forest-labs-flux-3-image-klein-comfy/) — Image
-- [mistralai/Mistral-Large-4-1T-A52B](https://modelradar.kymatalabs.com/m/mistralai-mistral-large-4-1t-a52b/) — Vision
-- [deepseek-ai/DeepSeek-V4.1-Flash-1017](https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-1-flash-1017/) — Vision
-- [LiquidAI/LFM3-1.7B](https://modelradar.kymatalabs.com/m/liquidai-lfm3-1-7b/) — Text
-- [abenzerps/Qwen-Image-2.1-Turbo-Quantized](https://modelradar.kymatalabs.com/m/abenzerps-qwen-image-2-1-turbo-quantized/) — Image
+- [AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF](https://modelradar.kymatalabs.com/m/atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf/) — Text
 - [OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated](https://modelradar.kymatalabs.com/m/obliteratus-deepseek-v4-1-flash-1017-obliterated/) — Text
-- [sensenova/SenseNova-Loop-9B-Preview](https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b-preview/) — Vision
-- [Edge0/Audio8-TTS-Realistic-Air](https://modelradar.kymatalabs.com/m/edge0-audio8-tts-realistic-air/) — Audio
-- [facebook/sam3](https://modelradar.kymatalabs.com/m/facebook-sam3/) — Vision
+- [Pika-Labs/Pika-H3-Flex](https://modelradar.kymatalabs.com/m/pika-labs-pika-h3-flex/) — Video
 - [ccore/Qwen3.5-4B-GLB-3D-Coder](https://modelradar.kymatalabs.com/m/ccore-qwen3-5-4b-glb-3d-coder/) — Text
-- [xiaomi-research/Xiaomi-OCR-0](https://modelradar.kymatalabs.com/m/xiaomi-research-xiaomi-ocr-0/) — Vision
-- [PrunaAI/P-H3-Image-Comfy](https://modelradar.kymatalabs.com/m/prunaai-p-h3-image-comfy/) — Image
-- [microsoft/Mage-VL-Cowork](https://modelradar.kymatalabs.com/m/microsoft-mage-vl-cowork/) — Vision
-- [baidu/Unlimited-OCR-2](https://modelradar.kymatalabs.com/m/baidu-unlimited-ocr-2/) — Vision
-- [webAI-Official/TwIL-8B](https://modelradar.kymatalabs.com/m/webai-official-twil-8b/) — Text
+- [deepseek-ai/DeepSeek-V4.1-Flash-1017](https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-1-flash-1017/) — Vision
+- [abenzerps/Qwen-Image-2.1-Turbo-Quantized](https://modelradar.kymatalabs.com/m/abenzerps-qwen-image-2-1-turbo-quantized/) — Image
+- [LiquidAI/LFM3-1.7B](https://modelradar.kymatalabs.com/m/liquidai-lfm3-1-7b/) — Text
 - [unsloth/Qwen3.8-Flash-Next-GGUF](https://modelradar.kymatalabs.com/m/unsloth-qwen3-8-flash-next-gguf/) — Vision
+- [facebook/sam3](https://modelradar.kymatalabs.com/m/facebook-sam3/) — Vision
+- [mistralai/Mistral-Large-4-1T-A52B](https://modelradar.kymatalabs.com/m/mistralai-mistral-large-4-1t-a52b/) — Vision
+- [webAI-Official/TwIL-8B](https://modelradar.kymatalabs.com/m/webai-official-twil-8b/) — Text
+- [PrunaAI/P-H3-Image-Comfy](https://modelradar.kymatalabs.com/m/prunaai-p-h3-image-comfy/) — Image
+- [Edge0/Audio8-TTS-Realistic-Air](https://modelradar.kymatalabs.com/m/edge0-audio8-tts-realistic-air/) — Audio
 - [ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF](https://modelradar.kymatalabs.com/m/ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-coder-gguf/) — Vision
-- [nvidia/DeepSeek-V4.1-Flash-1017-NVFP4](https://modelradar.kymatalabs.com/m/nvidia-deepseek-v4-1-flash-1017-nvfp4/) — Vision
+- [sensenova/SenseNova-Loop-9B-Preview](https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b-preview/) — Vision
+- [NousResearch/Arete-27B](https://modelradar.kymatalabs.com/m/nousresearch-arete-27b/) — Text
 - [baidu/ERNIE-5.5-Flash-Base](https://modelradar.kymatalabs.com/m/baidu-ernie-5-5-flash-base/) — Text
-- [nvidia/NVIDIA-NemotronLabs-RE-USE](https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotronlabs-re-use/) — Audio
+- [PrunaAI/P-H3-Image](https://modelradar.kymatalabs.com/m/prunaai-p-h3-image/) — Image
+- [baidu/Unlimited-OCR-2](https://modelradar.kymatalabs.com/m/baidu-unlimited-ocr-2/) — Vision
+- [Viggle/Viggle-Remake](https://modelradar.kymatalabs.com/m/viggle-viggle-remake/) — Other
 - [LiquidAI/LFM3-Omni-2B](https://modelradar.kymatalabs.com/m/liquidai-lfm3-omni-2b/) — Multimodal
 - [SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF](https://modelradar.kymatalabs.com/m/sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf/) — Vision
-- [unsloth/DeepSeek-V4.1-Flash-1017-GGUF](https://modelradar.kymatalabs.com/m/unsloth-deepseek-v4-1-flash-1017-gguf/) — Vision
-- [PrunaAI/P-H3-Image](https://modelradar.kymatalabs.com/m/prunaai-p-h3-image/) — Image
 - [MiniMaxAI/MiniMax-H3](https://modelradar.kymatalabs.com/m/minimaxai-minimax-h3/) — Other
-- [Viggle/Viggle-Remake](https://modelradar.kymatalabs.com/m/viggle-viggle-remake/) — Other
+- [xiaomi-research/Xiaomi-OCR-0](https://modelradar.kymatalabs.com/m/xiaomi-research-xiaomi-ocr-0/) — Vision
+- [nvidia/NVIDIA-NemotronLabs-RE-USE](https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotronlabs-re-use/) — Audio
+- [Qwen/Qwen3.8-Flash-Next](https://modelradar.kymatalabs.com/m/qwen-qwen3-8-flash-next/) — Vision
+- [microsoft/Mage-VL-Cowork](https://modelradar.kymatalabs.com/m/microsoft-mage-vl-cowork/) — Vision
 - [Pika-Labs/Pika-H3-Flex-Turbo-LoRA](https://modelradar.kymatalabs.com/m/pika-labs-pika-h3-flex-turbo-lora/) — Video
-- [pyannote/speaker-diarization-community-1](https://modelradar.kymatalabs.com/m/pyannote-speaker-diarization-community-1/) — Audio
 
 <!-- Kymata discovery capabilities -->
 ## Mission and scope
