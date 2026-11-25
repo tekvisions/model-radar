@@ -1160,6 +1160,1283 @@
           "evidence_sha256": "51766f77f64192e81c3156d0741659b158f953590e233d6d84d59f856fed5273"
         }
       ]
+    },
+    {
+      "slug": "abiray-deepseek-v4-1-flash-1017-uncensored-gsq-rco-iq2-xxs-gguf",
+      "entity": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/abiray-deepseek-v4-1-flash-1017-uncensored-gsq-rco-iq2-xxs-gguf/",
+      "repository": "https://huggingface.co/Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
+      "summary": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF is a Hugging Face model repository published by Abiray and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "e4e6f2b49da99244cb34c7f48a36ea7d249125856db1f23a605ecbdd8bc46ba7"
+        }
+      ],
+      "evidence_sha256": "e4e6f2b49da99244cb34c7f48a36ea7d249125856db1f23a605ecbdd8bc46ba7"
+    },
+    {
+      "slug": "atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf",
+      "entity": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf/",
+      "repository": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "summary": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF is a Hugging Face model repository published by AtomicChat and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "7830f85bd627771d18594f616acd117ef0c79dece8dbac4f8c3f88bd3c151a6d"
+        }
+      ],
+      "evidence_sha256": "7830f85bd627771d18594f616acd117ef0c79dece8dbac4f8c3f88bd3c151a6d"
+    },
+    {
+      "slug": "atomicchat-lfm3-1-7b-uncensored-gguf",
+      "entity": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/atomicchat-lfm3-1-7b-uncensored-gguf/",
+      "repository": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+      "summary": "AtomicChat/LFM3-1.7B-Uncensored-GGUF is a Hugging Face model repository published by AtomicChat and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "1540b11cf218cc51ee7769bfb885a69da67eb507c00e7040d5945582275c651c"
+        }
+      ],
+      "evidence_sha256": "1540b11cf218cc51ee7769bfb885a69da67eb507c00e7040d5945582275c651c"
+    },
+    {
+      "slug": "atomicchat-qwen-image-2-1-turbo-uncensored-gguf",
+      "entity": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/atomicchat-qwen-image-2-1-turbo-uncensored-gguf/",
+      "repository": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "summary": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF is a Hugging Face model repository published by AtomicChat and tagged for text to image. The saved 2026-11-07 catalog classified it under Image with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "fac25abe2549c22c904fd800ca23853bfcf53c852dfce6a1de81cebd68d27a24"
+        }
+      ],
+      "evidence_sha256": "fac25abe2549c22c904fd800ca23853bfcf53c852dfce6a1de81cebd68d27a24"
+    },
+    {
+      "slug": "breezeblue-breeze-tts-2",
+      "entity": "BreezeBlue/Breeze-TTS-2",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/breezeblue-breeze-tts-2/",
+      "repository": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
+      "summary": "BreezeBlue/Breeze-TTS-2 is a Hugging Face model repository published by BreezeBlue and tagged for text to speech. The saved 2026-11-07 catalog classified it under Audio with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to speech work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
+          "title": "Publisher model card",
+          "evidence_sha256": "0d15450e77dae7a606ce692d904d25e508111187ec95f14901d7d848e8ad5a19"
+        }
+      ],
+      "evidence_sha256": "0d15450e77dae7a606ce692d904d25e508111187ec95f14901d7d848e8ad5a19"
+    },
+    {
+      "slug": "burner22-numbat",
+      "entity": "burner22/numbat",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/burner22-numbat/",
+      "repository": "https://huggingface.co/burner22/numbat",
+      "summary": "burner22/numbat is a Hugging Face model repository published by burner22 and tagged for —. The saved 2026-11-07 catalog classified it under Other.",
+      "selection_context": "Use this dated reference to find the publisher model card for — work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/burner22/numbat",
+          "title": "Publisher model card",
+          "evidence_sha256": "b7a7542a36730a2f871121ea887e640d2257f55a1affa6323dd09a6e8f1b4e52"
+        }
+      ],
+      "evidence_sha256": "b7a7542a36730a2f871121ea887e640d2257f55a1affa6323dd09a6e8f1b4e52"
+    },
+    {
+      "slug": "ccore-qwen3-5-4b-3d-coder",
+      "entity": "ccore/Qwen3.5-4B-3D-Coder",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ccore-qwen3-5-4b-3d-coder/",
+      "repository": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "summary": "ccore/Qwen3.5-4B-3D-Coder is a Hugging Face model repository published by ccore and tagged for —. The saved 2026-11-07 catalog classified it under Other with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for — work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+          "title": "Publisher model card",
+          "evidence_sha256": "73197aa41a59625e51939938b8b38d965e3ed31be50ee847d58654bbe4206582"
+        }
+      ],
+      "evidence_sha256": "73197aa41a59625e51939938b8b38d965e3ed31be50ee847d58654bbe4206582"
+    },
+    {
+      "slug": "ccore-qwen3-5-4b-glb-3d-coder",
+      "entity": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ccore-qwen3-5-4b-glb-3d-coder/",
+      "repository": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "summary": "ccore/Qwen3.5-4B-GLB-3D-Coder is a Hugging Face model repository published by ccore and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+          "title": "Publisher model card",
+          "evidence_sha256": "fa93e84b0612356d375e02f754a577ab6afee3898d7e28f0b9f3357d6521433d"
+        }
+      ],
+      "evidence_sha256": "fa93e84b0612356d375e02f754a577ab6afee3898d7e28f0b9f3357d6521433d"
+    },
+    {
+      "slug": "comfy-org-moss-image",
+      "entity": "Comfy-Org/MOSS-Image",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/comfy-org-moss-image/",
+      "repository": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "summary": "Comfy-Org/MOSS-Image is a Hugging Face model repository published by Comfy-Org and tagged for —. The saved 2026-11-07 catalog classified it under Other with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for — work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+          "title": "Publisher model card",
+          "evidence_sha256": "c8e01a41149e8e07eee29cd0c4403361688e1fe48e7bf4958c10c7f1d3caff06"
+        }
+      ],
+      "evidence_sha256": "c8e01a41149e8e07eee29cd0c4403361688e1fe48e7bf4958c10c7f1d3caff06"
+    },
+    {
+      "slug": "comfy-org-qwen-image-2-1",
+      "entity": "Comfy-Org/Qwen-Image-2.1",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/comfy-org-qwen-image-2-1/",
+      "repository": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "summary": "Comfy-Org/Qwen-Image-2.1 is a Hugging Face model repository published by Comfy-Org and tagged for text to image. The saved 2026-11-07 catalog classified it under Image with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+          "title": "Publisher model card",
+          "evidence_sha256": "b9b2c10d06dbe2555326b366b227fd86885be42db73f2f98c804fe95c6e6175c"
+        }
+      ],
+      "evidence_sha256": "b9b2c10d06dbe2555326b366b227fd86885be42db73f2f98c804fe95c6e6175c"
+    },
+    {
+      "slug": "convaiinnovations-laya",
+      "entity": "convaiinnovations/laya",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/convaiinnovations-laya/",
+      "repository": "https://huggingface.co/convaiinnovations/laya",
+      "summary": "convaiinnovations/laya is a Hugging Face model repository published by convaiinnovations and tagged for text classification. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text classification work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "title": "Publisher model card",
+          "evidence_sha256": "4218466a3b93a14c27fbc09dde520fd5703b96e7384029fa0b4318b50d318aa2"
+        }
+      ],
+      "evidence_sha256": "4218466a3b93a14c27fbc09dde520fd5703b96e7384029fa0b4318b50d318aa2"
+    },
+    {
+      "slug": "diffuspace-clover-35b-a3b-preview",
+      "entity": "Diffuspace/Clover-35B-A3B-Preview",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/diffuspace-clover-35b-a3b-preview/",
+      "repository": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+      "summary": "Diffuspace/Clover-35B-A3B-Preview is a Hugging Face model repository published by Diffuspace and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+          "title": "Publisher model card",
+          "evidence_sha256": "48009c14f7eadbc956b0ffe39ec87866007d7baf4404091a7d63f6007609d7b0"
+        }
+      ],
+      "evidence_sha256": "48009c14f7eadbc956b0ffe39ec87866007d7baf4404091a7d63f6007609d7b0"
+    },
+    {
+      "slug": "divagr1925-qwen3-5-4b-qwenputer",
+      "entity": "divagr1925/Qwen3.5-4B-Qwenputer",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/divagr1925-qwen3-5-4b-qwenputer/",
+      "repository": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+      "summary": "divagr1925/Qwen3.5-4B-Qwenputer is a Hugging Face model repository published by divagr1925 and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+          "title": "Publisher model card",
+          "evidence_sha256": "fc7c66b29baf54ae8ac289c0c19fc8046608984145d987be40a41c6257fc69d2"
+        }
+      ],
+      "evidence_sha256": "fc7c66b29baf54ae8ac289c0c19fc8046608984145d987be40a41c6257fc69d2"
+    },
+    {
+      "slug": "edge0-audio8-tts-realistic-air",
+      "entity": "Edge0/Audio8-TTS-Realistic-Air",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/edge0-audio8-tts-realistic-air/",
+      "repository": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+      "summary": "Edge0/Audio8-TTS-Realistic-Air is a Hugging Face model repository published by Edge0 and tagged for text to speech. The saved 2026-11-07 catalog classified it under Audio with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to speech work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+          "title": "Publisher model card",
+          "evidence_sha256": "244c23fb8a9aea61fbb68e284f863ba77a5ad584e201a1ce5e00fe246f948298"
+        }
+      ],
+      "evidence_sha256": "244c23fb8a9aea61fbb68e284f863ba77a5ad584e201a1ce5e00fe246f948298"
+    },
+    {
+      "slug": "efficient-large-model-open-h3-regenerate-2k",
+      "entity": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/efficient-large-model-open-h3-regenerate-2k/",
+      "repository": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "summary": "Efficient-Large-Model/Open-H3-Regenerate-2K is a Hugging Face model repository published by Efficient-Large-Model and tagged for video to video. The saved 2026-11-07 catalog classified it under Other with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for video to video work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+          "title": "Publisher model card",
+          "evidence_sha256": "1a4b6d2014a9c98ba62a957a5eccf6f529e619cc815fe5ddc768d16b5b24d09a"
+        }
+      ],
+      "evidence_sha256": "1a4b6d2014a9c98ba62a957a5eccf6f529e619cc815fe5ddc768d16b5b24d09a"
+    },
+    {
+      "slug": "facebook-sam3-1",
+      "entity": "facebook/sam3.1",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/facebook-sam3-1/",
+      "repository": "https://huggingface.co/facebook/sam3.1",
+      "summary": "facebook/sam3.1 is a Hugging Face model repository published by facebook and tagged for mask generation. The saved 2026-11-07 catalog classified it under Vision with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for mask generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The publisher gates the model files behind an access agreement; the card text was not readable without accepting it.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/facebook/sam3.1",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "c3aa9d07ada3457103b90ba6763ccfb8e25de4d5bf893ed192d3a13b25294a75"
+        }
+      ],
+      "evidence_sha256": "c3aa9d07ada3457103b90ba6763ccfb8e25de4d5bf893ed192d3a13b25294a75"
+    },
+    {
+      "slug": "fishaudio-drama-3",
+      "entity": "fishaudio/drama-3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/fishaudio-drama-3/",
+      "repository": "https://huggingface.co/fishaudio/drama-3",
+      "summary": "fishaudio/drama-3 is a Hugging Face model repository published by fishaudio and tagged for text to speech. The saved 2026-11-07 catalog classified it under Audio with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to speech work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/fishaudio/drama-3",
+          "title": "Publisher model card",
+          "evidence_sha256": "6d147e079b87e0b9bb4e1c899f75da3e658754933457a3ca753ca9912d1f5e10"
+        }
+      ],
+      "evidence_sha256": "6d147e079b87e0b9bb4e1c899f75da3e658754933457a3ca753ca9912d1f5e10"
+    },
+    {
+      "slug": "fusioncow-sulphur-3",
+      "entity": "FusionCow/Sulphur-3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/fusioncow-sulphur-3/",
+      "repository": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "summary": "FusionCow/Sulphur-3 is a Hugging Face model repository published by FusionCow and tagged for —. The saved 2026-11-07 catalog classified it under Other.",
+      "selection_context": "Use this dated reference to find the publisher model card for — work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. Hugging Face now resolves FusionCow/Sulphur-3 to SulphurAI/Sulphur-3. Confirm the current scope under that name.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "previous_repository": "https://huggingface.co/FusionCow/Sulphur-3",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+          "title": "Publisher model card",
+          "evidence_sha256": "50b43f2a1c3c36e2577c256f2e5276fcff3ea9621543e50cca11ba3849441c1e"
+        }
+      ],
+      "evidence_sha256": "50b43f2a1c3c36e2577c256f2e5276fcff3ea9621543e50cca11ba3849441c1e"
+    },
+    {
+      "slug": "google-embeddinggemma-2",
+      "entity": "google/embeddinggemma-2",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/google-embeddinggemma-2/",
+      "repository": "https://huggingface.co/google/embeddinggemma-2",
+      "summary": "google/embeddinggemma-2 is a Hugging Face model repository published by google and tagged for feature extraction. The saved 2026-11-07 catalog classified it under Embeddings with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for feature extraction work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/google/embeddinggemma-2",
+          "title": "Publisher model card",
+          "evidence_sha256": "2c058c304c68221f1de80979594036eff3972b2bce686bb7b0f43621a6b0b011"
+        }
+      ],
+      "evidence_sha256": "2c058c304c68221f1de80979594036eff3972b2bce686bb7b0f43621a6b0b011"
+    },
+    {
+      "slug": "google-gemma-4-31b-it",
+      "entity": "google/gemma-4-31B-it",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/google-gemma-4-31b-it/",
+      "repository": "https://huggingface.co/google/gemma-4-31B-it",
+      "summary": "google/gemma-4-31B-it is a Hugging Face model repository published by google and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/google/gemma-4-31B-it",
+          "title": "Publisher model card",
+          "evidence_sha256": "e209f5c435b1e66055bd6d7c29185103ae8d2027a03a96b359335154f206b82b"
+        }
+      ],
+      "evidence_sha256": "e209f5c435b1e66055bd6d7c29185103ae8d2027a03a96b359335154f206b82b"
+    },
+    {
+      "slug": "hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive",
+      "entity": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/hauhaucs-qwen3-6-35b-a3b-uncensored-hauhaucs-aggressive/",
+      "repository": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "summary": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive is a Hugging Face model repository published by HauhauCS and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+          "title": "Publisher model card",
+          "evidence_sha256": "bc22393f3cb59f25d831fc9a5a52c6ddb6230c19fc9c68add9c75d1ee23fb4dc"
+        }
+      ],
+      "evidence_sha256": "bc22393f3cb59f25d831fc9a5a52c6ddb6230c19fc9c68add9c75d1ee23fb4dc"
+    },
+    {
+      "slug": "hauhaucs-qwen3-8-27b-uncensored-hauhaucs-aggressive-mtp-gguf",
+      "entity": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/hauhaucs-qwen3-8-27b-uncensored-hauhaucs-aggressive-mtp-gguf/",
+      "repository": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "summary": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF is a Hugging Face model repository published by HauhauCS and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "482d5909625c06402ac758540298103b8ff087d7d014a3fc1101390591f5824b"
+        }
+      ],
+      "evidence_sha256": "482d5909625c06402ac758540298103b8ff087d7d014a3fc1101390591f5824b"
+    },
+    {
+      "slug": "huihui-ai-huihui-deepseek-v4-1-flash-1017-abliterated-gguf",
+      "entity": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/huihui-ai-huihui-deepseek-v4-1-flash-1017-abliterated-gguf/",
+      "repository": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "summary": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF is a Hugging Face model repository published by huihui-ai and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "47fe2c99d355b775a35bbe720a04a882b5abf83f4b4a0c76e8d2e05e25198f85"
+        }
+      ],
+      "evidence_sha256": "47fe2c99d355b775a35bbe720a04a882b5abf83f4b4a0c76e8d2e05e25198f85"
+    },
+    {
+      "slug": "ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-coder-gguf",
+      "entity": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-coder-gguf/",
+      "repository": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+      "summary": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF is a Hugging Face model repository published by ISTA-DASLab and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "7ad73dcb7e42f2510423c5beb759bee24b28a85048e5221ecb724322cb21487e"
+        }
+      ],
+      "evidence_sha256": "7ad73dcb7e42f2510423c5beb759bee24b28a85048e5221ecb724322cb21487e"
+    },
+    {
+      "slug": "ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf",
+      "entity": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf/",
+      "repository": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "summary": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF is a Hugging Face model repository published by ISTA-DASLab and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "d453070e4be586ca19eab50f9506e8500afe0b6504bbe0c37e2268f178fd6dba"
+        }
+      ],
+      "evidence_sha256": "d453070e4be586ca19eab50f9506e8500afe0b6504bbe0c37e2268f178fd6dba"
+    },
+    {
+      "slug": "ista-daslab-qwen3-8-flash-next-gsq-rco-coder-gguf",
+      "entity": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ista-daslab-qwen3-8-flash-next-gsq-rco-coder-gguf/",
+      "repository": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+      "summary": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF is a Hugging Face model repository published by ISTA-DASLab and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "97653fa9359d0d177c94b58434dc2ffcfa43a2936fb12d18438718492b67ebac"
+        }
+      ],
+      "evidence_sha256": "97653fa9359d0d177c94b58434dc2ffcfa43a2936fb12d18438718492b67ebac"
+    },
+    {
+      "slug": "jialinyyzz-humanizer",
+      "entity": "jialinyyzz/humanizer",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/jialinyyzz-humanizer/",
+      "repository": "https://huggingface.co/jialinyyzz/humanizer",
+      "summary": "jialinyyzz/humanizer is a Hugging Face model repository published by jialinyyzz and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/jialinyyzz/humanizer",
+          "title": "Publisher model card",
+          "evidence_sha256": "6d5b9329bc2c2afa751b1ca2607ec56d6a286e764541630f667977c0ca0e60cf"
+        }
+      ],
+      "evidence_sha256": "6d5b9329bc2c2afa751b1ca2607ec56d6a286e764541630f667977c0ca0e60cf"
+    },
+    {
+      "slug": "jonathancoletti-qwen3-8-27b-uncensored-gguf",
+      "entity": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/jonathancoletti-qwen3-8-27b-uncensored-gguf/",
+      "repository": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "summary": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF is a Hugging Face model repository published by JonathanColetti and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "e1490175cdb2249078ab511fb2572a6229ddd10a3809491c0f536efc09561e2d"
+        }
+      ],
+      "evidence_sha256": "e1490175cdb2249078ab511fb2572a6229ddd10a3809491c0f536efc09561e2d"
+    },
+    {
+      "slug": "krea-krea-2-raw",
+      "entity": "krea/Krea-2-Raw",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/krea-krea-2-raw/",
+      "repository": "https://huggingface.co/krea/Krea-2-Raw",
+      "summary": "krea/Krea-2-Raw is a Hugging Face model repository published by krea and tagged for text to image. The saved 2026-11-07 catalog classified it under Image with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The publisher gates the model files behind an access agreement; the card text was not readable without accepting it.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/krea/Krea-2-Raw",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "737ceb3400d793608da4b14eebc494d8709e083873b99d95b4fe7c9c2e50fe68"
+        }
+      ],
+      "evidence_sha256": "737ceb3400d793608da4b14eebc494d8709e083873b99d95b4fe7c9c2e50fe68"
+    },
+    {
+      "slug": "lightx2v-minimax-h3-prompt-rewriter-qwen3-8-27b-ref2va",
+      "entity": "lightx2v/MiniMax-H3-Prompt-Rewriter-Qwen3.8-27B-Ref2VA",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/lightx2v-minimax-h3-prompt-rewriter-qwen3-8-27b-ref2va/",
+      "repository": "https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-Qwen3.8-27B-Ref2VA",
+      "summary": "lightx2v/MiniMax-H3-Prompt-Rewriter-Qwen3.8-27B-Ref2VA is a Hugging Face model repository published by lightx2v and tagged for —. The saved 2026-11-07 catalog classified it under Other.",
+      "selection_context": "Use this dated reference to find the publisher model card for — work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-Qwen3.8-27B-Ref2VA",
+          "title": "Publisher model card",
+          "evidence_sha256": "1e4d3f34d814ba4354e5b35632c0f73da194c5a7df2d2c0836a333999fbfe1cc"
+        }
+      ],
+      "evidence_sha256": "1e4d3f34d814ba4354e5b35632c0f73da194c5a7df2d2c0836a333999fbfe1cc"
+    },
+    {
+      "slug": "liquidai-d1-2b",
+      "entity": "LiquidAI/d1-2B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-d1-2b/",
+      "repository": "https://huggingface.co/LiquidAI/d1-2B",
+      "summary": "LiquidAI/d1-2B is a Hugging Face model repository published by LiquidAI and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/d1-2B",
+          "title": "Publisher model card",
+          "evidence_sha256": "6db5f6609c1d5d72dccdc8de4718d72e73962a2825fc72f53dcd2e369bddd9cd"
+        }
+      ],
+      "evidence_sha256": "6db5f6609c1d5d72dccdc8de4718d72e73962a2825fc72f53dcd2e369bddd9cd"
+    },
+    {
+      "slug": "liquidai-lfm3-1-7b-base",
+      "entity": "LiquidAI/LFM3-1.7B-Base",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-1-7b-base/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-1.7B-Base",
+      "summary": "LiquidAI/LFM3-1.7B-Base is a Hugging Face model repository published by LiquidAI and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-Base",
+          "title": "Publisher model card",
+          "evidence_sha256": "a94e75bca59f8d7c6042bce41d8d811f4ea689367003df171c9e4311b36f10b5"
+        }
+      ],
+      "evidence_sha256": "a94e75bca59f8d7c6042bce41d8d811f4ea689367003df171c9e4311b36f10b5"
+    },
+    {
+      "slug": "liquidai-lfm3-1-7b-gguf",
+      "entity": "LiquidAI/LFM3-1.7B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-1-7b-gguf/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+      "summary": "LiquidAI/LFM3-1.7B-GGUF is a Hugging Face model repository published by LiquidAI and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "71b4dfe7b015b1bd0df6bf3e637966a670ff41e150f0683bca959d5c8203635e"
+        }
+      ],
+      "evidence_sha256": "71b4dfe7b015b1bd0df6bf3e637966a670ff41e150f0683bca959d5c8203635e"
+    },
+    {
+      "slug": "liquidai-lfm3-omni-2b-gguf",
+      "entity": "LiquidAI/LFM3-Omni-2B-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-omni-2b-gguf/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF",
+      "summary": "LiquidAI/LFM3-Omni-2B-GGUF is a Hugging Face model repository published by LiquidAI and tagged for any to any. The saved 2026-11-07 catalog classified it under Multimodal with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for any to any work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "fe6124bbfd92bf0a5775e7e157ce59065519f179966dfff35f51170f83ca9339"
+        }
+      ],
+      "evidence_sha256": "fe6124bbfd92bf0a5775e7e157ce59065519f179966dfff35f51170f83ca9339"
+    },
+    {
+      "slug": "liquidai-lfm3-omni-2b",
+      "entity": "LiquidAI/LFM3-Omni-2B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/liquidai-lfm3-omni-2b/",
+      "repository": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+      "summary": "LiquidAI/LFM3-Omni-2B is a Hugging Face model repository published by LiquidAI and tagged for any to any. The saved 2026-11-07 catalog classified it under Multimodal with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for any to any work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+          "title": "Publisher model card",
+          "evidence_sha256": "6c17171181156a9d443655e321d3ae0fa3b82b643b220f00f958078514181a97"
+        }
+      ],
+      "evidence_sha256": "6c17171181156a9d443655e321d3ae0fa3b82b643b220f00f958078514181a97"
+    },
+    {
+      "slug": "lodestones-chroma-h3",
+      "entity": "lodestones/chroma-h3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/lodestones-chroma-h3/",
+      "repository": "https://huggingface.co/lodestones/chroma-h3",
+      "summary": "lodestones/chroma-h3 is a Hugging Face model repository published by lodestones and tagged for text to image. The saved 2026-11-07 catalog classified it under Image with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/lodestones/chroma-h3",
+          "title": "Publisher model card",
+          "evidence_sha256": "48a51fbb208ccb96ebaf0e978f99b32d2e63ffdee587a9f1818e0ec292d19672"
+        }
+      ],
+      "evidence_sha256": "48a51fbb208ccb96ebaf0e978f99b32d2e63ffdee587a9f1818e0ec292d19672"
+    },
+    {
+      "slug": "microsoft-mage-vl-cowork",
+      "entity": "microsoft/Mage-VL-Cowork",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/microsoft-mage-vl-cowork/",
+      "repository": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "summary": "microsoft/Mage-VL-Cowork is a Hugging Face model repository published by microsoft and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+          "title": "Publisher model card",
+          "evidence_sha256": "40ba50f7cdea886de5f5bddd0de2aae25d9fa2dff7a5e930f8ea49518968851e"
+        }
+      ],
+      "evidence_sha256": "40ba50f7cdea886de5f5bddd0de2aae25d9fa2dff7a5e930f8ea49518968851e"
+    },
+    {
+      "slug": "mistralai-mistral-large-4-1t-a52b",
+      "entity": "mistralai/Mistral-Large-4-1T-A52B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/mistralai-mistral-large-4-1t-a52b/",
+      "repository": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "summary": "mistralai/Mistral-Large-4-1T-A52B is a Hugging Face model repository published by mistralai and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+          "title": "Publisher model card",
+          "evidence_sha256": "498bf4121e75f5582ee276f8ad6c6d96eea78885c878819dd1551c2dd84dc92c"
+        }
+      ],
+      "evidence_sha256": "498bf4121e75f5582ee276f8ad6c6d96eea78885c878819dd1551c2dd84dc92c"
+    },
+    {
+      "slug": "moonshotai-kimi-k3",
+      "entity": "moonshotai/Kimi-K3",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/moonshotai-kimi-k3/",
+      "repository": "https://huggingface.co/moonshotai/Kimi-K3",
+      "summary": "moonshotai/Kimi-K3 is a Hugging Face model repository published by moonshotai and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/moonshotai/Kimi-K3",
+          "title": "Publisher model card",
+          "evidence_sha256": "466acd9fc8428e5a8522694bfe4969351ec547dc1ba29ee3735743d0f1cd2fc9"
+        }
+      ],
+      "evidence_sha256": "466acd9fc8428e5a8522694bfe4969351ec547dc1ba29ee3735743d0f1cd2fc9"
+    },
+    {
+      "slug": "nvidia-deepseek-v4-1-flash-1017-nvfp4",
+      "entity": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-deepseek-v4-1-flash-1017-nvfp4/",
+      "repository": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "summary": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4 is a Hugging Face model repository published by nvidia and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+          "title": "Publisher model card",
+          "evidence_sha256": "bd44536eedd91c803e81a06e72436dd4a2c3a34cd402b244014714a6e66f121f"
+        }
+      ],
+      "evidence_sha256": "bd44536eedd91c803e81a06e72436dd4a2c3a34cd402b244014714a6e66f121f"
+    },
+    {
+      "slug": "nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+      "entity": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b/",
+      "repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "summary": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B is a Hugging Face model repository published by nvidia and tagged for automatic speech recognition. The saved 2026-11-07 catalog classified it under Audio with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for automatic speech recognition work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "title": "Publisher model card",
+          "evidence_sha256": "c2794534c62de4da61c1d9eeaacb4045be092d39858ba67716f6739c9c9d43a7"
+        }
+      ],
+      "evidence_sha256": "c2794534c62de4da61c1d9eeaacb4045be092d39858ba67716f6739c9c9d43a7"
+    },
+    {
+      "slug": "nvidia-nvidia-nemotronlabs-re-use",
+      "entity": "nvidia/NVIDIA-NemotronLabs-RE-USE",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotronlabs-re-use/",
+      "repository": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
+      "summary": "nvidia/NVIDIA-NemotronLabs-RE-USE is a Hugging Face model repository published by nvidia and tagged for audio to audio. The saved 2026-11-07 catalog classified it under Audio with the openmdw-1.1 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for audio to audio work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
+          "title": "Publisher model card",
+          "evidence_sha256": "6fa6e175b953fdb596d5d1c10feed5ac249f249f65e40c6d9ad981650924a9f2"
+        }
+      ],
+      "evidence_sha256": "6fa6e175b953fdb596d5d1c10feed5ac249f249f65e40c6d9ad981650924a9f2"
+    },
+    {
+      "slug": "obliteratus-deepseek-v4-1-flash-1017-obliterated",
+      "entity": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/obliteratus-deepseek-v4-1-flash-1017-obliterated/",
+      "repository": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+      "summary": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated is a Hugging Face model repository published by OBLITERATUS and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+          "title": "Publisher model card",
+          "evidence_sha256": "be02d8ee6b790b6de96e7ecd45da6050d989ec1c0d0a91677a9f332410c44fca"
+        }
+      ],
+      "evidence_sha256": "be02d8ee6b790b6de96e7ecd45da6050d989ec1c0d0a91677a9f332410c44fca"
+    },
+    {
+      "slug": "orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf",
+      "entity": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf/",
+      "repository": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "summary": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF is a Hugging Face model repository published by orcarouter and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use. The publisher gates the model files behind an access agreement; the card text was not readable without accepting it.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "471c8987ead7ca97f3e06d3afe937ac7c2e388a9a9111beafa138a0ee2d1f06f"
+        }
+      ],
+      "evidence_sha256": "471c8987ead7ca97f3e06d3afe937ac7c2e388a9a9111beafa138a0ee2d1f06f"
+    },
+    {
+      "slug": "orcarouter-qwen3-8-flash-next-uncensored-gguf",
+      "entity": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/orcarouter-qwen3-8-flash-next-uncensored-gguf/",
+      "repository": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "summary": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF is a Hugging Face model repository published by orcarouter and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use. The publisher gates the model files behind an access agreement; the card text was not readable without accepting it.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "7a04f7c1ab228992ba418ef89d6830645e46c1907ff29599797c02770c6e6c70"
+        }
+      ],
+      "evidence_sha256": "7a04f7c1ab228992ba418ef89d6830645e46c1907ff29599797c02770c6e6c70"
+    },
+    {
+      "slug": "prism-ml-ternary-bonsai-2-27b-gguf",
+      "entity": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/prism-ml-ternary-bonsai-2-27b-gguf/",
+      "repository": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "summary": "prism-ml/Ternary-Bonsai-2-27B-gguf is a Hugging Face model repository published by prism-ml and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "title": "Publisher model card",
+          "evidence_sha256": "57fa037cfa812c9e6872e970c963d5227904eade7dda064019ae2a3fd140b500"
+        }
+      ],
+      "evidence_sha256": "57fa037cfa812c9e6872e970c963d5227904eade7dda064019ae2a3fd140b500"
+    },
+    {
+      "slug": "recursivesi-flint",
+      "entity": "RecursiveSI/flint",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/recursivesi-flint/",
+      "repository": "https://huggingface.co/RecursiveSI/flint",
+      "summary": "RecursiveSI/flint is a Hugging Face model repository published by RecursiveSI and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/RecursiveSI/flint",
+          "title": "Publisher model card",
+          "evidence_sha256": "43244381065d603bbfc650e399bb67aef8166a01675b2446ad552d680b1058dc"
+        }
+      ],
+      "evidence_sha256": "43244381065d603bbfc650e399bb67aef8166a01675b2446ad552d680b1058dc"
+    },
+    {
+      "slug": "sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf",
+      "entity": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf/",
+      "repository": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "summary": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF is a Hugging Face model repository published by SC117 and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The model name indicates that safety tuning was removed or altered; review the publisher terms and the risks of that change before any use.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "8402da1a70b32075f7d3fcb21d01b7d510d3c2ed1290f3d479f89c9657cd8e1e"
+        }
+      ],
+      "evidence_sha256": "8402da1a70b32075f7d3fcb21d01b7d510d3c2ed1290f3d479f89c9657cd8e1e"
+    },
+    {
+      "slug": "sensenova-sensenova-6-8-code2video",
+      "entity": "sensenova/SenseNova-6.8-Code2Video",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/sensenova-sensenova-6-8-code2video/",
+      "repository": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
+      "summary": "sensenova/SenseNova-6.8-Code2Video is a Hugging Face model repository published by sensenova and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
+          "title": "Publisher model card",
+          "evidence_sha256": "d69f8908711211ff95f6f7c3e5e7a5d16e6f69437de45be63b8702270ab04fdc"
+        }
+      ],
+      "evidence_sha256": "d69f8908711211ff95f6f7c3e5e7a5d16e6f69437de45be63b8702270ab04fdc"
+    },
+    {
+      "slug": "sensenova-sensenova-loop-9b-preview",
+      "entity": "sensenova/SenseNova-Loop-9B-Preview",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b-preview/",
+      "repository": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+      "summary": "sensenova/SenseNova-Loop-9B-Preview is a Hugging Face model repository published by sensenova and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+          "title": "Publisher model card",
+          "evidence_sha256": "7aaea5a31d30c0011f213a52799b45ff59f34602fbc78a3f30af1aa4e3b6d474"
+        }
+      ],
+      "evidence_sha256": "7aaea5a31d30c0011f213a52799b45ff59f34602fbc78a3f30af1aa4e3b6d474"
+    },
+    {
+      "slug": "servicenow-ai-apriel-voice-27b-preview",
+      "entity": "ServiceNow-AI/Apriel-Voice-27B-preview",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/servicenow-ai-apriel-voice-27b-preview/",
+      "repository": "https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview",
+      "summary": "ServiceNow-AI/Apriel-Voice-27B-preview is a Hugging Face model repository published by ServiceNow-AI and tagged for audio text to text. The saved 2026-11-07 catalog classified it under Other with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for audio text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview",
+          "title": "Publisher model card",
+          "evidence_sha256": "b237876a6f096483d12dec044c6e6eea87c6b14d1e30687078f83eb32d0346bc"
+        }
+      ],
+      "evidence_sha256": "b237876a6f096483d12dec044c6e6eea87c6b14d1e30687078f83eb32d0346bc"
+    },
+    {
+      "slug": "speridlabs-idol",
+      "entity": "speridlabs/idol",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/speridlabs-idol/",
+      "repository": "https://huggingface.co/speridlabs/idol",
+      "summary": "speridlabs/idol is a Hugging Face model repository published by speridlabs and tagged for image to 3d. The saved 2026-11-07 catalog classified it under 3D with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image to 3d work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/speridlabs/idol",
+          "title": "Publisher model card",
+          "evidence_sha256": "a19708af986ed793bd8ac054fc1b1f8f9938b9002f5ece82baa11cd68c6b2f7a"
+        }
+      ],
+      "evidence_sha256": "a19708af986ed793bd8ac054fc1b1f8f9938b9002f5ece82baa11cd68c6b2f7a"
+    },
+    {
+      "slug": "summeraio-qwen3-8-27b-longbook27-v2",
+      "entity": "summerAIO/Qwen3.8-27B-Longbook27-v2",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/summeraio-qwen3-8-27b-longbook27-v2/",
+      "repository": "https://huggingface.co/summerAIO/Qwen3.8-27B-Longbook27-v2",
+      "summary": "summerAIO/Qwen3.8-27B-Longbook27-v2 is a Hugging Face model repository published by summerAIO and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/summerAIO/Qwen3.8-27B-Longbook27-v2",
+          "title": "Publisher model card",
+          "evidence_sha256": "50951b43b10509da51c3a1502dfead00d4a2779be150b8bdd26516b2347db98e"
+        }
+      ],
+      "evidence_sha256": "50951b43b10509da51c3a1502dfead00d4a2779be150b8bdd26516b2347db98e"
+    },
+    {
+      "slug": "third-intelligence-haas-ja-v1-0",
+      "entity": "third-intelligence/Haas-ja-v1.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/third-intelligence-haas-ja-v1-0/",
+      "repository": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+      "summary": "third-intelligence/Haas-ja-v1.0 is a Hugging Face model repository published by third-intelligence and tagged for automatic speech recognition. The saved 2026-11-07 catalog classified it under Audio with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for automatic speech recognition work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+          "title": "Publisher model card",
+          "evidence_sha256": "7cc1c911549bd6e31c406feac5ca80010b0eeef976c3508ba1f9626343c4fa7c"
+        }
+      ],
+      "evidence_sha256": "7cc1c911549bd6e31c406feac5ca80010b0eeef976c3508ba1f9626343c4fa7c"
+    },
+    {
+      "slug": "unsloth-deepseek-v4-1-flash-1017-gguf",
+      "entity": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/unsloth-deepseek-v4-1-flash-1017-gguf/",
+      "repository": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+      "summary": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF is a Hugging Face model repository published by unsloth and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "907b49fe8f9bb50c4a2f597fbd8ead21d0898d194b9ae73a0fa99b0dd6443846"
+        }
+      ],
+      "evidence_sha256": "907b49fe8f9bb50c4a2f597fbd8ead21d0898d194b9ae73a0fa99b0dd6443846"
+    },
+    {
+      "slug": "xhtoken-spark-x2-6-4b",
+      "entity": "XHToken/Spark-X2.6-4B",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/xhtoken-spark-x2-6-4b/",
+      "repository": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "summary": "XHToken/Spark-X2.6-4B is a Hugging Face model repository published by XHToken and tagged for text generation. The saved 2026-11-07 catalog classified it under Text with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+          "title": "Publisher model card",
+          "evidence_sha256": "02d5009d9d54004c2c86be0e0d221716c46bdeac4917ace3e1939687a021ec45"
+        }
+      ],
+      "evidence_sha256": "02d5009d9d54004c2c86be0e0d221716c46bdeac4917ace3e1939687a021ec45"
+    },
+    {
+      "slug": "xiaomi-research-xiaomi-ocr-0",
+      "entity": "xiaomi-research/Xiaomi-OCR-0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/xiaomi-research-xiaomi-ocr-0/",
+      "repository": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+      "summary": "xiaomi-research/Xiaomi-OCR-0 is a Hugging Face model repository published by xiaomi-research and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+          "title": "Publisher model card",
+          "evidence_sha256": "54f2dbecfe9aa354da5a568ec555f2ca5c2d9b06ec2c8cd54b882af516625d46"
+        }
+      ],
+      "evidence_sha256": "54f2dbecfe9aa354da5a568ec555f2ca5c2d9b06ec2c8cd54b882af516625d46"
+    },
+    {
+      "slug": "zai-org-glm-5-3-flash",
+      "entity": "zai-org/GLM-5.3-Flash",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/zai-org-glm-5-3-flash/",
+      "repository": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "summary": "zai-org/GLM-5.3-Flash is a Hugging Face model repository published by zai-org and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+          "title": "Publisher model card",
+          "evidence_sha256": "e6c5d41400e28f5a89418a0d15b09b9c113314a7553d40d7d4a8a72fcdb87d02"
+        }
+      ],
+      "evidence_sha256": "e6c5d41400e28f5a89418a0d15b09b9c113314a7553d40d7d4a8a72fcdb87d02"
     }
   ],
   "retirements": [],
