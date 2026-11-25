@@ -2437,6 +2437,50 @@
         }
       ],
       "evidence_sha256": "e6c5d41400e28f5a89418a0d15b09b9c113314a7553d40d7d4a8a72fcdb87d02"
+    },
+    {
+      "slug": "deepseek-ai-deepseek-v4-1-flash",
+      "entity": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-1-flash/",
+      "repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "summary": "deepseek-ai/DeepSeek-V4.1-Flash is a Hugging Face model repository published by deepseek-ai and tagged for image text to text. The saved 2026-11-07 catalog classified it under Vision with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "title": "Publisher model card",
+          "evidence_sha256": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251"
+        }
+      ],
+      "evidence_sha256": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251"
+    },
+    {
+      "slug": "pyannote-segmentation-3-0",
+      "entity": "pyannote/segmentation-3.0",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/pyannote-segmentation-3-0/",
+      "repository": "https://huggingface.co/pyannote/segmentation-3.0",
+      "summary": "pyannote/segmentation-3.0 is a Hugging Face model repository published by pyannote and tagged for voice activity detection. The saved 2026-11-07 catalog classified it under Other with the mit license.",
+      "selection_context": "Use this dated reference to find the publisher model card for voice activity detection work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The publisher gates the model files behind an access agreement; the card text was not readable without accepting it.",
+      "last_catalog_snapshot": "2026-11-07T16:43:57.733984+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "5c8ca19fb261ae33f19419e06f24ae27e4af2610",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/pyannote/segmentation-3.0",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "8c38438849fb2bd5b599639d9616684ba4d03dae0bd10ed837a355b7509b9259"
+        }
+      ],
+      "evidence_sha256": "8c38438849fb2bd5b599639d9616684ba4d03dae0bd10ed837a355b7509b9259"
     }
   ],
   "retirements": [],
