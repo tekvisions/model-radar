@@ -2481,6 +2481,28 @@
         }
       ],
       "evidence_sha256": "8c38438849fb2bd5b599639d9616684ba4d03dae0bd10ed837a355b7509b9259"
+    },
+    {
+      "slug": "akatz-ai-minimax-h3-character-swap-lora",
+      "entity": "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/akatz-ai-minimax-h3-character-swap-lora/",
+      "repository": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+      "summary": "akatz-ai/MiniMax-H3-Character-Swap-LoRA is a Hugging Face model repository published by akatz-ai and tagged for video to video. The saved 2026-11-25 catalog classified it under Other with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for video to video work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-25T21:10:57.421406+00:00",
+      "reviewed_on": "2026-11-25",
+      "last_successful_source_commit": "61f924a4e7096dc275b5d11e27382d2fa649b691",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-25 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+          "title": "Publisher model card",
+          "evidence_sha256": "a4f57b0b819d696040b7c5ff2e48f44add06518db00c3937fa6f395688a9727c"
+        }
+      ],
+      "evidence_sha256": "a4f57b0b819d696040b7c5ff2e48f44add06518db00c3937fa6f395688a9727c"
     }
   ],
   "retirements": [],

@@ -2,7 +2,7 @@
 
 > Model Radar: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-25T21:10:57.421406+00:00
+Snapshot collected: 2026-11-25T22:04:16.426072+00:00
 Current catalog records: 150
 
 ## Sources and interpretation
@@ -35,8 +35,8 @@ The default order follows Hugging Face trendingScore. Downloads, likes and last-
 - [inclusionAI/Ling-3.2-air](https://modelradar.kymatalabs.com/m/inclusionai-ling-3-2-air/) — Other
 - [Lightricks/LTX-2.5](https://modelradar.kymatalabs.com/m/lightricks-ltx-2-5/) — Video
 - [Qwen/Qwen3.8-27B](https://modelradar.kymatalabs.com/m/qwen-qwen3-8-27b/) — Vision
-- [tencent/Hy4-flash](https://modelradar.kymatalabs.com/m/tencent-hy4-flash/) — Vision
 - [inclusionAI/LingSante-3.1-flash](https://modelradar.kymatalabs.com/m/inclusionai-lingsante-3-1-flash/) — Text
+- [tencent/Hy4-flash](https://modelradar.kymatalabs.com/m/tencent-hy4-flash/) — Vision
 - [Sentinel7/h3](https://modelradar.kymatalabs.com/m/sentinel7-h3/) — Other
 - [nari-labs/Qwen3.8-27B-NariQ-GGUF](https://modelradar.kymatalabs.com/m/nari-labs-qwen3-8-27b-nariq-gguf/) — Vision
 - [facebook/sam-3d-body-dinov3](https://modelradar.kymatalabs.com/m/facebook-sam-3d-body-dinov3/) — Other
@@ -44,13 +44,13 @@ The default order follows Hugging Face trendingScore. Downloads, likes and last-
 - [Aleph-Alpha/Kolibri-1.1](https://modelradar.kymatalabs.com/m/aleph-alpha-kolibri-1-1/) — Text
 - [strata-engine/Inkling-2-Mini-Strata](https://modelradar.kymatalabs.com/m/strata-engine-inkling-2-mini-strata/) — Vision
 - [apple/FastFrames-L](https://modelradar.kymatalabs.com/m/apple-fastframes-l/) — Video
-- [RadixArk/DaisyRose-27B](https://modelradar.kymatalabs.com/m/radixark-daisyrose-27b/) — Vision
 - [orcarouter/Inkling-2-Mini-abliterated-GGUF](https://modelradar.kymatalabs.com/m/orcarouter-inkling-2-mini-abliterated-gguf/) — Text
+- [RadixArk/DaisyRose-27B](https://modelradar.kymatalabs.com/m/radixark-daisyrose-27b/) — Vision
 - [baidu/ERNIE-5.5-Flash-Preview](https://modelradar.kymatalabs.com/m/baidu-ernie-5-5-flash-preview/) — Text
 - [DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF](https://modelradar.kymatalabs.com/m/davidau-qwen3-8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf/) — Vision
 - [MemTensor/MemT-1.0-Pro](https://modelradar.kymatalabs.com/m/memtensor-memt-1-0-pro/) — Text
-- [chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized](https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-quantized/) — Image
 - [KRAFTON/Raon-1-mini](https://modelradar.kymatalabs.com/m/krafton-raon-1-mini/) — Text
+- [chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized](https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-quantized/) — Image
 - [sensenova/SenseNova-Loop-9B](https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b/) — Vision
 - [Lakonik/pi-H3](https://modelradar.kymatalabs.com/m/lakonik-pi-h3/) — Other
 - [thinkingmachines/Inkling-2-Small](https://modelradar.kymatalabs.com/m/thinkingmachines-inkling-2-small/) — Vision

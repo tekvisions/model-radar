@@ -14,8 +14,8 @@
   <url><loc>https://modelradar.kymatalabs.com/m/inclusionai-ling-3-2-air/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/lightricks-ltx-2-5/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/qwen-qwen3-8-27b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/tencent-hy4-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/inclusionai-lingsante-3-1-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/tencent-hy4-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/sentinel7-h3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/nari-labs-qwen3-8-27b-nariq-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/facebook-sam-3d-body-dinov3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -23,13 +23,13 @@
   <url><loc>https://modelradar.kymatalabs.com/m/aleph-alpha-kolibri-1-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/strata-engine-inkling-2-mini-strata/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/apple-fastframes-l/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/radixark-daisyrose-27b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/orcarouter-inkling-2-mini-abliterated-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/radixark-daisyrose-27b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/baidu-ernie-5-5-flash-preview/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/davidau-qwen3-8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/memtensor-memt-1-0-pro/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-quantized/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/krafton-raon-1-mini/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-quantized/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/lakonik-pi-h3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/thinkingmachines-inkling-2-small/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -49,12 +49,12 @@
   <url><loc>https://modelradar.kymatalabs.com/m/harness-hub-qwen3-8-27b-opencode-adapted/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/unsloth-qwen3-8-27b-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/minimaxai-minimax-h3-image/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/reson8-rumble-2-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/minimaxai-minimax-h3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/pyannote-speaker-diarization-community-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/microsoft-aion-1-0-instruct-2-3b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/pyannote-speaker-diarization-community-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/briaai-rmbg-3-0/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/reson8-rumble-2-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/tenstrip-10eros-max/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/meta-llama-meta-llama-3-8b-instruct/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/tencent-hy-mt3-30b-a3b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -65,15 +65,15 @@
   <url><loc>https://modelradar.kymatalabs.com/m/lightx2v-minimax-h3-turbo-fusion/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/atomicchat-inkling-2-mini-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/sensenova-sensenova-u1-6-8b-mot/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/pyannote-speaker-diarization-3-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/lodestones-kromoss/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/atomicchat-ternary-bonsai-2-5-27b-uncensored-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/pyannote-speaker-diarization-3-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/facebook-dinov3-vitl16-pretrain-lvd1689m/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/maxwell-model-maxwell-v1-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/lodestones-kromoss/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/moonshotai-kimi-k3-1-pro/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/qwen-qwen3-8-flash-next/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/nebsh-seedreamstyle-h3-6k/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/black-forest-labs-flux-1-dev/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/maxwell-model-maxwell-v1-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/nebsh-seedreamstyle-h3-6k/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/qwen-qwen3-8-flash-next/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/zai-org-glm-5-3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/tencent-hy-mt3-1-8b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/hexgrad-kokoro-82m/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -81,21 +81,21 @@
   <url><loc>https://modelradar.kymatalabs.com/m/oliviarossi-minimax-h3-singularity-x-10eros-max-prism/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/linlinlinlinsdada-jeveration/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/surogate-surogate3-7-35b-a3b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/strata-engine-hy4-flash-strata/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/meta-llama-llama-3-1-8b-instruct/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/comfy-org-sensenova-u1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/baselabs-bison-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/strata-engine-hy4-flash-strata/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/orcarouter-qwen3-8-27b-uncensored-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/qwen-qwen-image-2-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/carypalmer-kintsugi-27b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/oliviarossi-minimax-h3-sulphur3-10erosmax-merge/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/orcarouter-qwen3-8-27b-uncensored-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/n4ze3m-tiny-voca/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/nokeepai-inkling-2-mini-unbound-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/meta-llama-llama-3-1-8b-instruct/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/baidu-unlimited-ocr/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/ista-daslab-qwen3-8-27b-gsq-rco-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/qwen-qwen-image-2-1/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/n4ze3m-tiny-voca/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/huggingfacetb-smolvlm2-256m-video-instruct/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/inworld-sava/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/openmoss-team-moss-image-sft/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/inworld-sava/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/wuli-art-gemma4-for-minimax-h3-prompt-extend/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/dealignai-deepseek-v4-1-flash-1017-uncensored-fp8/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/comfyanonymous-moss-image-max-ultra-hires-lora-test/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -117,6 +117,7 @@
   <url><loc>https://modelradar.kymatalabs.com/m/unsloth-qwen3-8-flash-next-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/nvidia-qwen3-8-27b-nvfp4-qad/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/mradermacher-deepseek-v4-pro-qwen3-5-9b-uncensored-heretic-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/sentence-transformers-all-minilm-l6-v2/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/memtensor-memt-1-0-flash/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/paperweight-tinyfix/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/frontiersmind-nandibert-450m/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -124,7 +125,8 @@
   <url><loc>https://modelradar.kymatalabs.com/m/nokeepai-inkling-2-mini-unbound/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/prism-ml-ternary-bonsai-2-5-27b-mlx-2bit/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/pinkstack-lilipixel-v1-190m/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/sentence-transformers-all-minilm-l6-v2/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/meta-llama-llama-3-1-8b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/kyutai-pocket-tts/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/k2-fsa-omnivoice/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/ista-daslab-qwen3-8-flash-next-gsq-rco-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/fluidvoice-labs-fluid-speech-pro/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -132,25 +134,23 @@
   <url><loc>https://modelradar.kymatalabs.com/m/comfy-org-relayvsr/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/gustavecortal-philolm/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/akatz-ai-minimax-h3-image-character-swap-lora/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/kyutai-pocket-tts/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/comfy-org-minimax-h3-image/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/h3-tiny-minimax-h3-tiny-comfyui/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/black-forest-labs-flux-3-image-klein/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/blackfrost-ai-inkling-2-mini-derisked/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/meta-llama-llama-3-1-8b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/unsloth-qwen3-6-35b-a3b-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/comfy-org-minimax-h3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/funailab-open-vision-banana/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/black-forest-labs-flux-3-image-klein/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/nanbeige-nanbeige4-3-33b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/baidu-unlimited-ocr-2/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/pika-labs-pika-h3-flex/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/apple-fastframes-s/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/comfy-org-minimax-h3-image/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/rediverse-rediverse-minimax-h3/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/h3-tiny-minimax-h3-tiny-comfyui/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/huihui-ai-huihui-qwen3-8-27b-abliterated/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/pocis-qwen-image-2-1-pixelhead/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/supermansundies-minimax-h3-image-pose-transfer-lora/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/zyphra-zonos3-mini/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/apple-fastframes-s/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/voyager-so-shot-reader-8b/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/akatz-ai-minimax-h3-character-swap-lora/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://modelradar.kymatalabs.com/m/sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/huihui-ai-huihui-qwen3-8-27b-abliterated/</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://modelradar.kymatalabs.com/m/akhaliq-pika-h3-flex-turbo-lora/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/kaitchup-qwen3-8-27b-slq-gguf/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/chatrlabs-qwen-image-2-1-uncensored-omni-lora-v0-1/</loc><lastmod>2026-11-03</lastmod></url>
@@ -249,6 +249,7 @@
   <url><loc>https://modelradar.kymatalabs.com/m/orcarouter-qwen3-8-flash-next-uncensored-gguf/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/prism-ml-ternary-bonsai-2-27b-gguf/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/recursivesi-flint/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/sensenova-sensenova-6-8-code2video/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/sensenova-sensenova-loop-9b-preview/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/servicenow-ai-apriel-voice-27b-preview/</loc><lastmod>2026-11-25</lastmod></url>
@@ -261,4 +262,5 @@
   <url><loc>https://modelradar.kymatalabs.com/m/zai-org-glm-5-3-flash/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/deepseek-ai-deepseek-v4-1-flash/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://modelradar.kymatalabs.com/m/pyannote-segmentation-3-0/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://modelradar.kymatalabs.com/m/akatz-ai-minimax-h3-character-swap-lora/</loc><lastmod>2026-11-25</lastmod></url>
 </urlset>
