@@ -2591,6 +2591,116 @@
         }
       ],
       "evidence_sha256": "58232c1ee4ec63dc095cf2dbd97295dae8150ad9e5529defd50d7a1764a21d4d"
+    },
+    {
+      "slug": "black-forest-labs-flux-1-dev",
+      "entity": "black-forest-labs/FLUX.1-dev",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/black-forest-labs-flux-1-dev/",
+      "repository": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "summary": "black-forest-labs/FLUX.1-dev is a Hugging Face model repository published by black-forest-labs and tagged for text to image. The saved 2026-11-26 catalog classified it under Image with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The publisher gates the model files behind an access agreement.",
+      "last_catalog_snapshot": "2026-11-26T19:17:59.950747+00:00",
+      "reviewed_on": "2026-11-27",
+      "last_successful_source_commit": "fc8050336a8e1ab12fa18fb24a44bab8f142c6dc",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-27 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "93824f2220c6d446e1430ee7155db53fbe7b45eb1b638a0743593a8a90fb1153"
+        }
+      ],
+      "evidence_sha256": "93824f2220c6d446e1430ee7155db53fbe7b45eb1b638a0743593a8a90fb1153"
+    },
+    {
+      "slug": "hexgrad-kokoro-82m",
+      "entity": "hexgrad/Kokoro-82M",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/hexgrad-kokoro-82m/",
+      "repository": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "summary": "hexgrad/Kokoro-82M is a Hugging Face model repository published by hexgrad and tagged for text to speech. The saved 2026-11-26 catalog classified it under Audio with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to speech work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-26T19:17:59.950747+00:00",
+      "reviewed_on": "2026-11-27",
+      "last_successful_source_commit": "fc8050336a8e1ab12fa18fb24a44bab8f142c6dc",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-27 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+          "title": "Publisher model card",
+          "evidence_sha256": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78"
+        }
+      ],
+      "evidence_sha256": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78"
+    },
+    {
+      "slug": "ista-daslab-qwen3-8-flash-next-gsq-rco-gguf",
+      "entity": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/ista-daslab-qwen3-8-flash-next-gsq-rco-gguf/",
+      "repository": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "summary": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF is a Hugging Face model repository published by ISTA-DASLab and tagged for image text to text. The saved 2026-11-26 catalog classified it under Vision with the apache-2.0 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for image text to text work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-26T19:17:59.950747+00:00",
+      "reviewed_on": "2026-11-27",
+      "last_successful_source_commit": "fc8050336a8e1ab12fa18fb24a44bab8f142c6dc",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-27 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+          "title": "Publisher model card",
+          "evidence_sha256": "71496aac3c9126085519dbe3aa82e46eb9f5749ee122b089a66182a94b0db6a3"
+        }
+      ],
+      "evidence_sha256": "71496aac3c9126085519dbe3aa82e46eb9f5749ee122b089a66182a94b0db6a3"
+    },
+    {
+      "slug": "meta-llama-llama-3-1-8b-instruct",
+      "entity": "meta-llama/Llama-3.1-8B-Instruct",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/meta-llama-llama-3-1-8b-instruct/",
+      "repository": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "summary": "meta-llama/Llama-3.1-8B-Instruct is a Hugging Face model repository published by meta-llama and tagged for text generation. The saved 2026-11-26 catalog classified it under Text with the llama3.1 license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text generation work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements. The publisher gates the model files behind an access agreement.",
+      "last_catalog_snapshot": "2026-11-26T19:17:59.950747+00:00",
+      "reviewed_on": "2026-11-27",
+      "last_successful_source_commit": "fc8050336a8e1ab12fa18fb24a44bab8f142c6dc",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-27 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "title": "Publisher model page metadata (gated card)",
+          "evidence_sha256": "2060ec5c0d09583ef381d7a1bab632beaa5d6cf8c5099d006e2a38f318fb6383"
+        }
+      ],
+      "evidence_sha256": "2060ec5c0d09583ef381d7a1bab632beaa5d6cf8c5099d006e2a38f318fb6383"
+    },
+    {
+      "slug": "qwen-qwen-image-2-1",
+      "entity": "Qwen/Qwen-Image-2.1",
+      "canonical_url": "https://modelradar.kymatalabs.com/m/qwen-qwen-image-2-1/",
+      "repository": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "summary": "Qwen/Qwen-Image-2.1 is a Hugging Face model repository published by Qwen and tagged for text to image. The saved 2026-11-26 catalog classified it under Image with the other license.",
+      "selection_context": "Use this dated reference to find the publisher model card for text to image work, then compare it with the current ranked models before choosing a checkpoint.",
+      "limitations": "Automated dated publisher model-card check, not an independent quality, safety, licensing or hardware test. No current rank or trending score is assigned. Verify the current model card, license, intended use and hardware requirements.",
+      "last_catalog_snapshot": "2026-11-26T19:17:59.950747+00:00",
+      "reviewed_on": "2026-11-27",
+      "last_successful_source_commit": "fc8050336a8e1ab12fa18fb24a44bab8f142c6dc",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-27 automated check",
+      "primary_sources": [
+        {
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+          "title": "Publisher model card",
+          "evidence_sha256": "d4aee8d372df2a890b6283e7d1885e3f68b57190c7d3f4b9466a61beffc16016"
+        }
+      ],
+      "evidence_sha256": "d4aee8d372df2a890b6283e7d1885e3f68b57190c7d3f4b9466a61beffc16016"
     }
   ],
   "retirements": [],
